@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Route Mapper
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/route-mapper.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/route-mapper.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/route-mapper.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/route-mapper.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/route-mapper.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/route-mapper.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/route-mapper.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/route-mapper.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/route-mapper.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/route-mapper.svg) 
 
 ## Usage
 The component cannot be used outside the Enso ecosystem.
@@ -21,7 +21,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/route-mapper
+yarn add @liberu-ui/route-mapper
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -37,4 +37,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

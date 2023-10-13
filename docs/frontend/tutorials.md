@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Tutorials
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/tutorials.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/tutorials.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/tutorials.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/tutorials.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/tutorials.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/tutorials.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/tutorials.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/tutorials.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/tutorials.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/tutorials.svg) 
 
 ## Usage
 
@@ -24,7 +24,7 @@ Check the full documentation at  [docs.liberu.co.uk](https://docs.liberu.co.uk).
 
 Install the package:
 ```
-yarn add @enso-ui/tutorials
+yarn add @liberu-ui/tutorials
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -37,4 +37,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

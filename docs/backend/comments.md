@@ -10,15 +10,15 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/liberu.co.ukments/downloads)](https://packagist.org/packages/liberu.co.ukments)
 [![Latest Stable Version](https://poser.pugx.org/liberu.co.ukments/version)](https://packagist.org/packages/liberu.co.ukments)
 
-Comments Manager for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Comments Manager for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-There is a front end implementation for this this api in the [accessories](https://github.com/enso-ui/accessories) package.
+There is a front end implementation for this this api in the [accessories](https://github.com/liberu-ui/accessories) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/commentsmanager/screenshots/bulma_018_thumb.png)](https://laravel-enso.github.io/commentsmanager/videos/bulma_demo_01.webm)
+[![Watch the demo](https://laravel-liberu.github.io/commentsmanager/screenshots/bulma_018_thumb.png)](https://laravel-liberu.github.io/commentsmanager/videos/bulma_demo_01.webm)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
@@ -32,10 +32,10 @@ The package offers a quick and easy flow for adding comments to any model.
 
 - gives the possibility to add, update and delete comments
 - has the option of tagging other users in the comments using `@` and the user name
-- users are notified via push [Notifications](https://github.com/laravel-enso/Notifications) when they are tagged
+- users are notified via push [Notifications](https://github.com/laravel-liberu/Notifications) when they are tagged
 - uses its own policies to ensure users edit comments only when they are allowed to do so
-- uses [TrackWho](https://github.com/laravel-enso/TrackWho) to keep track of the users that are posting comments
-- depends on [Avatar Manager](https://github.com/laravel-enso/AvatarManager) to display user avatars, when available
+- uses [TrackWho](https://github.com/laravel-liberu/TrackWho) to keep track of the users that are posting comments
+- depends on [Avatar Manager](https://github.com/laravel-liberu/AvatarManager) to display user avatars, when available
 - uses a light, internal mechanism for tagged user auto-completion
 - polymorphic relationships are used, which makes it possible to attach comments to any other entity
 
@@ -52,7 +52,7 @@ The package offers a quick and easy flow for adding comments to any model.
    front end implementation [docs](https://docs.liberu.co.uk/frontend/accessories.html#comments) for the available options
 
 ### Configuration
-In the `config/enso/comments.php` configuration file you may set the following options:
+In the `config/liberu/comments.php` configuration file you may set the following options:
 
 - `editableTimeLimit`, number, the amount of seconds after which a comment is no longer editable | default is `24 * 60 * 60` seconds (1 day)
 - `onDelete`, string, option that manages the case when the commentable entity is deleted and it has attached addresses.
@@ -80,13 +80,13 @@ To achieve this, you'd need to:
 
 ## Publishes
 - `php artisan vendor:publish --tag=comments-config` - configuration file
-- `php artisan vendor:publish --tag=enso-config` - a common alias for when wanting to update the configuration,
+- `php artisan vendor:publish --tag=liberu-config` - a common alias for when wanting to update the configuration,
 once a newer version is released, usually used with the `--force` flag
 - `php artisan vendor:publish --tag=comments-email-template` - the templates used for notifications
-- `php artisan vendor:publish --tag=enso-mail` - a common alias for when wanting to update the templates 
+- `php artisan vendor:publish --tag=liberu-mail` - a common alias for when wanting to update the templates 
 used for notifications, usually used with the `--force` flag
 - `php artisan vendor:publish --tag=comments-factory` - the factory used for comments
-- `php artisan vendor:publish --tag=enso-factories` - a common alias for when wanting to update the factories 
+- `php artisan vendor:publish --tag=liberu-factories` - a common alias for when wanting to update the factories 
 once a newer version is released, usually used with the `--force` flag
 
 ## Contributions

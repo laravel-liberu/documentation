@@ -1,20 +1,20 @@
 # File Manager
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6e342eff10f24db5b89be5fe203e424d)](https://www.codacy.com/app/laravel-enso/files?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/files&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6e342eff10f24db5b89be5fe203e424d)](https://www.codacy.com/app/laravel-liberu/files?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/files&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85492361/shield?branch=master)](https://github.styleci.io/repos/85492361)
-[![License](https://poser.pugx.org/laravel-enso/datatable/license)](https://packagist.org/packages/laravel-enso/datatable)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/files/downloads)](https://packagist.org/packages/laravel-enso/files)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/files/version)](https://packagist.org/packages/laravel-enso/files)
+[![License](https://poser.pugx.org/laravel-liberu/datatable/license)](https://packagist.org/packages/laravel-liberu/datatable)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/files/downloads)](https://packagist.org/packages/laravel-liberu/files)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/files/version)](https://packagist.org/packages/laravel-liberu/files)
 
-File manager dependency for [Laravel Enso](https://github.com/laravel-enso/Enso).
+File manager dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/files/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/files/videos/bulma_filemanager.mp4)
+[![Watch the demo](https://laravel-liberu.github.io/files/screenshots/bulma_001_thumb.png)](https://laravel-liberu.github.io/files/videos/bulma_filemanager.mp4)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 

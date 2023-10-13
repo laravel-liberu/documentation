@@ -4,15 +4,15 @@ sidebarDepth: 3
 
 # Versioning
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ff415bb65927479a80d173622d3c11ed)](https://www.codacy.com/app/laravel-enso/versioning?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/versioning&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ff415bb65927479a80d173622d3c11ed)](https://www.codacy.com/app/laravel-liberu/versioning?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/versioning&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/134861936/shield?branch=master)](https://github.styleci.io/repos/134861936)
-[![License](https://poser.pugx.org/laravel-enso/versioning/license)](https://packagist.org/packages/laravel-enso/versioning)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/versioning/downloads)](https://packagist.org/packages/laravel-enso/versioning)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/versioning/version)](https://packagist.org/packages/laravel-enso/versioning)
+[![License](https://poser.pugx.org/laravel-liberu/versioning/license)](https://packagist.org/packages/laravel-liberu/versioning)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/versioning/downloads)](https://packagist.org/packages/laravel-liberu/versioning)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/versioning/version)](https://packagist.org/packages/laravel-liberu/versioning)
 
 Prevents update conflicts using the optimistic lock pattern in Laravel.
 
-This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -22,7 +22,7 @@ Comes pre-installed in Enso.
 
 To install outside of Enso:
 
-1. install the package `composer require laravel-enso/versioning` 
+1. install the package `composer require laravel-liberu/versioning` 
 2. run the migrations
 3. use the `Versionable` trait on the models you want versioning on.
 

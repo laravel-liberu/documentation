@@ -4,25 +4,25 @@ sidebarDepth: 3
 
 # PDF
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/28c7bcb0b5d2451783990e0a151f0a44)](https://www.codacy.com/app/laravel-enso/logs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/pdf&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/28c7bcb0b5d2451783990e0a151f0a44)](https://www.codacy.com/app/laravel-liberu/logs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/pdf&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85624363/shield?branch=master)](https://github.styleci.io/repos/85624363)
-[![License](https://poser.pugx.org/laravel-enso/pdf/license)](https://packagist.org/packages/laravel-enso/pdf)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/pdf/downloads)](https://packagist.org/packages/laravel-enso/pdf)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/pdf/version)](https://packagist.org/packages/laravel-enso/pdf)
+[![License](https://poser.pugx.org/laravel-liberu/pdf/license)](https://packagist.org/packages/laravel-liberu/pdf)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/pdf/downloads)](https://packagist.org/packages/laravel-liberu/pdf)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/pdf/version)](https://packagist.org/packages/laravel-liberu/pdf)
 
-PDF utility package for [Laravel Enso](https://github.com/laravel-enso/Enso)
+PDF utility package for [Laravel Enso](https://github.com/laravel-liberu/Enso)
 
-This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/pdf/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/pdf/screenshots/bulma_001.png)
+[![Watch the demo](https://laravel-liberu.github.io/pdf/screenshots/bulma_001_thumb.png)](https://laravel-liberu.github.io/pdf/screenshots/bulma_001.png)
 
 <sup>click on the photo to view a a larger screenshot</sup>
 
 ## Installation
 
-install using composer: `composer require laravel-enso/pdf`
+install using composer: `composer require laravel-liberu/pdf`
 
 ## Features
 

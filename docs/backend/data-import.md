@@ -4,26 +4,26 @@ sidebarDepth: 3
 
 # DataImport
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8c53be4df359406b8ce6bc48f627aee8)](https://www.codacy.com/gh/laravel-enso/data-import?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/data-import&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8c53be4df359406b8ce6bc48f627aee8)](https://www.codacy.com/gh/laravel-liberu/data-import?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/data-import&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/89221336/shield?branch=master)](https://github.styleci.io/repos/89221336)
-[![License](https://poser.pugx.org/laravel-enso/data-import/license)](https://packagist.org/packages/laravel-enso/data-import)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/data-import/downloads)](https://packagist.org/packages/laravel-enso/data-import)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/data-import/version)](https://packagist.org/packages/laravel-enso/data-import)
+[![License](https://poser.pugx.org/laravel-liberu/data-import/license)](https://packagist.org/packages/laravel-liberu/data-import)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/data-import/downloads)](https://packagist.org/packages/laravel-liberu/data-import)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/data-import/version)](https://packagist.org/packages/laravel-liberu/data-import)
 
 Incredibly powerful, efficient, unlimited number of rows, 
-queues based Excel importer dependency for [Laravel Enso](https://github.com/laravel-enso/Enso).
+queues based Excel importer dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/dataimport/screenshots/bulma_006_thumb.png)](https://laravel-enso.github.io/dataimport/videos/bulma_demo_01.mp4)
+[![Watch the demo](https://laravel-liberu.github.io/dataimport/screenshots/bulma_006_thumb.png)](https://laravel-liberu.github.io/dataimport/videos/bulma_demo_01.mp4)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
-[![Screenshot](https://laravel-enso.github.io/dataimport/screenshots/bulma_007_thumb.png)](https://laravel-enso.github.io/dataimport/screenshots/bulma_007.png)
+[![Screenshot](https://laravel-liberu.github.io/dataimport/screenshots/bulma_007_thumb.png)](https://laravel-liberu.github.io/dataimport/screenshots/bulma_007.png)
 
 ## Installation
 
@@ -54,12 +54,12 @@ with an extra column (on each sheet) that will describe all the validation error
     * `php artisan vendor:publish --tag=dataimport-config`
     * `php artisan vendor:publish --tag=dataimport-examples`
 
-2. In the library `samples` folder, `vendor/laravel-enso/dataimport/samples`, we have included a couple of 
+2. In the library `samples` folder, `vendor/laravel-liberu/dataimport/samples`, we have included a couple of 
  sample import files for you to play with. It is strongly recommended that you check out the provided samples before 
  attempting to create your own importers.
 
 ### Configuration
-The configuration can be found/published in `config/enso/imports.php` and contains:
+The configuration can be found/published in `config/liberu/imports.php` and contains:
  - `validations` - `string`, flag that sets whether import template validations are also 
     executed in production, valid values are `always`/`local`/`yourEnv` | default `local` 
  - `chunkSize` - `number`, default `1000`, the number of records in a chunk. 
@@ -82,7 +82,7 @@ The configuration can be found/published in `config/enso/imports.php` and contai
      - `template` - the relative path to the JSON import templates
 
 #### JSON Template structure:
-- `timeout`, `number`, optional, local overriding configuration for the `enso.dataimport.timeout` option
+- `timeout`, `number`, optional, local overriding configuration for the `liberu.dataimport.timeout` option
 - `queue`, `string`, optional, name of the queue used to run the import on
 - `params`, `array`, optional, array of parameter objects, that can be passed to an importer class
 - `sheets`, `array`, required, array of sheet configuration objects | required
@@ -193,12 +193,12 @@ There are multiple advantages to this:
 - `php artisan vendor:publish --tag=data-import-config` - configuration files
 - `php artisan vendor:publish --tag=data-import-examples` - example import
 - `php artisan vendor:publish --tag=data-import-factory` - the factory for the DataImport model
-- `php artisan vendor:publish --tag=enso-factories` - a common alias for publishing all enso factories,
+- `php artisan vendor:publish --tag=liberu-factories` - a common alias for publishing all liberu factories,
 once a newer version is released, can be used with the `--force` flag
 - `php artisan vendor:publish --tag=data-import-mail` - the email templates
-- `php artisan vendor:publish --tag=enso-config` - a common alias for when wanting to update configuration,
+- `php artisan vendor:publish --tag=liberu-config` - a common alias for when wanting to update configuration,
 once a newer version is released, can be used with the `--force` flag
-- `php artisan vendor:publish --tag=enso-mail` - a common alias for when wanting to update the email templates,
+- `php artisan vendor:publish --tag=liberu-mail` - a common alias for when wanting to update the email templates,
 once a newer version is released, can be used with the `--force` flag
 
 ## External dependencies

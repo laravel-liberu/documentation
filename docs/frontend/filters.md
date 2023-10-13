@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Filters
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/filters.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/filters.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/filters.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/filters.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/filters.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/filters.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/filters.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/filters.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/filters.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/filters.svg) 
 
 Renderless VueJS filter components with Bulma implementations
 
@@ -20,15 +20,15 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/filters
+yarn add @liberu-ui/filters
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
-import { IntervalFilter, DateFilter, ... } from '@enso-ui/filters/bulma';
-import { CoreIntervalFilter, CoreDateFilter, ... } from '@enso-ui/filters/renderless';
+import { IntervalFilter, DateFilter, ... } from '@liberu-ui/filters/bulma';
+import { CoreIntervalFilter, CoreDateFilter, ... } from '@liberu-ui/filters/renderless';
 ```
 
 Note that this package has a couple of external dependencies. 
@@ -36,7 +36,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 ### Exports
 
-`@enso-ui/filters/bulma`:
+`@liberu-ui/filters/bulma`:
 - `IntervalFilter`, 
 - `EnsoIntervalFilter`, 
 - `DateFilter`, 
@@ -49,7 +49,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 - `SelectFilter`, 
 - `EnsoSelectFilter`,
 
-`@enso-ui/filters/renderless`:
+`@liberu-ui/filters/renderless`:
 - `CoreIntervalFilter`,
 - `CoreDateFilter`,
 - `CoreDateIntervalFilter`,
@@ -203,12 +203,12 @@ All the props from `DateFilter` can be provided here.
 #### Examples:
 
 ```vue
-<enso-date-filter class="box raises-on-hover has-margin-top-large"
+<liberu-date-filter class="box raises-on-hover has-margin-top-large"
     :interval="interval"/>
 ```
 
 ```vue
-<enso-date-filter class="box raises-on-hover"
+<liberu-date-filter class="box raises-on-hover"
     v-model="params.dateInterval"
     default="thirtyDays"
     :name="i18n('Date')"
@@ -241,7 +241,7 @@ The `value`/ v-model - `interval` for a given date are, correspondences are:
 
 ### bulma/EnsoDateIntervalFilter
 
-This Bulma styled date interval filtering component, built on top of the enso date filter version of the component is 
+This Bulma styled date interval filtering component, built on top of the liberu date filter version of the component is 
 designed to be used within the **Enso ecosystem**, requiring less configuration from the dev.
 
 #### Props
@@ -257,7 +257,7 @@ All the props from `DateIntervalFilter` can be provided here
 
 #### Example:
 ```vue
-<enso-date-interval-filter class="box raises-on-hover has-margin-top-large"
+<liberu-date-interval-filter class="box raises-on-hover has-margin-top-large"
     v-model="dateInterval"
     :name="i18n('Date')"
     :interval="intervals.date"/>
@@ -294,7 +294,7 @@ designed to be used within the **Enso ecosystem**, requiring less configuration 
 
 #### Example:
 ```vue
-<enso-filter class="box raises-on-hover"
+<liberu-filter class="box raises-on-hover"
     v-model="filters.products.type"
     hide-off
     :options="enums.productTypes._filter()"
@@ -326,7 +326,7 @@ designed to be used within the **Enso ecosystem**, requiring less configuration 
 
 #### Example:
 ```vue
-<enso-interval-filter class="box raises-on-hover has-margin-top-large"
+<liberu-interval-filter class="box raises-on-hover has-margin-top-large"
     :interval="interval"/>
 ```
 
@@ -348,7 +348,7 @@ Designed to be used within the Enso ecosystem, requiring less configuration from
 
 #### Example:
 ```vue
-<enso-select-filter title="my title" 
+<liberu-select-filter title="my title" 
     multiple
     :source="route('administration.userGroups.options')"
     v-model="userGroupId"/>
@@ -561,9 +561,9 @@ For date manipulation [date-fns](https://date-fns.org/) was used
 
 ## Depends on
 
-- `@enso-ui/datepicker`
-- `@enso-ui/select`
-- `@enso-ui/transitions`
+- `@liberu-ui/datepicker`
+- `@liberu-ui/select`
+- `@liberu-ui/transitions`
 - `@fortawesome/fontawesome-svg-core`
 - `@fortawesome/free-solid-svg-icons`
 - `@fortawesome/vue-fontawesome`
@@ -582,4 +582,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

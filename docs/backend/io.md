@@ -4,17 +4,17 @@ sidebarDepth: 3
 
 # IO
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ff415bb65927479a80d173622d3c11ed)](https://www.codacy.com/app/laravel-enso/io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/io&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ff415bb65927479a80d173622d3c11ed)](https://www.codacy.com/app/laravel-liberu/io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/io&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/168923570/shield?branch=master)](https://github.styleci.io/repos/168923570)
-[![License](https://poser.pugx.org/laravel-enso/io/license)](https://packagist.org/packages/laravel-enso/io)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/io/downloads)](https://packagist.org/packages/laravel-enso/io)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/io/version)](https://packagist.org/packages/laravel-enso/io)
+[![License](https://poser.pugx.org/laravel-liberu/io/license)](https://packagist.org/packages/laravel-liberu/io)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/io/downloads)](https://packagist.org/packages/laravel-liberu/io)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/io/version)](https://packagist.org/packages/laravel-liberu/io)
 
 IO process monitoring dependency for [Laravel-Enso](https://liberu.co.uk).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 

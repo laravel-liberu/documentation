@@ -4,13 +4,13 @@ sidebarDepth: 3
 
 # Bulma
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/bulma.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/bulma.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/bulma.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/bulma.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/bulma.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/bulma.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/bulma.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/bulma.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/bulma.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/bulma.svg) 
 
-Aggregator for enso-ui bulma components
+Aggregator for liberu-ui bulma components
 
 This package provides a common source for all the bulma components available in the various NPM packages.
 
@@ -18,7 +18,7 @@ This package provides a common source for all the bulma components available in 
 
 Install the package:
 ```
-yarn add @enso-ui/bulma
+yarn add @liberu-ui/bulma
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -29,7 +29,7 @@ Import the desired component(s):
 ```js
 import {
     Tab, EnsoTabs as Tabs, EnsoDateFilter as DateFilter, Uploader, Chart,
-} from '@enso-ui/bulma';
+} from '@liberu-ui/bulma';
 ```
 
 ## Exports
@@ -110,27 +110,27 @@ import {
 
 ## Depends on
 
-- `enso-ui/accessories`
-- `enso-ui/card`
-- `enso-ui/charts`
-- `enso-ui/confirmation`
-- `enso-ui/datepicker`
-- `enso-ui/divider`
-- `enso-ui/dropdown`
-- `enso-ui/dropdown-indicator`
-- `enso-ui/filters`
-- `enso-ui/forms`
-- `enso-ui/loader`
-- `enso-ui/modal`
-- `enso-ui/money`
-- `enso-ui/progress-bar`
-- `enso-ui/select`
-- `enso-ui/switch`
-- `enso-ui/tables`
-- `enso-ui/tabs`
-- `enso-ui/toastr`
-- `enso-ui/typeahead`
-- `enso-ui/uploader`
+- `liberu-ui/accessories`
+- `liberu-ui/card`
+- `liberu-ui/charts`
+- `liberu-ui/confirmation`
+- `liberu-ui/datepicker`
+- `liberu-ui/divider`
+- `liberu-ui/dropdown`
+- `liberu-ui/dropdown-indicator`
+- `liberu-ui/filters`
+- `liberu-ui/forms`
+- `liberu-ui/loader`
+- `liberu-ui/modal`
+- `liberu-ui/money`
+- `liberu-ui/progress-bar`
+- `liberu-ui/select`
+- `liberu-ui/switch`
+- `liberu-ui/tables`
+- `liberu-ui/tabs`
+- `liberu-ui/toastr`
+- `liberu-ui/typeahead`
+- `liberu-ui/uploader`
 - `bulma`
 
 ## Contributions
@@ -141,4 +141,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

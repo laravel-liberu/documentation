@@ -9,7 +9,7 @@
 
 ## Installation Steps
 
-1. Download the project with `git clone https://github.com/laravel-enso/enso.git --depth 1`
+1. Download the project with `git clone https://github.com/laravel-liberu/liberu.git --depth 1`
 
 2. Within the project folder run `composer install`
 
@@ -25,9 +25,9 @@ and consider using [Valet](https://laravel.com/docs/6.x/valet) for a better expe
     
     ```
     ...
-    APP_URL=http://enso.test
+    APP_URL=http://liberu.test
     ...
-    SANCTUM_STATEFUL_DOMAINS=localhost,127.0.0.1,127.0.0.1:8000,localhost:8080,::1,enso.test
+    SANCTUM_STATEFUL_DOMAINS=localhost,127.0.0.1,127.0.0.1:8000,localhost:8080,::1,liberu.test
     ```
 
 5. Run `php artisan migrate --seed`
@@ -43,7 +43,7 @@ for the back-end API (which you've configured at step 4)
 
 ### Optional
 
-10. Setup the configuration files as needed in `config/enso/*.php`
+10. Setup the configuration files as needed in `config/liberu/*.php`
 11. You may remove the following files from the cloned repository:
     - `.styleci.yml`
     - `.travis.yml`
@@ -53,23 +53,23 @@ Enjoy!
 
 ## Docker
 Laravel Enso comes with a simple docker environment to help with development. 
-By default, it has two containers, the enso container and the enso-mysql container. 
+By default, it has two containers, the liberu container and the liberu-mysql container. 
 There is also an optional phpmyadmin container that can be used by removing the commented
 lines in `docker-compose.yml`.
 
 #### Containers
 
-- The enso container runs the apache webserver and has `yarn` & `composer` installed.
-- The enso-mysql container handle's the database the default user is `root` with a blank password and the default database is `enso`
-- The enso-phpmyadmin container is optional and attaches a phpMyAdmin instance the the enso-mysql database.
+- The liberu container runs the apache webserver and has `yarn` & `composer` installed.
+- The liberu-mysql container handle's the database the default user is `root` with a blank password and the default database is `liberu`
+- The liberu-phpmyadmin container is optional and attaches a phpMyAdmin instance the the liberu-mysql database.
 
 #### Steps to use
 
 - Rename .env.example to .env and fill out the appropriate variables.
 - Run `docker-compose up` to start the containers. 
 To daemonize the process run `docker-compose up --build -d`.
-- Enter into the enso container to begin the enso installation with `docker exec -it enso bash`
-- Install laravel enso following the [guide](https://docs.liberu.co.uk/guide/getting-started.html).
+- Enter into the liberu container to begin the liberu installation with `docker exec -it liberu bash`
+- Install laravel liberu following the [guide](https://docs.liberu.co.uk/guide/getting-started.html).
 
 ### Known issues
 
@@ -84,7 +84,7 @@ A solid starting project, based on [Laravel](https://laravel.com) 6, [VueJS](htt
 all the VueJS goodies such as [VueEx](https://vuex.vuejs.org/en) and [VueRouter](https://router.vuejs.org/en),
 with features like:
 
-- [Structure generator](https://github.com/laravel-enso/cli) - powerful CLI that allows easy creation of new complex structures, generating all the needed files:
+- [Structure generator](https://github.com/laravel-liberu/cli) - powerful CLI that allows easy creation of new complex structures, generating all the needed files:
     - system files for:
         - structure migration that adds menus and permissions and permission groups
         - front-end routes & CRUD pages
@@ -96,7 +96,7 @@ with features like:
         - select controller
         - request validator
 
-- [Customizable and powerful datatables](https://github.com/laravel-enso/tables):
+- [Customizable and powerful datatables](https://github.com/laravel-liberu/tables):
     - JSON templates
     - server side
     - multi-argument full column search
@@ -108,26 +108,26 @@ with features like:
     - easy display of flag/type columns values
     - server-side excel export for every table
 
-- [Beautiful forms](https://github.com/laravel-enso/Formbuilder):
+- [Beautiful forms](https://github.com/laravel-liberu/Formbuilder):
     - JSON templates
     - server side
     - validation
     - customizable
 
-- [Vue select](https://github.com/laravel-enso/select) - server side builder with parameter conditioning, including pivot parameters
-- Advanced user groups / [roles](https://github.com/laravel-enso/roles) / [permissions](https://github.com/laravel-enso/permissions) structure
-- [Log management](https://github.com/laravel-enso/logs) -  view, download, clear
-- User [action logger](https://github.com/laravel-enso/action-logger), so you can keep track of who's done what
-- User [impersonation](https://github.com/laravel-enso/impersonate) for easy support and debugging
-- Application interface [tutorials](https://github.com/laravel-enso/tutorials) based on the awesome [Intro.js](http://introjs.com)
-- [Localisation support](https://github.com/laravel-enso/localisation)
-- [Charts component](https://github.com/laravel-enso/charts) with server side data builder, based on [Chart.js](http://www.chartjs.org)
+- [Vue select](https://github.com/laravel-liberu/select) - server side builder with parameter conditioning, including pivot parameters
+- Advanced user groups / [roles](https://github.com/laravel-liberu/roles) / [permissions](https://github.com/laravel-liberu/permissions) structure
+- [Log management](https://github.com/laravel-liberu/logs) -  view, download, clear
+- User [action logger](https://github.com/laravel-liberu/action-logger), so you can keep track of who's done what
+- User [impersonation](https://github.com/laravel-liberu/impersonate) for easy support and debugging
+- Application interface [tutorials](https://github.com/laravel-liberu/tutorials) based on the awesome [Intro.js](http://introjs.com)
+- [Localisation support](https://github.com/laravel-liberu/localisation)
+- [Charts component](https://github.com/laravel-liberu/charts) with server side data builder, based on [Chart.js](http://www.chartjs.org)
 - [Comments component](https://github.com/liberu.co.ukments) with support for tagging users
-- [Documents component](https://github.com/laravel-enso/documents) with upload, download and inline view
-- Ability to [track](https://github.com/laravel-enso/track-who) who created, updated and deleted models, using traits
-- [File uploader](https://github.com/laravel-enso/files) and file management library
-- [Avatar functionality](https://github.com/laravel-enso/avatars) for all users
-- Ability to track the [different versions of a model](https://github.com/laravel-enso/history-tracker) through its lifetime
+- [Documents component](https://github.com/laravel-liberu/documents) with upload, download and inline view
+- Ability to [track](https://github.com/laravel-liberu/track-who) who created, updated and deleted models, using traits
+- [File uploader](https://github.com/laravel-liberu/files) and file management library
+- [Avatar functionality](https://github.com/laravel-liberu/avatars) for all users
+- Ability to track the [different versions of a model](https://github.com/laravel-liberu/history-tracker) through its lifetime
 - Front-end date-picker and time-picker, based on [Flatpickr](https://chmln.github.io/flatpickr)
 - Server-side type-ahead
 - User, application-wide preferences - every user has the ability to choose his theme (from 10 variants), set the menu style, app language and more
@@ -136,13 +136,13 @@ with features like:
 - Beautiful email notifications, that can published and customized to your heart's desire
 - Automatic breadcrumbs generation
 - Application-wide timestamp formatting customization through the configuration file
-- Separate front-end state support, so that it's easier to keep your application's logic and data separated from enso's
-- Optimistic concurrency control with versioning, via the [Versioning](https://github.com/laravel-enso/versioning) and 
-    [Versions](https://github.com/laravel-enso/versions) the packages
+- Separate front-end state support, so that it's easier to keep your application's logic and data separated from liberu's
+- Optimistic concurrency control with versioning, via the [Versioning](https://github.com/laravel-liberu/versioning) and 
+    [Versions](https://github.com/laravel-liberu/versions) the packages
 - many more helpers and hidden gems
 
 ## Important
 
 ::: tip Recommended
-If you are using this project please consult the [Changelog](https://github.com/laravel-enso/Enso/blob/master/CHANGELOG.md) on every update.
+If you are using this project please consult the [Changelog](https://github.com/laravel-liberu/Enso/blob/master/CHANGELOG.md) on every update.
 :::

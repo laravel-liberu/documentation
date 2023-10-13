@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Vue Switch
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/progress-bar.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/progress-bar.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/progress-bar.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/progress-bar.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/progress-bar.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/progress-bar.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/progress-bar.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/progress-bar.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/progress-bar.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/progress-bar.svg) 
 
 Vue Switch
 
@@ -20,14 +20,14 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/switch
+yarn add @liberu-ui/switch
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 ### Exports
 
-`@enso-ui/switch/bulma`:
+`@liberu-ui/switch/bulma`:
 - `VueSwitch`
 
 
@@ -35,7 +35,7 @@ yarn add @enso-ui/switch
 
 Import the component:
 ```js
-import VueSwitch from '@enso-ui/switch/bulma';
+import VueSwitch from '@liberu-ui/switch/bulma';
 ```
 
 ### VueSwitch
@@ -82,4 +82,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

@@ -4,23 +4,23 @@ sidebarDepth: 3
 
 # Companies
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a05a5276a5c4f6db3cb05db2086bbab)](https://www.codacy.com/app/laravel-enso/Companies?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/Companies&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a05a5276a5c4f6db3cb05db2086bbab)](https://www.codacy.com/app/laravel-liberu/Companies?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/Companies&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/151941399/shield?branch=master)](https://github.styleci.io/repos/151941399)
 [![License](https://poser.pugx.org/liberu.co.ukpanies/license)](https://packagist.org/packages/liberu.co.ukpanies)
 [![Total Downloads](https://poser.pugx.org/liberu.co.ukpanies/downloads)](https://packagist.org/packages/liberu.co.ukpanies)
 [![Latest Stable Version](https://poser.pugx.org/liberu.co.ukpanies/version)](https://packagist.org/packages/liberu.co.ukpanies)
 
-Company management dependency for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Company management dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Screenshot](https://laravel-enso.github.io/companies/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/companies/screenshots/bulma_001.png)
+[![Screenshot](https://laravel-liberu.github.io/companies/screenshots/bulma_001_thumb.png)](https://laravel-liberu.github.io/companies/screenshots/bulma_001.png)
 
-[![Screenshot](https://laravel-enso.github.io/companies/screenshots/bulma_002_thumb.png)](https://laravel-enso.github.io/companies/screenshots/bulma_002.png)
+[![Screenshot](https://laravel-liberu.github.io/companies/screenshots/bulma_002_thumb.png)](https://laravel-liberu.github.io/companies/screenshots/bulma_002.png)
 
 <sup>click on the photo to view a large size screenshot</sup>
 
@@ -31,7 +31,7 @@ Comes pre-installed in Enso.
 ## Features
 
 - provides a common functionality for managing companies within the Enso ecosystem
-- integrates with the [People](https://github.com/laravel-enso/People) package so you can associate people to companies
+- integrates with the [People](https://github.com/laravel-liberu/People) package so you can associate people to companies
 - can be reused and integrated with other modules which might deal with companies (e.g. suppliers ) 
 or even other entities, such as people (e.g. clients)
 - a `CompanyFactory` is included by default in the package
@@ -47,12 +47,12 @@ You can only set as mandatary one of the people associated to the company.
 - the proper way to delete a company is to first delete any other models it is linked to 
 - a placeholder types enum in included in the package that is meant to be extended as/if required
 - all `Company` attributes are fillable
-- note that the `onDelete` [DocumentsManager](https://github.com/laravel-enso/DocumentsManager) configuration option will affect
+- note that the `onDelete` [DocumentsManager](https://github.com/laravel-liberu/DocumentsManager) configuration option will affect
 what happens to the linked documents when you attempt to delete a company. 
 
 ### Configuration
 
-The `config/enso/companies.php` configuration file, lets you customize the following:
+The `config/liberu/companies.php` configuration file, lets you customize the following:
 - `formTemplate` - string, is the project relative path to the companies form template, 
 useful for overriding the original
 - `tableTemplate` - string, is the project relative path to the companies table template, 
@@ -90,10 +90,10 @@ To achieve this, you'd need to:
 
 ## Publishes
 - `php artisan vendor:publish --tag=companies-config` - configuration file
-- `php artisan vendor:publish --tag=enso-config` - a common alias for when wanting to update the configurations,
+- `php artisan vendor:publish --tag=liberu-config` - a common alias for when wanting to update the configurations,
 once a newer version is released, usually used with the `--force` flag
 - `php artisan vendor:publish --tag=companies-factory` - the factory for the `Company` model
-- `php artisan vendor:publish --tag=enso-factories` - a common alias for when wanting to update the factories,
+- `php artisan vendor:publish --tag=liberu-factories` - a common alias for when wanting to update the factories,
 once a newer version is released, usually used with the `--force` flag
 
 ## Contributions

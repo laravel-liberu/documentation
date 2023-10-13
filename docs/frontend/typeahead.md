@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Typeahead
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/typeahead.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/typeahead.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/typeahead.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/typeahead.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/typeahead.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/typeahead.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/typeahead.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/typeahead.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/typeahead.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/typeahead.svg) 
 
 Vue Typeahead
 
@@ -23,14 +23,14 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/typeahead
+yarn add @liberu-ui/typeahead
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
-import { Typeahead, EnsoTypeahead } from '@enso-ui/typeahead/bulma';
+import { Typeahead, EnsoTypeahead } from '@liberu-ui/typeahead/bulma';
 ```
 
 Note that this package has a couple of external dependencies. 
@@ -38,11 +38,11 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 ### Exports
 
-`@enso-ui/typeahead/bulma`:
+`@liberu-ui/typeahead/bulma`:
 - `Typeahead`,
 - `EnsoTypeahead`,
 
-`@enso-ui/typeahead/renderless`:
+`@liberu-ui/typeahead/renderless`:
 - `Typeahead`,
 
 ### bulma/EnsoTypeahead.vue
@@ -140,4 +140,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

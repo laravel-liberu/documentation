@@ -4,23 +4,23 @@ sidebarDepth: 3
 
 # Addresses
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c7404086a15a4db6b2080b1d09b0688a)](https://www.codacy.com/app/laravel-enso/addresses?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/addresses&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c7404086a15a4db6b2080b1d09b0688a)](https://www.codacy.com/app/laravel-liberu/addresses?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/addresses&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/113445673/shield?branch=master)](https://github.styleci.io/repos/113445673)
-[![License](https://poser.pugx.org/laravel-enso/addresses/license)](https://packagist.org/packages/laravel-enso/addresses)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/addresses/downloads)](https://packagist.org/packages/laravel-enso/addresses)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/addresses/version)](https://packagist.org/packages/laravel-enso/addresses)
+[![License](https://poser.pugx.org/laravel-liberu/addresses/license)](https://packagist.org/packages/laravel-liberu/addresses)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/addresses/downloads)](https://packagist.org/packages/laravel-liberu/addresses)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/addresses/version)](https://packagist.org/packages/laravel-liberu/addresses)
 
-Free-form addresses manager for [Laravel Enso](https://github.com/laravel-enso/Enso)
+Free-form addresses manager for [Laravel Enso](https://github.com/laravel-liberu/Enso)
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-There is a front end implementation for this this api in the [accessories](https://github.com/enso-ui/accessories) package.
+There is a front end implementation for this this api in the [accessories](https://github.com/liberu-ui/accessories) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Screenshot](https://laravel-enso.github.io/addresses/screenshots/bulma_041_thumb.png)](https://laravel-enso.github.io/addresses/screenshots/bulma_041.png)
+[![Screenshot](https://laravel-liberu.github.io/addresses/screenshots/bulma_041_thumb.png)](https://laravel-liberu.github.io/addresses/screenshots/bulma_041.png)
 
-[![Screenshot](https://laravel-enso.github.io/addresses/screenshots/bulma_042_thumb.png)](https://laravel-enso.github.io/addresses/screenshots/bulma_042.png)
+[![Screenshot](https://laravel-liberu.github.io/addresses/screenshots/bulma_042_thumb.png)](https://laravel-liberu.github.io/addresses/screenshots/bulma_042.png)
 
 ## Installation
 
@@ -46,7 +46,7 @@ front end implementation [docs](https://docs.liberu.co.uk/frontend/accessories.h
 
 ### Configuration
 
-Inside the `config/enso/addresses.php` file, you'll find several customization options:
+Inside the `config/liberu/addresses.php` file, you'll find several customization options:
 - `onDelete`, string, option that manages the case when the commentable entity is deleted 
     and it has attached discussions. Valid options are `cascade`, `restrict` | default is `cascade`
 
@@ -75,7 +75,7 @@ To achieve this, you'd need to:
 - create a local model which extends the package model and set the proper `$fillable` attribute, 
     define relations, etc.    
 - create a local template and set the path in addresses configuration, 
-    under the `enso.addresses.formTemplate` key. Also, you may mark any form fields as custom and then 
+    under the `liberu.addresses.formTemplate` key. Also, you may mark any form fields as custom and then 
     customize them in your page, using slots (like for the VueForm). 
 - create a new form builder, extend the one in the package (`AddressForm`), and specify the `TemplatePath`
     to your previously created template.    
@@ -104,13 +104,13 @@ Note that if you just want to customize the label for the address, you may simpl
 ## Publishes
 
 - `php artisan vendor:publish --tag=addresses-seeder` - the seeder used for countries
-- `php artisan vendor:publish --tag=enso-seeders` - a common alias for when wanting to update the seeders
+- `php artisan vendor:publish --tag=liberu-seeders` - a common alias for when wanting to update the seeders
 once a newer version is released, usually used with `--force` 
 - `php artisan vendor:publish --tag=addresses-factory` - the factory used for address
-- `php artisan vendor:publish --tag=enso-seeders` - a common alias for when wanting to update the seeders
+- `php artisan vendor:publish --tag=liberu-seeders` - a common alias for when wanting to update the seeders
 once a newer version is released, usually used with `--force`
 - `php artisan vendor:publish --tag=addresses-config` - configuration file
-- `php artisan vendor:publish --tag=enso-config` - a common alias for when wanting to update the config,
+- `php artisan vendor:publish --tag=liberu-config` - a common alias for when wanting to update the config,
 once a newer version is released, usually used with `--force`
 
 ## Contributions

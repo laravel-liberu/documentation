@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Toastr
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/toastr.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/toastr.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/toastr.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/toastr.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/toastr.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/toastr.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/toastr.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/toastr.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/toastr.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/toastr.svg) 
 
 Multi layout renderless Toaster Notification
 
@@ -21,7 +21,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 Install the package:
 
 ```
-yarn add @enso-ui/toastr
+yarn add @liberu-ui/toastr
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -31,13 +31,13 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 ### Exports
 
-`@enso-ui/toastr/bulma`:
+`@liberu-ui/toastr/bulma`:
 - `Toastr`
 
-`@enso-ui/tabs/renderless`:
+`@liberu-ui/tabs/renderless`:
 - `CoreToastr`
 
-`@enso-ui/transitions/renderless`:
+`@liberu-ui/transitions/renderless`:
 - `Bounce`
 
 
@@ -46,8 +46,8 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 Import the component(s):
 
 ```js
-import Toastr from '@enso-ui/toastr/bulma';
-import ToastrPlugin from '@enso-ui/toastr';
+import Toastr from '@liberu-ui/toastr/bulma';
+import ToastrPlugin from '@liberu-ui/toastr';
 ```
 
 Install the plugin:
@@ -149,4 +149,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

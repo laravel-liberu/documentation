@@ -4,17 +4,17 @@ sidebarDepth: 3
 
 # Core
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ba5e8fe6e1dc427590d9bad7721ca037)](https://www.codacy.com/app/laravel-enso/core?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/core&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ba5e8fe6e1dc427590d9bad7721ca037)](https://www.codacy.com/app/laravel-liberu/core?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/core&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85807594/shield?branch=master)](https://github.styleci.io/repos/85807594)
-[![License](https://poser.pugx.org/laravel-enso/core/license)](https://packagist.org/packages/laravel-enso/core)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/core/downloads)](https://packagist.org/packages/laravel-enso/core)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/core/version)](https://packagist.org/packages/laravel-enso/core)
+[![License](https://poser.pugx.org/laravel-liberu/core/license)](https://packagist.org/packages/laravel-liberu/core)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/core/downloads)](https://packagist.org/packages/laravel-liberu/core)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/core/version)](https://packagist.org/packages/laravel-liberu/core)
 
-Main requirement & dependency aggregator for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Main requirement & dependency aggregator for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -67,44 +67,44 @@ and a great many other features
 
 ## Included packages
 
-[Action Logger](https://github.com/laravel-enso/action-logger), 
-[Activity Log](https://github.com/laravel-enso/activity-log), 
-[Avatars](https://github.com/laravel-enso/avatars) <sup>1</sup>, 
-[Charts](https://github.com/laravel-enso/charts), 
+[Action Logger](https://github.com/laravel-liberu/action-logger), 
+[Activity Log](https://github.com/laravel-liberu/activity-log), 
+[Avatars](https://github.com/laravel-liberu/avatars) <sup>1</sup>, 
+[Charts](https://github.com/laravel-liberu/charts), 
 [Companies](https://github.com/liberu.co.ukpanies),
-[Data Export](https://github.com/laravel-enso/data-export),
-[Data Import](https://github.com/laravel-enso/data-import), 
-[Files](https://github.com/laravel-enso/files), 
-[Forms](https://github.com/laravel-enso/forms), 
-[Helpers](https://github.com/laravel-enso/helpers), 
-[History Tracker](https://github.com/laravel-enso/history-tracker),
-[How To](https://github.com/laravel-enso/how-to),
-[Impersonate](https://github.com/laravel-enso/impersonate), 
-[IO](https://github.com/laravel-enso/IO), 
-[Localisation](https://github.com/laravel-enso/localisation), 
-[Logs](https://github.com/laravel-enso/logs), 
-[Menus](https://github.com/laravel-enso/menus),
-[Multi tenancy](https://github.com/laravel-enso/Multitenancy),
-[Notifications](https://github.com/laravel-enso/Notifications), 
-[People](https://github.com/laravel-enso/People), 
-[Permissions](https://github.com/laravel-enso/permissions), 
-[Rememberable](https://github.com/laravel-enso/Rememberable), 
-[Roles](https://github.com/laravel-enso/roles), 
-[Searchable](https://github.com/laravel-enso/Searchable), 
-[Select](https://github.com/laravel-enso/Select), 
-[CLI](https://github.com/laravel-enso/cli), 
-[Teams](https://github.com/laravel-enso/Teams), 
-[TrackWho](https://github.com/laravel-enso/track-who), 
-[Tutorials](https://github.com/laravel-enso/tutorials), 
-[Versioning](https://github.com/laravel-enso/versioning),
-[Tables](https://github.com/laravel-enso/tables), 
+[Data Export](https://github.com/laravel-liberu/data-export),
+[Data Import](https://github.com/laravel-liberu/data-import), 
+[Files](https://github.com/laravel-liberu/files), 
+[Forms](https://github.com/laravel-liberu/forms), 
+[Helpers](https://github.com/laravel-liberu/helpers), 
+[History Tracker](https://github.com/laravel-liberu/history-tracker),
+[How To](https://github.com/laravel-liberu/how-to),
+[Impersonate](https://github.com/laravel-liberu/impersonate), 
+[IO](https://github.com/laravel-liberu/IO), 
+[Localisation](https://github.com/laravel-liberu/localisation), 
+[Logs](https://github.com/laravel-liberu/logs), 
+[Menus](https://github.com/laravel-liberu/menus),
+[Multi tenancy](https://github.com/laravel-liberu/Multitenancy),
+[Notifications](https://github.com/laravel-liberu/Notifications), 
+[People](https://github.com/laravel-liberu/People), 
+[Permissions](https://github.com/laravel-liberu/permissions), 
+[Rememberable](https://github.com/laravel-liberu/Rememberable), 
+[Roles](https://github.com/laravel-liberu/roles), 
+[Searchable](https://github.com/laravel-liberu/Searchable), 
+[Select](https://github.com/laravel-liberu/Select), 
+[CLI](https://github.com/laravel-liberu/cli), 
+[Teams](https://github.com/laravel-liberu/Teams), 
+[TrackWho](https://github.com/laravel-liberu/track-who), 
+[Tutorials](https://github.com/laravel-liberu/tutorials), 
+[Versioning](https://github.com/laravel-liberu/versioning),
+[Tables](https://github.com/laravel-liberu/tables), 
 
 ## Optional packages
 
-[Addresses](https://github.com/laravel-enso/addresses), 
+[Addresses](https://github.com/laravel-liberu/addresses), 
 [Comments ](https://github.com/liberu.co.ukments),
-[Discussions](https://github.com/laravel-enso/discussions), 
-[Documents ](https://github.com/laravel-enso/documents) <sup>1</sup>, 
+[Discussions](https://github.com/laravel-liberu/discussions), 
+[Documents ](https://github.com/laravel-liberu/documents) <sup>1</sup>, 
 
 <sup>1</sup> In order to more efficiently handle images (optimize, resize, crop), 
 a few extra PHP plugins and libraries are recommended:
@@ -124,7 +124,7 @@ sudo apt-get install pngquant gifsicle jpegoptim php7.1-gd
 
 - the `Role` model contains the `AdminId` and `SupervisorId` constants that determine who 
 the administrator and supervisor roles are. Note that `Role` model is part of the 
-[Roles](https://github.com/laravel-enso/roles) package but is mentioned here for quick reference  
+[Roles](https://github.com/laravel-liberu/roles) package but is mentioned here for quick reference  
 - the `UserGroup` model contains the `AdminGroupId` constant that is used to determine which is the Administrator
 user group
 - the `User` model provides several helper methods for administrative related checks:
@@ -135,7 +135,7 @@ user group
 
 ### Login attempts 
 
-The `config.enso.auth.maxLoginAttempts` configuration option lets you customize how many login attempts 
+The `config.liberu.auth.maxLoginAttempts` configuration option lets you customize how many login attempts 
 the user may perform before he is given a time-out. 
 
 Once the user reaches the set number of login attempts, he must wait 60 seconds before he may try to 
@@ -150,7 +150,7 @@ should be customized locally.
 #### General configuration
 
 Various configuration options are available in the `config` file 
-on the `enso.config` configuration 'path', with the following keys:
+on the `liberu.config` configuration 'path', with the following keys:
 - `version`, string, current Enso version. Should be kept up to date when performing Enso updates 
     on new releases
 - `ownerCompanyId`, integer, default `1`, the id of the Application owner/client's Company
@@ -168,7 +168,7 @@ on the `enso.config` configuration 'path', with the following keys:
 - `twitter`, string, should be the link to the application owners twitter page
 - `ravenKey`, string, should be the API key used for the Raven error reporting functionality
 - `cacheLifetime`, numeric, default is `60`, is the cache lifetime
-- `ensoApiToken`, string, default `null`, is the token that needs to be provided is using the 
+- `liberuApiToken`, string, default `null`, is the token that needs to be provided is using the 
     API monitoring module
 - `extendedDocumentTitle`, boolean, default `false`, setting that shows documents with an extended title
     vs. using a shortened version
@@ -189,13 +189,13 @@ class in the service provider. You may set the application owner's company id wi
     
 #### Themes configuration
         
-The themes `enso.themes` configuration files contains mappings for the themes used within Enso.
+The themes `liberu.themes` configuration files contains mappings for the themes used within Enso.
 
 #### Password configuration
 
 Since the 2.15.2 release, Enso supports additional, password related, configuration options.
-The default values are available on the `config.enso.auth.password` configuration 'path' 
-(the `config/enso/auth.php` file) and local values can be set in your `.env` file. 
+The default values are available on the `config.liberu.auth.password` configuration 'path' 
+(the `config/liberu/auth.php` file) and local values can be set in your `.env` file. 
 
 These options are enforced via request validation each time the user sets or resets his password. 
 
@@ -237,7 +237,7 @@ To avoid such a scenario, all logged in users can be notified using push notific
 that they should save their work and reload the page.  
 
 In order for this notification to be sent, within your deployment flow, you should use 
-the `php artisan enso:announce-app-update` artisan command to send the notification.
+the `php artisan liberu:announce-app-update` artisan command to send the notification.
 
 ## Publishes
 
@@ -247,24 +247,24 @@ the `php artisan enso:announce-app-update` artisan command to send the notificat
 - `php artisan vendor:publish --tag=core-preferences` - the json preferences file
 - `php artisan vendor:publish --tag=core-factories` - the factories for the User and the UserGroup
 - `php artisan vendor:publish --tag=core-seeders` - the seeders for the User and the UserGroup
-- `php artisan vendor:publish --tag=enso-config` - a common alias for when wanting to update the config,
+- `php artisan vendor:publish --tag=liberu-config` - a common alias for when wanting to update the config,
 once a newer version is released
-- `php artisan vendor:publish --tag=enso-preferences` - a common alias for when wanting to update the preferences,
+- `php artisan vendor:publish --tag=liberu-preferences` - a common alias for when wanting to update the preferences,
 once a newer version is released
-- `php artisan vendor:publish --tag=enso-factories` - a common alias for when wanting to update the factories,
+- `php artisan vendor:publish --tag=liberu-factories` - a common alias for when wanting to update the factories,
 once a newer version is released
-- `php artisan vendor:publish --tag=enso-seeders` - a common alias for when wanting to update the seeders,
+- `php artisan vendor:publish --tag=liberu-seeders` - a common alias for when wanting to update the seeders,
 once a newer version is released
-- `php artisan vendor:publish --tag=enso-email` - a common alias for when wanting to update the templates 
+- `php artisan vendor:publish --tag=liberu-email` - a common alias for when wanting to update the templates 
 used for email
 
 ## Commands
 
-- `php artisan enso:preferences:clear` - clears the preferences stored in the DB, 
+- `php artisan liberu:preferences:clear` - clears the preferences stored in the DB, 
 useful when the preferences structure changes  
-- `php artisan enso:preferences:update-global` - adds new global preferences keys for users
-- `php artisan enso:upgrade` - performs new upgrades from the older previous to the latest release
-- `php artisan enso:announce-app-update` - send a notification to the logged in users that the 
+- `php artisan liberu:preferences:update-global` - adds new global preferences keys for users
+- `php artisan liberu:upgrade` - performs new upgrades from the older previous to the latest release
+- `php artisan liberu:announce-app-update` - send a notification to the logged in users that the 
 application has been updated and that they should refresh their pages
 
 ## Contributions

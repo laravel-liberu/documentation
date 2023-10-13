@@ -4,28 +4,28 @@ sidebarDepth: 3
 
 # Tables
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a3cf79a9ca584f08b3be0246cb488788)](https://www.codacy.com/app/laravel-enso/tables?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/tables&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a3cf79a9ca584f08b3be0246cb488788)](https://www.codacy.com/app/laravel-liberu/tables?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/tables&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/111688250/shield?branch=master)](https://github.styleci.io/repos/111688250)
-[![License](https://poser.pugx.org/laravel-enso/tables/license)](https://packagist.org/packages/laravel-enso/tables)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/tables/downloads)](https://packagist.org/packages/laravel-enso/tables)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/tables/version)](https://packagist.org/packages/laravel-enso/tables)
+[![License](https://poser.pugx.org/laravel-liberu/tables/license)](https://packagist.org/packages/laravel-liberu/tables)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/tables/downloads)](https://packagist.org/packages/laravel-liberu/tables)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/tables/version)](https://packagist.org/packages/laravel-liberu/tables)
 
 Data Table package with server-side processing, unlimited exporting and VueJS components. 
 Quickly build any complex table based on a JSON template.
 
 This package can work independently of the 
-[Enso](https://github.com/laravel-enso/Enso) ecosystem.
+[Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 The front end assets that utilize this API are present in the 
-[tables](https://github.com/enso-ui/tables) package.
+[tables](https://github.com/liberu-ui/tables) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/tables/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/tables/videos/bulma_demo_01.mp4)
+[![Watch the demo](https://laravel-liberu.github.io/tables/screenshots/bulma_001_thumb.png)](https://laravel-liberu.github.io/tables/videos/bulma_demo_01.mp4)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
-[![Themed screenshot](https://laravel-enso.github.io/tables/screenshots/bulma_002_thumb.png)](https://laravel-enso.github.io/tables/videos/bulma_demo_02.mp4)
+[![Themed screenshot](https://laravel-liberu.github.io/tables/screenshots/bulma_002_thumb.png)](https://laravel-liberu.github.io/tables/videos/bulma_demo_02.mp4)
 
 <sup>click on the photo to view an **export** demo in compatible browsers</sup>
 
@@ -35,11 +35,11 @@ Comes pre-installed in Enso.
 
 To install outside of Enso:
 
-1. install the package `composer require laravel-enso/tables` 
+1. install the package `composer require laravel-liberu/tables` 
 
 2. if needed, publish and customize the config: `php artisan vendor:publish --tag=tables-config`
 
-3. install front end for the API implementation for the package - [tables](https://github.com/enso-ui/tables). 
+3. install front end for the API implementation for the package - [tables](https://github.com/liberu-ui/tables). 
 Be sure to check out the front end's docs [here](https://docs.liberu.co.uk/frontend/tables.html).
 
 ## Features
@@ -108,7 +108,7 @@ Steps:
 
 1. Create the JSON table configuration template. 
 
-Example: [permissions.json](https://github.com/laravel-enso/permissions/blob/master/src/app/Tables/Templates/permissions.json)
+Example: [permissions.json](https://github.com/laravel-liberu/permissions/blob/master/src/app/Tables/Templates/permissions.json)
 
 2. Create the init table controller which specifies which table builder class is to be used.
 
@@ -123,7 +123,7 @@ Example: [permissions.json](https://github.com/laravel-enso/permissions/blob/mas
     }
     ```
 
-    Example: [TableController.php](https://github.com/laravel-enso/permissions/blob/master/src/app/Http/Controllers/InitTable.php)
+    Example: [TableController.php](https://github.com/laravel-liberu/permissions/blob/master/src/app/Http/Controllers/InitTable.php)
     
     Note the use of the `Init` trait that should be imported from the `LaravelLiberu\Tables` package.
 
@@ -141,7 +141,7 @@ Example: [permissions.json](https://github.com/laravel-enso/permissions/blob/mas
     }
     ```
 
-    Example: [TableData.php](https://github.com/laravel-enso/permissions/blob/master/src/app/Http/Controllers/TableData.php)
+    Example: [TableData.php](https://github.com/laravel-liberu/permissions/blob/master/src/app/Http/Controllers/TableData.php)
     
     The `$tableClass` value used here is the same as the one from the previous step.
     
@@ -188,7 +188,7 @@ thus requiring the `query()` and the `templatePath()` methods.
     }
     ```
 
-Example: [PermissionTable](https://github.com/laravel-enso/permissions/blob/master/src/app/Tables/Builders/PermissionTable.php) 
+Example: [PermissionTable](https://github.com/laravel-liberu/permissions/blob/master/src/app/Tables/Builders/PermissionTable.php) 
 
 6. Declare the route(s) in your routes file, to make available your controller's methods
     
@@ -198,15 +198,15 @@ Example: [PermissionTable](https://github.com/laravel-enso/permissions/blob/mast
     Route::get('exportExcel', 'ExportExcel')->name('exportExcel');
     ```
 
-    Example: [api.php](https://github.com/laravel-enso/permissions/blob/master/src/routes/api.php)
+    Example: [api.php](https://github.com/laravel-liberu/permissions/blob/master/src/routes/api.php)
    
 5. Import and place place the `VueTable` VueJS component in your page/component and pass it the necessary properties. 
 Within the Enso ecosystem, you may use instead the `EnsoTable` component which requires fewer parameters as it uses 
 Enso specific defaults. 
 
-EnsoTable example: [index.vue](https://github.com/enso-ui/permissions/blob/master/src/bulma/pages/permissions/Index.vue)
+EnsoTable example: [index.vue](https://github.com/liberu-ui/permissions/blob/master/src/bulma/pages/permissions/Index.vue)
 
-VueTable example: [index.blade.php](https://github.com/laravel-enso/Examples/blob/master/src/resources/views/table/index.blade.php)
+VueTable example: [index.blade.php](https://github.com/laravel-liberu/Examples/blob/master/src/resources/views/table/index.blade.php)
 
 ### Advanced Usage
 
@@ -303,8 +303,8 @@ return [
     'cache' => [
         'template' => 'production',
         'count' => true,
-        'prefix' => 'enso:tables',
-        'tag' => 'enso:tables',
+        'prefix' => 'liberu:tables',
+        'tag' => 'liberu:tables',
     ],
 
     'validations' => 'local',
@@ -442,7 +442,7 @@ A few cache-related options are available:
     Caching the template will improve the overall table loading and update.
     
     Note that it is recommended that during deployment you add a step where you call the
-    `php artisan enso:tables:clear` command in order to clear the cached templates, otherwise you
+    `php artisan liberu:tables:clear` command in order to clear the cached templates, otherwise you
     might not see any changes or have issues until the cache expires. 
 
 - `count`, is a boolean, default is `true`. When counting the number of results for the table,  
@@ -452,8 +452,8 @@ A few cache-related options are available:
     Note that if caching the count, you should use the `TableCache` trait on the main/base model,
     so that the count cache is invalidated if when a model is created or deleted.
 
-- `prefix`, is a string, default is `enso:tables`. This is the prefix used by the caching engine.
-- `tag`, is a string, default is `enso:tables`. This is the tag used by the caching engine.
+- `prefix`, is a string, default is `liberu:tables`. This is the prefix used by the caching engine.
+- `tag`, is a string, default is `liberu:tables`. This is the tag used by the caching engine.
 
 If using caching, please also take a look at the Advanced Usage / DynamicTemplate
 section above so that you don't run into any data security issues. 
@@ -644,13 +644,13 @@ configuration. It can be overridden within each 'local' table template.
 Options:
 - `routePrefix`, required, string, the common route segment, used for reading the data
 - `dataRouteSuffix`, optional, string, default `tableData`, the ending route segment, used for reading the data
-- `dtRowId`, optional, string, default is 'id' inherited from global configuration (config/enso/tables.php). This can be set as one of the model attribute's (result of table builder query) which will give each table row its uniqueness (usually the id), used internally by the table package, and is required for routing, actions and sorting.
+- `dtRowId`, optional, string, default is 'id' inherited from global configuration (config/liberu/tables.php). This can be set as one of the model attribute's (result of table builder query) which will give each table row its uniqueness (usually the id), used internally by the table package, and is required for routing, actions and sorting.
 - `name`, optional, string, the title used for the table export. If not given, no title is used
 - `crtNo`, optional, boolean, flag for showing the current line number
 - `preview`, optional, boolean, flag for activating the row preview option / column
 (more information in the Preview Support section) 
 - `flatten`, optional, boolean, flag for flattening the response, allowing columns like "user.person.name" in the template
-- `auth`, optional, boolean, flag for removing auth when using in enso context
+- `auth`, optional, boolean, flag for removing auth when using in liberu context
 - `debounce`, optional, number, default `100`, the time in milliseconds that is used for the debounce 
 when reloading data for the table, for example when typing in the search box or changing filters
 - `lengthMenu`, optional, array, list of options for the table pagination. If missing, the default values in the 
@@ -764,7 +764,7 @@ Each configuration object may have the following attributes:
 #### The name attribute and nested properties
 
 Since the 1.5.7 package version, it has become possible to use nested models properties for the `name` attribute. For example,
- for the [users table template](https://github.com/laravel-enso/Core/blob/master/src/app/Tables/Templates/users.json), 
+ for the [users table template](https://github.com/laravel-liberu/Core/blob/master/src/app/Tables/Templates/users.json), 
  you could update the entity section to:
  
 ```json
@@ -776,7 +776,7 @@ Since the 1.5.7 package version, it has become possible to use nested models pro
     }
 ```
     
-  and in the [table builder class](https://github.com/laravel-enso/Core/blob/master/src/app/Tables/Builders/UserTable.php) update the select query to:
+  and in the [table builder class](https://github.com/laravel-liberu/Core/blob/master/src/app/Tables/Builders/UserTable.php) update the select query to:
   
 ```php
     return User::select(\DB::raw(
@@ -809,10 +809,10 @@ number or rows (or, to be more accurate, the number of rows is limited by the `x
 
 In order to achieve this, Laravel queues, jobs and mails are used, so it is mandatory to:
 - have the Laravel queueing functionality properly setup and working
-- make sure the queues specified in the `enso.datatable.queues.exports` config also exist in your 
+- make sure the queues specified in the `liberu.datatable.queues.exports` config also exist in your 
     Laravel `queue` config
 - ensure you're using values fitting your project and hardware for:
-    * `enso.datatable.export.timeout` - this is the job timeout, so you should have an 
+    * `liberu.datatable.export.timeout` - this is the job timeout, so you should have an 
         interval longer than your longest job
     * `queues.connections.yourConnection.retry_after` - this is the interval used by Laravel 
         to mark a job as failed, if it's not completed by then. This interval should also be longer 
@@ -1122,12 +1122,12 @@ For such cases, you may activate the table row's preview functionality by adding
 This will activate the preview table column, where you can add your own content, via the 
 `preview` slot:
 ```vue
-<enso-table class="box is-paddingless raises-on-hover"
+<liberu-table class="box is-paddingless raises-on-hover"
     id="myId">
     <template v-slot:preview="{ row }">
         {{ row }}
     </template>
-</enso-table>
+</liberu-table>
 ``` 
 
 In the snippet above we're just printing the row but you can obviously add your own 
@@ -1140,18 +1140,18 @@ via the slot, the custom content is added after the other columns.
 ### Further Examples
 
 You may see the vue data table in action, with the code for the UserGroups page, right here:
-- [table builder](https://github.com/laravel-enso/Core/blob/master/src/app/Tables/Builders/UserGroupTable.php)
-- [table template](https://github.com/laravel-enso/Core/blob/master/src/app/Tables/Templates/userGroups.json)
-- [data controller](https://github.com/laravel-enso/Core/blob/master/src/app/Http/Controllers/Administration/UserGroup/TableData.php)
-- [front-end vue page](https://github.com/enso-ui/ui/blob/master/src/bulma/pages/administration/userGroups/Index.vue)
+- [table builder](https://github.com/laravel-liberu/Core/blob/master/src/app/Tables/Builders/UserGroupTable.php)
+- [table template](https://github.com/laravel-liberu/Core/blob/master/src/app/Tables/Templates/userGroups.json)
+- [data controller](https://github.com/laravel-liberu/Core/blob/master/src/app/Http/Controllers/Administration/UserGroup/TableData.php)
+- [front-end vue page](https://github.com/liberu-ui/ui/blob/master/src/bulma/pages/administration/userGroups/Index.vue)
 - [live result](https://www.liberu.co.uk/administration/userGroups/) (if you're not already logged in, use `admin@liberu.co.uk` and `password`)
 
-Feel free to look around at the various packages in the [laravel-enso](https://github.com/laravel-enso) repository, 
+Feel free to look around at the various packages in the [laravel-liberu](https://github.com/laravel-liberu) repository, 
 to find more examples.
 
 ## Commands
 
-- `php artisan enso:tables:clear` - the command clears the cached table templates. 
+- `php artisan liberu:tables:clear` - the command clears the cached table templates. 
     If your cache driver doesn't support tags, the whole cache will be cleared.
 
 ::: tip
@@ -1167,9 +1167,9 @@ so as to ensure the latest template versions are used after deploy.
 - `php artisan vendor:publish --tag=tables-resources` - the example table json config, 
     builder and custom action 
 - `php artisan vendor:publish --tag=tables-mail` - the templates used for notifications
-- `php artisan vendor:publish --tag=enso-mail` - a common alias for when wanting to update the templates 
+- `php artisan vendor:publish --tag=liberu-mail` - a common alias for when wanting to update the templates 
     used for notifications
-- `php artisan vendor:publish --tag=enso-config` - a common alias for when wanting to update the config,
+- `php artisan vendor:publish --tag=liberu-config` - a common alias for when wanting to update the config,
     once a newer version is released, usually used with the `--force` flag
 
 ## External dependencies

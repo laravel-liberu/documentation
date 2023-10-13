@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Money
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/money.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/money.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/money.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/money.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/money.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/money.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/money.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/money.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/money.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/money.svg) 
 
 Money Vue input component
 
@@ -20,20 +20,20 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/money
+yarn add @liberu-ui/money
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 ### Exports
 
-`@enso-ui/money`:
+`@liberu-ui/money`:
 - `Money`
 
 ## Usage
 Import the desired component(s):
 ```js
-import Money from '@enso-ui/money';
+import Money from '@liberu-ui/money';
 ```
 
 ### Money
@@ -87,4 +87,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

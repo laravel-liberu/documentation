@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Forms
 
-![NPM License](https://img.shields.io/npm/l/@enso-ui/forms.svg)
-![npm download](https://img.shields.io/npm/dm/@enso-ui/forms.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/forms.svg)
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/forms.svg)
-![npm version](https://img.shields.io/npm/v/@enso-ui/forms.svg)
+![NPM License](https://img.shields.io/npm/l/@liberu-ui/forms.svg)
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/forms.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/forms.svg)
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/forms.svg)
+![npm version](https://img.shields.io/npm/v/@liberu-ui/forms.svg)
 
 Vue Form Package
 
@@ -16,13 +16,13 @@ Can be used outside of the Enso ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-Should be used with its backend [sibling](https://github.com/laravel-enso/FormBuilder)
+Should be used with its backend [sibling](https://github.com/laravel-liberu/FormBuilder)
 
 ## Installation
 
 Install the package:
 ```
-yarn add @enso-ui/forms
+yarn add @liberu-ui/forms
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -32,7 +32,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 ### Exports
 
-`@enso-ui/forms/bulma`:
+`@liberu-ui/forms/bulma`:
 - `VueForm`,
 - `EnsoForm`,
 - `FormField`,
@@ -45,15 +45,15 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 - `TextareaField`,
 - `TimeField`,
 
-`@enso-ui/forms/renderless`:
+`@liberu-ui/forms/renderless`:
 - `CoreForm`,
 
 ## Usage
 
 Import the desired forms(s):
 ```js
-import { EnsoForm, VueForm } from '@enso-ui/forms/bulma';
-import CoreForm from '@enso-ui/forms/renderless';
+import { EnsoForm, VueForm } from '@liberu-ui/forms/bulma';
+import CoreForm from '@liberu-ui/forms/renderless';
 ```
 
 ### CoreForm
@@ -165,16 +165,16 @@ through the VueForm component and available here:
 #### Example
 
 ```vue
-<enso-form class="box has-background-light raises-on-hover"/>
+<liberu-form class="box has-background-light raises-on-hover"/>
 ```
 
 ```vue
-<enso-form class="box has-background-light raises-on-hover"
+<liberu-form class="box has-background-light raises-on-hover"
     :path="route('system.menus.edit', 1, false)"/>
 ```
 
 ```vue
-<enso-form class="box has-background-light raises-on-hover"
+<liberu-form class="box has-background-light raises-on-hover"
     path="/api/system/menus/2/edit"/>
 ```
 
@@ -183,18 +183,18 @@ through the VueForm component and available here:
 ##### Vue Template
 ```vue
 <template>
-    <enso-form class="box has-background-light raises-on-hover"
+    <liberu-form class="box has-background-light raises-on-hover"
         @ready="init"
         ref="form">
         <template v-slot:showtab="props">
             <form-field v-bind="props"
                 @input="toggleTab2($event)"/>
         </template>
-    </enso-form>
+    </liberu-form>
 </template>
 
 <script>
-    import { EnsoForm, FormField } from '@enso-ui/forms/bulma';
+    import { EnsoForm, FormField } from '@liberu-ui/forms/bulma';
     
     export default {
         name: 'Create',
@@ -227,18 +227,18 @@ Some forms require display-dependencies between one or more field and others. Ex
 ##### Vue Template
 ```vue
 <template>
-    <enso-form class="box has-background-light raises-on-hover"
+    <liberu-form class="box has-background-light raises-on-hover"
         @ready="init"
         ref="form">
         <template v-slot:hasAddress="props">
             <form-field v-bind="props"
                 @input="toggleAddressFields($event)"/>
         </template>
-    </enso-form>
+    </liberu-form>
 </template>
 
 <script>
-    import { EnsoForm, FormField } from '@enso-ui/forms/bulma';
+    import { EnsoForm, FormField } from '@liberu-ui/forms/bulma';
     
     export default {
         name: 'Create',
@@ -361,4 +361,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

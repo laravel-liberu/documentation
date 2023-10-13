@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Tabs
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/tabs.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/tabs.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/tabs.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/tabs.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/tabs.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/tabs.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/tabs.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/tabs.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/tabs.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/tabs.svg) 
 
 Simply Tabs
 
@@ -24,24 +24,24 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/tabs
+yarn add @liberu-ui/tabs
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
-import { Tabs, Tab } from '@enso-ui/tabs/bulma';
+import { Tabs, Tab } from '@liberu-ui/tabs/bulma';
 ```
 
 ### Exports
 
-`@enso-ui/tabs/bulma`:
+`@liberu-ui/tabs/bulma`:
 - `Tab`
 - `Tabs`
 - `EnsoTabs`
 
-`@enso-ui/tabs/renderless`:
+`@liberu-ui/tabs/renderless`:
 - `CoreTabs`
 
 ### bulma/Tabs.vue
@@ -182,4 +182,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

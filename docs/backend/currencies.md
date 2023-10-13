@@ -4,29 +4,29 @@ sidebarDepth: 3
 
 # Currencies
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7c8421322ab94fc2a612bcf56bc0f294)](https://www.codacy.com/app/laravel-enso/currencies?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/currencies&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7c8421322ab94fc2a612bcf56bc0f294)](https://www.codacy.com/app/laravel-liberu/currencies?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/currencies&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/194647672/shield?branch=master)](https://github.styleci.io/repos/194647672)
-[![License](https://poser.pugx.org/laravel-enso/currencies/license)](https://packagist.org/packages/laravel-enso/currencies)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/currencies/downloads)](https://packagist.org/packages/laravel-enso/currencies)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/currencies/version)](https://packagist.org/packages/laravel-enso/currencies)
+[![License](https://poser.pugx.org/laravel-liberu/currencies/license)](https://packagist.org/packages/laravel-liberu/currencies)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/currencies/downloads)](https://packagist.org/packages/laravel-liberu/currencies)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/currencies/version)](https://packagist.org/packages/laravel-liberu/currencies)
 
 Currencies is an extension of the Laravel Enso environment, 
 designed for the management of currencies and exchange rates.
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
-* install the package using composer: `composer require laravel-enso/currencies`
+* install the package using composer: `composer require laravel-liberu/currencies`
 * add the following alias in `vue.config.js`
     ```js
     configureWebpack: {
         resolve: {
             alias: {
                 //other aliases
-                '@currencies': `${__dirname}/node_modules/@enso-ui/currencies/src/bulma`,
+                '@currencies': `${__dirname}/node_modules/@liberu-ui/currencies/src/bulma`,
             },
         },
     ```

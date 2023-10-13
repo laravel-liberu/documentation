@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # UI
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/ui.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/ui.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/ui.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/ui.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/ui.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/ui.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/ui.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/ui.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/ui.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/ui.svg) 
 
 Laravel Enso UI
 
@@ -24,7 +24,7 @@ renderless structure
 ### Depends on
 
 - `fontawesome`
-- `@enso-ui/bulma`
+- `@liberu-ui/bulma`
 - `animate.css`
 - `axios`
 - `bulma`
@@ -48,9 +48,9 @@ renderless structure
 - `zxcvbn`
 
 ### Exports
-`@enso-ui/ui/bulma`:
+`@liberu-ui/ui/bulma`:
 - `App.vue`, the main VueJS application component
-`@enso-ui/ui/renderless`:
+`@liberu-ui/ui/renderless`:
 - `App.vue`
 
 ## Documentation
@@ -75,4 +75,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

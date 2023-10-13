@@ -42,10 +42,10 @@ minimum number of characters and more. Please check out the specifics by taking 
     - `verify-active-state` - checks users's status (active/inactive)
     - `action-logger` - logs for each request the user's id, route, url, the HTTP verb and the timestamps
     - `verify-route-access` - authorizes the access to a route
-    - `impersonate` - starts and stops the [impersonation](https://github.com/laravel-enso/Impersonate) of a user, when needed
-    - `set-language` - sets the user's chosen language ([localisation](https://github.com/laravel-enso/Localisation))
+    - `impersonate` - starts and stops the [impersonation](https://github.com/laravel-liberu/Impersonate) of a user, when needed
+    - `set-language` - sets the user's chosen language ([localisation](https://github.com/laravel-liberu/Localisation))
 
-## UserGroups, [Roles](https://github.com/laravel-enso/RoleManager) & Users
+## UserGroups, [Roles](https://github.com/laravel-liberu/RoleManager) & Users
 - users represent the operators using the application
 - roles are collections of permissions
 - user groups (previously owners) can represent departments, types, and even companies
@@ -73,7 +73,7 @@ Are loaded at application load, and refreshed as needed
 
 ## Environment
 - config
-    - within the configuration enso folder `config/enso` you'll find configuration files for the various laravel-enso packages 
+    - within the configuration liberu folder `config/liberu` you'll find configuration files for the various laravel-liberu packages 
     - inside 'config.php' various options may be set, such as the folders used for storing uploads, avatars, etc. the caching duration and the timestamps format when displaying them, the app version displayed in the footer and more 
 
 ## Telemetry

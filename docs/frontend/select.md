@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Select
 
-![NPM License](https://img.shields.io/npm/l/@enso-ui/select.svg)
-![npm download](https://img.shields.io/npm/dm/@enso-ui/select.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/select.svg)
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/select.svg)
-![npm version](https://img.shields.io/npm/v/@enso-ui/select.svg)
+![NPM License](https://img.shields.io/npm/l/@liberu-ui/select.svg)
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/select.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/select.svg)
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/select.svg)
+![npm version](https://img.shields.io/npm/v/@liberu-ui/select.svg)
 
 Vue Select Component
 
@@ -16,13 +16,13 @@ Can be used outside of the Enso ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-Can be used with its backend [sibling](https://github.com/laravel-enso/Select)
+Can be used with its backend [sibling](https://github.com/laravel-liberu/Select)
 
 ## Installation
 
 Install the package:
 ```
-yarn add @enso-ui/select
+yarn add @liberu-ui/select
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -32,19 +32,19 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 ### Exports
 
-`@enso-ui/select/bulma`:
+`@liberu-ui/select/bulma`:
 - `EnsoSelect`
 - `VueSelect`
 - `Tag`
-`@enso-ui/select`:
+`@liberu-ui/select`:
 - `CoreSelect`
 
 ## Usage
 
 Import the desired component(s):
 ```js
-import { VueSelect, Tag, EnsoSelect } from '@enso-ui/select/bulma';
-import CoreSelect from '@enso-ui/select/renderless';
+import { VueSelect, Tag, EnsoSelect } from '@liberu-ui/select/bulma';
+import CoreSelect from '@liberu-ui/select/renderless';
 ```
 
 ### CoreSelect
@@ -138,7 +138,7 @@ Designed to be used within the **Enso ecosystem**, requiring less configuration 
 
 #### Example:
 ```vue
-<enso-select source="administration.userGroups.options"
+<liberu-select source="administration.userGroups.options"
     v-model="myModel"
     label="name"/>
 ```
@@ -173,4 +173,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

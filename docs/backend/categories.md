@@ -4,29 +4,29 @@ sidebarDepth: 3
 
 # Categories
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/aa6c0917f8c6425f87eb94c01d84b2f8)](https://www.codacy.com/app/laravel-enso/categories?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/categories&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/aa6c0917f8c6425f87eb94c01d84b2f8)](https://www.codacy.com/app/laravel-liberu/categories?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/categories&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85484767/shield?branch=master)](https://github.styleci.io/repos/85484767)
-[![License](https://poser.pugx.org/laravel-enso/categories/license)](https://packagist.org/packages/laravel-enso/categories)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/categories/downloads)](https://packagist.org/packages/laravel-enso/categories)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/categories/version)](https://packagist.org/packages/laravel-enso/categories)
+[![License](https://poser.pugx.org/laravel-liberu/categories/license)](https://packagist.org/packages/laravel-liberu/categories)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/categories/downloads)](https://packagist.org/packages/laravel-liberu/categories)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/categories/version)](https://packagist.org/packages/laravel-liberu/categories)
 
-Categories package for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Categories package for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
-This package cannot work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package cannot work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
-* install the package using composer: `composer require laravel-enso/categories`
-* install the front-end ui package using yarn: `yarn add @enso-ui/categories`
+* install the package using composer: `composer require laravel-liberu/categories`
+* install the front-end ui package using yarn: `yarn add @liberu-ui/categories`
 * adds the following alias in `client/vue.config.js`
 ```
 configureWebpack: {
     resolve: {
         alias: {
             //other aliases
-            '@categories': `${__dirname}/node_modules/@enso-ui/categories/src/bulma`,
+            '@categories': `${__dirname}/node_modules/@liberu-ui/categories/src/bulma`,
         },
     },
 ```

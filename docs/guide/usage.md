@@ -17,7 +17,7 @@ the dependencies' minor version, so that you can continue to receive updates.
 
 When updating Enso and introducing possibly breaking changes, we might make available various Artisan commands, 
 meant to make the update easier.
-You can see the list of currently available commands by running `php artisan enso` 
+You can see the list of currently available commands by running `php artisan liberu` 
 and remember to always consult the changelog.
 
 ### Notes 
@@ -43,7 +43,7 @@ values that have been added in the application.
 
 If you want to add/contribute a new language, there are a few steps involved, so please check out 
 the [relevant section](https://docs.liberu.co.uk/backend/localisation.html#contributing) of 
-the [localisation](https://github.com/laravel-enso/Localisation) package.
+the [localisation](https://github.com/laravel-liberu/Localisation) package.
 
 ## Icons
 We want to keep the compiled size down throughout the Enso ecosystem so icons are imported selectively.
@@ -64,9 +64,9 @@ For languages, flag icons should be imported in:
 ## Email templates
 By default, Enso comes with a few templates for the email notifications used out of the box.
 If you need to create other templates or change the existing ones, a good starting point is to publish
-the existing templates, using the `php artisan vendor:publish --tag=enso-mail` artisan command.
+the existing templates, using the `php artisan vendor:publish --tag=liberu-mail` artisan command.
 
-The blade templates will be published in the  `resources/views/vendor/laravel-enso` folder.
+The blade templates will be published in the  `resources/views/vendor/laravel-liberu` folder.
 You'll find the template layout and partials in the `core` folder and sub-folders.   
 
 By default, the Mailtrap [token variable](https://documentation.mailgun.com/en/latest/user_manual.html#tracking-unsubscribes) is used for the unsubscribe link. 
@@ -78,7 +78,7 @@ In order to achieve this, you need to customize just 2 files, one for each layer
 
 ### Back-End
 - you need a `StateBuilder` implementation class, 
-that should be given as a value for the `enso.config.stateBuilder` configuration parameter 
+that should be given as a value for the `liberu.config.stateBuilder` configuration parameter 
 - by default, the `App\Classes\LocalState` is provided as blank template
 - the additional state data is returned to the front end via the same response (`/core/api`) as the core Enso state data
 

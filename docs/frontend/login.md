@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Login
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/loader.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/loader.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/loader.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/loader.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/loader.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/loader.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/loader.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/loader.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/loader.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/loader.svg) 
 
 Login page is part of the Enso core.
 
@@ -16,7 +16,7 @@ Login page is part of the Enso core.
 
 ### Changing login logo
 
-in **"\@enso-ui\ui\src\bulma\pages\auth\components\AuthForm.vue"**
+in **"\@liberu-ui\ui\src\bulma\pages\auth\components\AuthForm.vue"**
 ```
 <figure class="image logo is-clickable"
     @click="$router.push({ name: 'login' })">
@@ -32,14 +32,14 @@ Inside **.env**
 ```
 APP_NAME=<MyAppName>
 ```
-Will be passed to **"/@enso-ui/ui/src/bulma/pages/auth/components/AuthForm.vue"**
+Will be passed to **"/@liberu-ui/ui/src/bulma/pages/auth/components/AuthForm.vue"**
 ```
 {{ meta.appName }}
 ```
 
 ### Control Quotes page-after-login 
 
-Inside **"\config\enso\config.php"**
+Inside **"\config\liberu\config.php"**
 ```
 'showQuote' => true,
 ```
@@ -62,4 +62,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

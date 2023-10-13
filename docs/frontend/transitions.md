@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Transitions
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/transitions.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/transitions.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/transitions.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/transitions.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/transitions.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/transitions.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/transitions.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/transitions.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/transitions.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/transitions.svg) 
 
 A collection of Vue transitions
 
@@ -20,19 +20,19 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/transitions
+yarn add @liberu-ui/transitions
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
-import { Fade, FadeDown, ... } from '@enso-ui/transitions';
+import { Fade, FadeDown, ... } from '@liberu-ui/transitions';
 ```
 
 ### Exports
 
-`@enso-ui/transitions`:
+`@liberu-ui/transitions`:
 - `Fade`,
 - `FadeLeft`,
 - `FadeRight`,
@@ -92,4 +92,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

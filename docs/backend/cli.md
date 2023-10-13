@@ -4,19 +4,19 @@ sidebarDepth: 3
 
 # Cli
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e4d11f692afc45769893a5299069e643)](https://www.codacy.com/app/laravel-enso/cli?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/Cli&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e4d11f692afc45769893a5299069e643)](https://www.codacy.com/app/laravel-liberu/cli?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/Cli&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/95235866/shield?branch=master)](https://github.styleci.io/repos/95235866)
-[![License](https://poser.pugx.org/laravel-enso/cli/license)](https://packagist.org/packages/laravel-enso/cli)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/cli/downloads)](https://packagist.org/packages/laravel-enso/cli)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/cli/version)](https://packagist.org/packages/laravel-enso/cli)
+[![License](https://poser.pugx.org/laravel-liberu/cli/license)](https://packagist.org/packages/laravel-liberu/cli)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/cli/downloads)](https://packagist.org/packages/laravel-liberu/cli)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/cli/version)](https://packagist.org/packages/laravel-liberu/cli)
 
-Resource generation CLI & Structure Manager dependency for [Laravel Enso](https://github.com/laravel-enso/Enso)
+Resource generation CLI & Structure Manager dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso)
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/cli/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/cli/videos/bulma_demo01.mp4)
+[![Watch the demo](https://laravel-liberu.github.io/cli/screenshots/bulma_001_thumb.png)](https://laravel-liberu.github.io/cli/videos/bulma_demo01.mp4)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
@@ -29,7 +29,7 @@ Comes pre-installed in Enso.
 - comes with an easy to use CLI for the creation of Enso resources
 - can be used to easily insert (default) data, during the install of a package, or later when new routes and permissions are required and can create menus, assign default permissions, etc.
 - when adding menus and permissions, automatic access for the administrator role is added
-- for adding menus and permissions the package relies on laravel-enso/migrator
+- for adding menus and permissions the package relies on laravel-liberu/migrator
     
 ## Usage
 
@@ -42,23 +42,23 @@ You can use it to create:
 * models
 * front-end routes
 * back-end routes
-* [FormBuilder](https://github.com/laravel-enso/FormBuilder)
+* [FormBuilder](https://github.com/laravel-liberu/FormBuilder)
     * form builders
     * json templates (boilerplate)
     * specific validation request
     * form controllers
-* [VueDatatable](https://github.com/laravel-enso/VueDatatable) 
+* [VueDatatable](https://github.com/laravel-liberu/VueDatatable) 
     * table builders
     * table templates (boilerplate)
     * table controllers
-* [Select](https://github.com/laravel-enso/Select)
+* [Select](https://github.com/laravel-liberu/Select)
     * controllers
 
 ### CLI Usage
 
 You may run the CLI with the following command:
 ```bash
-php artisan enso:cli
+php artisan liberu:cli
 ```
 
 You'll be presented with a menu you may use for configuring the creation of resources.
@@ -125,11 +125,11 @@ Choosing this option will toggle the validation that is being normally performed
 before the generation of the structure & files 
 
 ## Commands
-- `php artisan enso::cli` - runs the structure creation CLI 
+- `php artisan liberu::cli` - runs the structure creation CLI 
 
 ## Publishes
 - `php artisan vendor:publish --tag=structuremanager-config` - configuration file
-- `php artisan vendor:publish --tag=enso-config` - a common alias for when wanting to update the configuration,
+- `php artisan vendor:publish --tag=liberu-config` - a common alias for when wanting to update the configuration,
 once a newer version is released, usually used with the `--force` flag
 
 ## Contributions

@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Roles
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/roles.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/roles.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/roles.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/roles.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/roles.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/roles.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/roles.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/roles.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/roles.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/roles.svg) 
 
 ## Usage
 The component cannot be used outside of the Enso ecosystem.
@@ -21,7 +21,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/roles
+yarn add @liberu-ui/roles
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -34,4 +34,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

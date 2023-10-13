@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Modal
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/modal.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/modal.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/modal.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/modal.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/modal.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/modal.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/modal.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/modal.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/modal.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/modal.svg) 
 
 Simple Modal Component
 
@@ -18,26 +18,26 @@ The component can be used outside of the Enso ecosystem.
 
 Install the package:
 ```
-yarn add @enso-ui/modal
+yarn add @liberu-ui/modal
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 ### Exports
 
-`@enso-ui/modal/bulma`:
+`@liberu-ui/modal/bulma`:
 - `Modal`
 - `ModalCard`
 
-`@enso-ui/modal/renderless`:
+`@liberu-ui/modal/renderless`:
 - `CoreModal`
 
 ## Usage
 
 Import the desired component(s):
 ```js
-import { Modal, ModalCard } from '@enso-ui/modal/bulma';
-import { CoreModal } from '@enso-ui/modal/renderless';
+import { Modal, ModalCard } from '@liberu-ui/modal/bulma';
+import { CoreModal } from '@liberu-ui/modal/renderless';
 ```
 
 ### CoreModal.vue
@@ -122,4 +122,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

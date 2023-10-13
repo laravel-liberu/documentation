@@ -4,19 +4,19 @@ sidebarDepth: 3
 
 # Enums
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6e342eff10f24db5b89be5fe203e424d)](https://www.codacy.com/app/laravel-enso/enums?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/enums&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6e342eff10f24db5b89be5fe203e424d)](https://www.codacy.com/app/laravel-liberu/enums?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/enums&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85492361/shield?branch=master)](https://github.styleci.io/repos/85492361)
-[![License](https://poser.pugx.org/laravel-enso/enums/license)](https://packagist.org/packages/laravel-enso/datatable)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/enums/downloads)](https://packagist.org/packages/laravel-enso/enums)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/enums/version)](https://packagist.org/packages/laravel-enso/enums)
+[![License](https://poser.pugx.org/laravel-liberu/enums/license)](https://packagist.org/packages/laravel-liberu/datatable)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/enums/downloads)](https://packagist.org/packages/laravel-liberu/enums)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/enums/version)](https://packagist.org/packages/laravel-liberu/enums)
 
-Enum dependency for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Enum dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
-This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/enums/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/enums/screenshots/bulma_001.png)
+[![Watch the demo](https://laravel-liberu.github.io/enums/screenshots/bulma_001_thumb.png)](https://laravel-liberu.github.io/enums/screenshots/bulma_001.png)
 
 <sup>click on the photo to view a a larger screenshot</sup>
 
@@ -26,7 +26,7 @@ Comes pre-installed in Enso.
 
 To install outside of Enso:
 
-1. install the package `composer require laravel-enso/enums` 
+1. install the package `composer require laravel-liberu/enums` 
 
 
 ## Features

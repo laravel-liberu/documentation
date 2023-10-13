@@ -4,22 +4,22 @@ sidebarDepth: 3
 
 # Menus
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3f2ff01a8dc04044a13c6f4fbb9e21bd)](https://www.codacy.com/app/laravel-enso/menus?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/menus&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3f2ff01a8dc04044a13c6f4fbb9e21bd)](https://www.codacy.com/app/laravel-liberu/menus?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/menus&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/94800927/shield?branch=master)](https://github.styleci.io/repos/94800927)
-[![License](https://poser.pugx.org/laravel-enso/menus/license)](https://packagist.org/packages/laravel-enso/menus)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/menus/downloads)](https://packagist.org/packages/laravel-enso/menus)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/menus/version)](https://packagist.org/packages/laravel-enso/menus)
+[![License](https://poser.pugx.org/laravel-liberu/menus/license)](https://packagist.org/packages/laravel-liberu/menus)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/menus/downloads)](https://packagist.org/packages/laravel-liberu/menus)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/menus/version)](https://packagist.org/packages/laravel-liberu/menus)
 
 
-Menu Manager dependency for [Laravel Enso](https://github.com/laravel-enso/Enso)
+Menu Manager dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso)
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/menus/screenshots/bulma_012_thumb.png)](https://laravel-enso.github.io/menus/videos/bulma_menu_management.webm)
+[![Watch the demo](https://laravel-liberu.github.io/menus/screenshots/bulma_012_thumb.png)](https://laravel-liberu.github.io/menus/videos/bulma_menu_management.webm)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
@@ -34,7 +34,7 @@ Comes pre-installed in Enso.
 
 ## Usage
 
-Please note that because we want to keep the compiled size down, throughout the enso ecosystem, 
+Please note that because we want to keep the compiled size down, throughout the liberu ecosystem, 
 icons are imported selectively.
 
 What this means for the menu editor, is that when adding/changing a menu, you should also make sure you 
@@ -57,7 +57,7 @@ import the required icons. The proper place to include the new icons is:
 ## Publishes
 
 - `php artisan vendor:publish --tag=menus-factory` - the factory for the `Menu` model
-- `php artisan vendor:publish --tag=enso-factories` - a common alias for when wanting to update the factories,
+- `php artisan vendor:publish --tag=liberu-factories` - a common alias for when wanting to update the factories,
 once a newer version is released, usually used with the `--force` flag
 
 ## Contributions

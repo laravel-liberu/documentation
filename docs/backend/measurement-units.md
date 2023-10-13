@@ -4,23 +4,23 @@ sidebarDepth: 3
 
 # Measurement Units
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/28c7bcb0b5d2451783990e0a151f0a44)](https://www.codacy.com/app/laravel-enso/measurement-units?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/measurement-units&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/28c7bcb0b5d2451783990e0a151f0a44)](https://www.codacy.com/app/laravel-liberu/measurement-units?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/measurement-units&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85624363/shield?branch=master)](https://github.styleci.io/repos/85624363)
-[![License](https://poser.pugx.org/laravel-enso/measurement-units/license)](https://packagist.org/packages/laravel-enso/measurement-units)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/measurement-units/downloads)](https://packagist.org/packages/laravel-enso/measurement-units)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/measurement-units/version)](https://packagist.org/packages/laravel-enso/measurement-units)
+[![License](https://poser.pugx.org/laravel-liberu/measurement-units/license)](https://packagist.org/packages/laravel-liberu/measurement-units)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/measurement-units/downloads)](https://packagist.org/packages/laravel-liberu/measurement-units)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/measurement-units/version)](https://packagist.org/packages/laravel-liberu/measurement-units)
 
-Measurement units dependency for [Laravel Enso](https://github.com/laravel-enso/enso)
+Measurement units dependency for [Laravel Enso](https://github.com/laravel-liberu/liberu)
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/liberu) ecosystem.
 
-The front end assets that utilize this api are present in the [measurement-units](https://github.com/enso-ui/measurement-units) package.
+The front end assets that utilize this api are present in the [measurement-units](https://github.com/liberu-ui/measurement-units) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
-- install using composer `composer require laravel-enso/measurement-units`
+- install using composer `composer require laravel-liberu/measurement-units`
 - run the migrations `php artisan migrate`
 
 If you want to also insert the default measurement unit, publish both the factory and the seeder:

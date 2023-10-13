@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Datepicker
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/datepicker.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/datepicker.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/datepicker.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/datepicker.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/datepicker.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/datepicker.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/datepicker.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/datepicker.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/datepicker.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/datepicker.svg) 
 
 Vue Datepicker renderless component based on Flatpickr with a bulma template.
 
@@ -20,23 +20,23 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/datepicker
+yarn add @liberu-ui/datepicker
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
-import { Datepicker } from '@enso-ui/datepicker/bulma';
+import { Datepicker } from '@liberu-ui/datepicker/bulma';
 ```
 
 ## Exports
 
-`@enso-ui/datepicker/bulma`:
+`@liberu-ui/datepicker/bulma`:
 - `Datepicker`,
 - `EnsoDatepicker`,
 
-`@enso-ui/datepicker/renderless`:
+`@liberu-ui/datepicker/renderless`:
 - `CoreDatepicker`,
 
 Note that this package has a couple of external dependencies. 
@@ -45,7 +45,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 ## Usage
 
 ```js
-import { Datepicker } from '@enso-ui/datepicker/bulma';
+import { Datepicker } from '@liberu-ui/datepicker/bulma';
 
 <datepicker v-model="birthday"
     week-numbers
@@ -135,4 +135,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Directives
 
-![NPM License](https://img.shields.io/npm/l/@enso-ui/directives.svg)
-![npm download](https://img.shields.io/npm/dm/@enso-ui/directives.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/directives.svg)
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/directives.svg)
-![npm version](https://img.shields.io/npm/v/@enso-ui/directives.svg)
+![NPM License](https://img.shields.io/npm/l/@liberu-ui/directives.svg)
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/directives.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/directives.svg)
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/directives.svg)
+![npm version](https://img.shields.io/npm/v/@liberu-ui/directives.svg)
 
 Vue Directives Package
 
@@ -20,14 +20,14 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/directives
+yarn add @liberu-ui/directives
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 ### Exports
 
-`@enso-ui/directives`:
+`@liberu-ui/directives`:
 - `clickOutside`,
 - `focus`,
 - `hljs`,
@@ -38,7 +38,7 @@ yarn add @enso-ui/directives
 
 Import the desired directive(s):
 ```js
-import { clickOutside, focus } from '@enso-ui/directives';
+import { clickOutside, focus } from '@liberu-ui/directives';
 ```
 
 ### clickOutside.js
@@ -112,7 +112,7 @@ Example:
 
 ### Exports
 
-`@enso-ui/directives/renderless`:
+`@liberu-ui/directives/renderless`:
 - `clickOutside`,
 - `focus`,
 - `hljs`,
@@ -141,4 +141,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

@@ -8,7 +8,7 @@ module.exports = {
         }
     },
     head: [
-        ['link', { rel: 'icon', href: `/enso.png` }],
+        ['link', { rel: 'icon', href: `/liberu.png` }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -19,7 +19,7 @@ module.exports = {
         ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
     ],
     themeConfig: {
-        repo: 'laravel-enso/documentation',
+        repo: 'laravel-liberu/documentation',
         docsDir: "docs",
         lastUpdated: true,
         editLinks: true,

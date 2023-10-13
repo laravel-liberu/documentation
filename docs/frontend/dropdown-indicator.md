@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Dropdown Indicator
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/dropdown.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/dropdown.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/dropdown.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/dropdown.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/dropdown.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/dropdown.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/dropdown.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/dropdown.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/dropdown.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/dropdown.svg) 
 
 A simple dropdown indicator
 
@@ -20,19 +20,19 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/dropdown-indicator
+yarn add @liberu-ui/dropdown-indicator
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
-import DropdownIndicator from '@enso-ui/dropdown-indicator';
+import DropdownIndicator from '@liberu-ui/dropdown-indicator';
 ```
 
 ### Exports
 
-`@enso-ui/dropdown-indicator`:
+`@liberu-ui/dropdown-indicator`:
 - `DropdownIndicator`,
 
 
@@ -42,7 +42,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 ## Usage
 Import the desired component(s):
 ```js
-import DropdownIndicator from '@enso-ui/dropdown-indicator';
+import DropdownIndicator from '@liberu-ui/dropdown-indicator';
 ```
 
 ### Dropdown
@@ -80,4 +80,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

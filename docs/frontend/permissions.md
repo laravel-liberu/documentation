@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Permissions
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/permissions.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/permissions.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/permissions.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/permissions.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/permissions.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/permissions.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/permissions.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/permissions.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/permissions.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/permissions.svg) 
 
 ## Usage
 The component cannot be used outside of the Enso ecosystem.
@@ -21,7 +21,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/permissions
+yarn add @liberu-ui/permissions
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -34,4 +34,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

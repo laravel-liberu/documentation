@@ -4,23 +4,23 @@ sidebarDepth: 3
 
 # Logs
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/28c7bcb0b5d2451783990e0a151f0a44)](https://www.codacy.com/app/laravel-enso/logs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/logs&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/28c7bcb0b5d2451783990e0a151f0a44)](https://www.codacy.com/app/laravel-liberu/logs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/logs&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85624363/shield?branch=master)](https://github.styleci.io/repos/85624363)
-[![License](https://poser.pugx.org/laravel-enso/logs/license)](https://packagist.org/packages/laravel-enso/logs)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/logs/downloads)](https://packagist.org/packages/laravel-enso/logs)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/logs/version)](https://packagist.org/packages/laravel-enso/logs)
+[![License](https://poser.pugx.org/laravel-liberu/logs/license)](https://packagist.org/packages/laravel-liberu/logs)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/logs/downloads)](https://packagist.org/packages/laravel-liberu/logs)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/logs/version)](https://packagist.org/packages/laravel-liberu/logs)
 
-Log management dependency for [Laravel Enso](https://github.com/laravel-enso/Enso)
+Log management dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso)
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Screenshot](https://laravel-enso.github.io/logs/screenshots/bulma_004_thumb.png)](https://laravel-enso.github.io/logs/screenshots/bulma_004.png)
+[![Screenshot](https://laravel-liberu.github.io/logs/screenshots/bulma_004_thumb.png)](https://laravel-liberu.github.io/logs/screenshots/bulma_004.png)
 
-[![Screenshot](https://laravel-enso.github.io/logs/screenshots/bulma_005_thumb.png)](https://laravel-enso.github.io/logs/screenshots/bulma_005.png)
+[![Screenshot](https://laravel-liberu.github.io/logs/screenshots/bulma_005_thumb.png)](https://laravel-liberu.github.io/logs/screenshots/bulma_005.png)
 
 ## Installation
 

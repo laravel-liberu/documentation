@@ -4,22 +4,22 @@ sidebarDepth: 3
 
 # Discussions
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a6aa6c234c4945379d7c6c143733aa43)](https://www.codacy.com/app/laravel-enso/discussions?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/discussions&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a6aa6c234c4945379d7c6c143733aa43)](https://www.codacy.com/app/laravel-liberu/discussions?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/discussions&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/148976842/shield?branch=master)](https://github.styleci.io/repos/148976842)
-[![License](https://poser.pugx.org/laravel-enso/discussions/license)](https://packagist.org/packages/laravel-enso/discussions)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/discussions/downloads)](https://packagist.org/packages/laravel-enso/discussions)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/discussions/downloads)](https://packagist.org/packages/laravel-enso/discussions)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/discussions/version)](https://packagist.org/packages/laravel-enso/discussions)
+[![License](https://poser.pugx.org/laravel-liberu/discussions/license)](https://packagist.org/packages/laravel-liberu/discussions)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/discussions/downloads)](https://packagist.org/packages/laravel-liberu/discussions)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/discussions/downloads)](https://packagist.org/packages/laravel-liberu/discussions)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/discussions/version)](https://packagist.org/packages/laravel-liberu/discussions)
 
-Discussions for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Discussions for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [accessories](https://github.com/enso-ui/accessories) package.
+The front end assets that utilize this api are present in the [accessories](https://github.com/liberu-ui/accessories) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/discussions/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/discussions/videos/bulma_discussions.mp4)
+[![Watch the demo](https://laravel-liberu.github.io/discussions/screenshots/bulma_001_thumb.png)](https://laravel-liberu.github.io/discussions/videos/bulma_discussions.mp4)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
@@ -44,7 +44,7 @@ Comes pre-installed in Enso.
 
 ### Configuration
 
-The `config/enso/discussions.php` configuration file, lets you customize the following:
+The `config/liberu/discussions.php` configuration file, lets you customize the following:
 
 - `onDelete`, string, option that manages the case when the commentable entity is deleted and it has attached discussions.
 Valid options are `cascade`, `restrict` | default is `cascade`
@@ -66,7 +66,7 @@ For example:
 
 - `php artisan vendor:publish --tag=discussions-config` - configuration files
 - `php artisan vendor:publish --tag=discussions-factory` - the factory used for discussions
-- `php artisan vendor:publish --tag=enso-factories` - a common alias for when wanting to update the factories 
+- `php artisan vendor:publish --tag=liberu-factories` - a common alias for when wanting to update the factories 
 once a newer version is released, usually used with the `--force` flag
 
 ## Contributions

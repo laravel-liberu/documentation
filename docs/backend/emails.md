@@ -4,15 +4,15 @@ sidebarDepth: 3
 
 # Emails
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ff415bb65927479a80d173622d3c11ed)](https://www.codacy.com/app/laravel-enso/emails?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/emails&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ff415bb65927479a80d173622d3c11ed)](https://www.codacy.com/app/laravel-liberu/emails?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/emails&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/134861936/shield?branch=master)](https://github.styleci.io/repos/134861936)
-[![License](https://poser.pugx.org/laravel-enso/emails/license)](https://packagist.org/packages/laravel-enso/emails)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/emails/downloads)](https://packagist.org/packages/laravel-enso/emails)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/emails/version)](https://packagist.org/packages/laravel-enso/emails)
+[![License](https://poser.pugx.org/laravel-liberu/emails/license)](https://packagist.org/packages/laravel-liberu/emails)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/emails/downloads)](https://packagist.org/packages/laravel-liberu/emails)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/emails/version)](https://packagist.org/packages/laravel-liberu/emails)
 
 The package is an extension for the Laravel Enso environment, designed for sending emails/notifications.
 
-This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -22,7 +22,7 @@ The package does not installed by default in Enso.
 
 To install:
 
-* add the package using composer: `composer require laravel-enso/emails`
+* add the package using composer: `composer require laravel-liberu/emails`
 * add the following line in the `schedule` function in `app\Console\Kernel.php` class:
     ```
         ...
@@ -46,7 +46,7 @@ To install:
         resolve: {
             alias: {
               //other aliases
-              '@emails': `${__dirname}/../vendor/laravel-enso/emails/src/resources/js`,
+              '@emails': `${__dirname}/../vendor/laravel-liberu/emails/src/resources/js`,
             },
         },
     ```

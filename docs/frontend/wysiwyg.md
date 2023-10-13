@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # WYSIWYG
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/wysiwyg.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/wysiwyg.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/wysiwyg.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/wysiwyg.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/wysiwyg.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/wysiwyg.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/wysiwyg.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/wysiwyg.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/wysiwyg.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/wysiwyg.svg) 
 
 What-you-see-is-what-you-get text editor
 
@@ -24,14 +24,14 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/wysiwyg
+yarn add @liberu-ui/wysiwyg
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
-import Wysiwyg from '@enso-ui/wysiwyg/bulma';
+import Wysiwyg from '@liberu-ui/wysiwyg/bulma';
 ```
 
 Note that this package has a couple of external dependencies. 
@@ -39,7 +39,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 ### Exports
 
-`@enso-ui/wysiwyg/bulma`:
+`@liberu-ui/wysiwyg/bulma`:
 - `Wysiwyg`,
 
 ### bulma/Uploader.vue
@@ -89,4 +89,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

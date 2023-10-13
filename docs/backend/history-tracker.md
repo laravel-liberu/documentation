@@ -4,15 +4,15 @@ sidebarDepth: 3
 
 # HistoryTracker
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/71c1e5e3e2c940fa8f3fb0ebda9db1fb)](https://www.codacy.com/app/laravel-enso/history-tracker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/history-tracker&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/71c1e5e3e2c940fa8f3fb0ebda9db1fb)](https://www.codacy.com/app/laravel-liberu/history-tracker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/history-tracker&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85500161/shield?branch=master)](https://github.styleci.io/repos/85500161)
-[![License](https://poser.pugx.org/laravel-enso/history-tracker/license)](https://packagist.org/packages/laravel-enso/history-tracker)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/history-tracker/downloads)](https://packagist.org/packages/laravel-enso/history-tracker)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/history-tracker/version)](https://packagist.org/packages/laravel-enso/history-tracker)
+[![License](https://poser.pugx.org/laravel-liberu/history-tracker/license)](https://packagist.org/packages/laravel-liberu/history-tracker)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/history-tracker/downloads)](https://packagist.org/packages/laravel-liberu/history-tracker)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/history-tracker/version)](https://packagist.org/packages/laravel-liberu/history-tracker)
 
 Simple to use, customizable, Laravel Model history tracking utility trait
 
-This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -20,7 +20,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Comes pre-installed in Enso.
 
-To install outside of Enso: `composer require laravel-enso/history-tracker`
+To install outside of Enso: `composer require laravel-liberu/history-tracker`
 
 ## Features
 

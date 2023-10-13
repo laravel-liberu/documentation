@@ -4,32 +4,32 @@ sidebarDepth: 3
 
 # Calendar
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7c8421322ab94fc2a612bcf56bc0f294)](https://www.codacy.com/app/laravel-enso/calendar?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/calendar&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7c8421322ab94fc2a612bcf56bc0f294)](https://www.codacy.com/app/laravel-liberu/calendar?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/calendar&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/194647672/shield?branch=master)](https://github.styleci.io/repos/194647672)
-[![License](https://poser.pugx.org/laravel-enso/calendar/license)](https://packagist.org/packages/laravel-enso/calendar)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/calendar/downloads)](https://packagist.org/packages/laravel-enso/calendar)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/calendar/version)](https://packagist.org/packages/laravel-enso/calendar)
+[![License](https://poser.pugx.org/laravel-liberu/calendar/license)](https://packagist.org/packages/laravel-liberu/calendar)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/calendar/downloads)](https://packagist.org/packages/laravel-liberu/calendar)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/calendar/version)](https://packagist.org/packages/laravel-liberu/calendar)
 
 Calendar is a Laravel Enso package designed for the management of 
 calendars and calendar events
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Screenshot](https://laravel-enso.github.io/calendar/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/calendar/screenshots/bulma_001.png)
+[![Screenshot](https://laravel-liberu.github.io/calendar/screenshots/bulma_001_thumb.png)](https://laravel-liberu.github.io/calendar/screenshots/bulma_001.png)
 
-[![Screenshot](https://laravel-enso.github.io/calendar/screenshots/bulma_002_thumb.png)](https://laravel-enso.github.io/calendar/screenshots/bulma_002.png)
+[![Screenshot](https://laravel-liberu.github.io/calendar/screenshots/bulma_002_thumb.png)](https://laravel-liberu.github.io/calendar/screenshots/bulma_002.png)
 
 <sup>click on the photo to view a large size screenshot</sup>
 
 ## Installation
 
-- install the back-end API package using composer: `composer require laravel-enso/calendar`
-- install the front-end resources: `yarn add @enso-ui/calendar`
+- install the back-end API package using composer: `composer require laravel-liberu/calendar`
+- install the front-end resources: `yarn add @liberu-ui/calendar`
 - add a calendar alias in `webpack.mix.js` under the `alias` object:
     ```js
-    '@calendar': `${__dirname}/node_modules/@enso-ui/calendar/src/bulma`,
+    '@calendar': `${__dirname}/node_modules/@liberu-ui/calendar/src/bulma`,
     ``` 
 - in `resources/js/router.js` file, verify that `RouteMerger` is imported, or import it
 
@@ -105,7 +105,7 @@ In order to create custom calendars, just three steps are necessary:
 
 ## Commands
 
-- `php artisan enso:calendar:notify` - sends the calendar event reminder notifications
+- `php artisan liberu:calendar:notify` - sends the calendar event reminder notifications
 
 ::: tip
 The package is also using the command internally, as it calls it every minute to send any 
@@ -116,15 +116,15 @@ pending reminders.
 ## Publishes
 
 - `php artisan vendor:publish --tag=calendar-config` - the configuration
-- `php artisan vendor:publish --tag=enso-config` - a common alias for when wanting to update the config,
+- `php artisan vendor:publish --tag=liberu-config` - a common alias for when wanting to update the config,
 once a newer version is released, can be used with the `--force` flag
 - `php artisan vendor:publish --tag=calendar-provider` - a default calendar provider
 - `php artisan vendor:publish --tag=calendar-factory` - a calendar factory
-- `php artisan vendor:publish --tag=enso-factories` - a common alias for when wanting to update the factories 
+- `php artisan vendor:publish --tag=liberu-factories` - a common alias for when wanting to update the factories 
 once a newer version is released, usually used with the `--force` flag
 - `php artisan vendor:publish --tag=calendar-email-template` - the email template,
  so you can customize it
-- `php artisan vendor:publish --tag=enso-mail` - a common alias for when wanting to update the email 
+- `php artisan vendor:publish --tag=liberu-mail` - a common alias for when wanting to update the email 
 templates once a newer version is released, usually used with the `--force` flag
 
 ## Contributions

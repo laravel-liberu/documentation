@@ -4,21 +4,21 @@ sidebarDepth: 3
 
 # Form Builder
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a3cf79a9ca584f08b3be0246cb488788)](https://www.codacy.com/app/laravel-enso/forms?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/forms&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a3cf79a9ca584f08b3be0246cb488788)](https://www.codacy.com/app/laravel-liberu/forms?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/forms&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/99695155/shield?branch=master)](https://github.styleci.io/repos/99695155)
-[![License](https://poser.pugx.org/laravel-enso/forms/license)](https://packagist.org/packages/laravel-enso/forms)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/forms/downloads)](https://packagist.org/packages/laravel-enso/forms)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/forms/version)](https://packagist.org/packages/laravel-enso/forms)
+[![License](https://poser.pugx.org/laravel-liberu/forms/license)](https://packagist.org/packages/laravel-liberu/forms)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/forms/downloads)](https://packagist.org/packages/laravel-liberu/forms)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/forms/version)](https://packagist.org/packages/laravel-liberu/forms)
 
-JSON-based Form builder for [Laravel Enso](https://github.com/laravel-enso/Enso)
+JSON-based Form builder for [Laravel Enso](https://github.com/laravel-liberu/Enso)
 
-This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end implementation that utilizes this api is present in the [forms](https://github.com/enso-ui/forms) package.
+The front end implementation that utilizes this api is present in the [forms](https://github.com/liberu-ui/forms) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/forms/screenshots/bulma_109_thumb.png)](https://laravel-enso.github.io/forms/videos/bulma_demo_01.mp4)
+[![Watch the demo](https://laravel-liberu.github.io/forms/screenshots/bulma_109_thumb.png)](https://laravel-liberu.github.io/forms/videos/bulma_demo_01.mp4)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
@@ -28,11 +28,11 @@ Comes pre-installed in Enso.
 
 To install outside of Enso:
 
-1. install the package `composer require laravel-enso/forms` 
+1. install the package `composer require laravel-liberu/forms` 
 
 2. if needed, publish and customize the config
 
-3. install the front end for the api implementation: `yarn add @enso-ui/forms`
+3. install the front end for the api implementation: `yarn add @liberu-ui/forms`
 
 ## Features
 
@@ -68,7 +68,7 @@ When using the form builder functionality, you will be needing several items:
 - the JSON template that configures the form's layout, inputs, actions, etc.
 - a basic Form builder class (which can also contain complex logic for complex scenarios)
 - usually, an endpoint that reads the configuration and returns a properly formatted form configuration
-- importing the `VueForm` / `EnsoForm` VueJS components from the [forms](https://github.com/enso-ui/forms)
+- importing the `VueForm` / `EnsoForm` VueJS components from the [forms](https://github.com/liberu-ui/forms)
     package inside your page/component that renders the form based on the configuration
 - one or more endpoints for your form's actions, such as storing, updating, deleting.
 
@@ -303,7 +303,7 @@ Valid actions are `create`, `store`, `update` and `delete`
 - `meta(string $field, string $param, $value)`, sets a specific value, for a meta param, for the given field
 - `append($prop, $value)`, adds a property and its value in the template root-level `params` object, 
     in order to make it available in the front-end. Note that this `params` object is different 
-    than the `params` object you can pass as a property to the `vue-form` / `enso-form` VueJS components
+    than the `params` object you can pass as a property to the `vue-form` / `liberu-form` VueJS components
 - `routeParams($params)`, set the given parameters as the route parameters
 - `authorize(bool $authorize)`, set the authorize flag for the form. If this value is not given 
     in the form, the global default value is taken from the config file
@@ -323,7 +323,7 @@ It also provides the 2 methods used for generating the properly formatted form c
 ## Global Configuration
 
 The Form builder can be globally configured from within its own configuration file, 
-found at `config/enso/forms.php`:
+found at `config/liberu/forms.php`:
 
 ```php
     'validations' => 'local',
@@ -497,7 +497,7 @@ Should be used in conjunction with `autosave` so that the number of requests to 
 
 Flag that sets whether authorization checks should be made. 
 If not given in the form, the option is read from the global form configuration, 
-found at `config/enso/forms.php`. If given, it overrides the global value.
+found at `config/liberu/forms.php`. If given, it overrides the global value.
  
 #### params
 - Is: optional 
@@ -512,7 +512,7 @@ Notes:
     using the `append('attribute', $value)` function on your (`LaravelLiberu\forms\app\Classes\Form`) 
     form object instance 
 - also, this `params` object is different to the optional `params` property of the 
-    `vue-form` / `enso-form` VueJS component. Keep in mind that *this* `params` 
+    `vue-form` / `liberu-form` VueJS component. Keep in mind that *this* `params` 
     object will be accessible in the `vue-form`'s data object, while the *other* `params` 
     is a property on the `vue-form`
 
@@ -522,7 +522,7 @@ Notes:
 - Value: may be one of `"left"`, `"center"`, `"right"` 
 
 It specifies the relative position of the divider. 
-If not given, the option is read from the global form configuration, found at `config/enso/forms.php`
+If not given, the option is read from the global form configuration, found at `config/liberu/forms.php`
 
 #### tabs     
 - Is: optional 
@@ -1131,7 +1131,7 @@ by calling the options method on the form builder object:
 $form->options('type_id', MyTypes::all())
 ```
 
-Note: For more examples, you may look into the [Enso](https://github.com/laravel-enso) packages for various use cases.
+Note: For more examples, you may look into the [Enso](https://github.com/laravel-liberu) packages for various use cases.
 
 ## Publishes
 

@@ -4,21 +4,21 @@ sidebarDepth: 3
 
 # Charts
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/aa6c0917f8c6425f87eb94c01d84b2f8)](https://www.codacy.com/app/laravel-enso/charts?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/charts&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/aa6c0917f8c6425f87eb94c01d84b2f8)](https://www.codacy.com/app/laravel-liberu/charts?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/charts&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85484767/shield?branch=master)](https://github.styleci.io/repos/85484767)
-[![License](https://poser.pugx.org/laravel-enso/charts/license)](https://packagist.org/packages/laravel-enso/charts)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/charts/downloads)](https://packagist.org/packages/laravel-enso/charts)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/charts/version)](https://packagist.org/packages/laravel-enso/charts)
+[![License](https://poser.pugx.org/laravel-liberu/charts/license)](https://packagist.org/packages/laravel-liberu/charts)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/charts/downloads)](https://packagist.org/packages/laravel-liberu/charts)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/charts/version)](https://packagist.org/packages/laravel-liberu/charts)
 
 Server-side data builder for charts.
 
-This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end implementation that utilizes this api is present in the [enso-ui/charts](https://github.com/enso-ui/charts) package.
+The front end implementation that utilizes this api is present in the [liberu-ui/charts](https://github.com/liberu-ui/charts) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/charts/screenshots/bulma_cap002_thumb.png)](https://laravel-enso.github.io/charts/videos/bulma_demo_01.webm)
+[![Watch the demo](https://laravel-liberu.github.io/charts/screenshots/bulma_cap002_thumb.png)](https://laravel-liberu.github.io/charts/videos/bulma_demo_01.webm)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
@@ -28,11 +28,11 @@ Comes pre-installed in Enso.
 
 To install outside of Enso:
 
-1. `composer require laravel-enso/charts`
+1. `composer require laravel-liberu/charts`
 
 2. publish the config with `php artisan vendor:publish --tag=charts-config` and customize as needed
 
-3. install the api implementation for the front end: `yarn add @enso-ui/charts`
+3. install the api implementation for the front end: `yarn add @liberu-ui/charts`
 
 ## Features
 
@@ -63,7 +63,7 @@ public function line()
 2. create a route for each chart dataset, add permissions if needed, etc.
 
 3. add the front end components to your pages. 
-For more information about the front end, see [enso-ui/charts](https://github.com/enso-ui/charts). 
+For more information about the front end, see [liberu-ui/charts](https://github.com/liberu-ui/charts). 
 
 ## Configuration
 
@@ -73,14 +73,14 @@ The package's configuration file offers a few options for customization:
 
 ::: tip Note
 
-The Chart builder will use the colors from `app/config/enso/charts.php` (in that order) for the given data-sets.
+The Chart builder will use the colors from `app/config/liberu/charts.php` (in that order) for the given data-sets.
 
 :::
 
 ## Publishes
 
 - `php artisan vendor:publish --tag=charts-config` - the configuration file
-- `php artisan vendor:publish --tag=enso-config` - a common alias for when wanting to update the config,
+- `php artisan vendor:publish --tag=liberu-config` - a common alias for when wanting to update the config,
 once a newer version is released, usually used with the `--force` flag
 
 ## Contributions

@@ -4,17 +4,17 @@ sidebarDepth: 3
 
 # Charts
 
-![NPM License](https://img.shields.io/npm/l/@enso-ui/charts.svg)
-![npm download](https://img.shields.io/npm/dm/@enso-ui/charts.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/charts.svg)
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/charts.svg)
-![npm version](https://img.shields.io/npm/v/@enso-ui/charts.svg)
+![NPM License](https://img.shields.io/npm/l/@liberu-ui/charts.svg)
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/charts.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/charts.svg)
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/charts.svg)
+![npm version](https://img.shields.io/npm/v/@liberu-ui/charts.svg)
 
 Vue Charts Package
 
 Can be used outside of the Enso ecosystem.
 
-Should be used with its backend [sibling](https://github.com/laravel-enso/Charts)
+Should be used with its backend [sibling](https://github.com/laravel-liberu/Charts)
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -22,7 +22,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/charts
+yarn add @liberu-ui/charts
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -32,22 +32,22 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 ### Exports
 
-`@enso-ui/charts/bulma`:
+`@liberu-ui/charts/bulma`:
 - `Chart`,
 - `ChartCard`,
 - `EnsoChartCard`,
-`@enso-ui/charts`:
+`@liberu-ui/charts`:
 - `Chart`,
 - `colors`,
 
 ## Usage
 Import the desired component(s):
 ```js
-import { EnsoChartCard as ChartCard } from '@enso-ui/charts/bulma';
+import { EnsoChartCard as ChartCard } from '@liberu-ui/charts/bulma';
 ```
 
 ```js
-import { Chart, colors } from '@enso-ui/charts';
+import { Chart, colors } from '@liberu-ui/charts';
 ```
 
 ### ChartCard.vue
@@ -140,4 +140,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Tables
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/tables.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/tables.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/tables.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/tables.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/tables.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/tables.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/tables.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/tables.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/tables.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/tables.svg) 
 
 DataTable Vue Components with a Bulma implementation over a renderless core
 
@@ -16,13 +16,13 @@ Can be used outside of the Enso ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-Should be used with its backend [sibling](https://github.com/laravel-enso/VueDatatable)
+Should be used with its backend [sibling](https://github.com/laravel-liberu/VueDatatable)
 
 ## Installation
 
 Install the package:
 ```
-yarn add @enso-ui/tables @enso-ui/toastr
+yarn add @liberu-ui/tables @liberu-ui/toastr
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -33,11 +33,11 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 ### Exports
 
-`@enso-ui/tables/bulma`:
+`@liberu-ui/tables/bulma`:
 - `EnsoTable`, 
 - `VueTable`, 
 
-`@enso-ui/tables/renderless`:
+`@liberu-ui/tables/renderless`:
 - `CoreTable`,
 
 ## Usage
@@ -48,8 +48,8 @@ Import the following in a main js file:
 ```js
 import Vue from 'vue';
 import axios from 'axios';
-import Toastr from '@enso-ui/toastr/bulma';
-import ToastrPlugin from '@enso-ui/toastr';
+import Toastr from '@liberu-ui/toastr/bulma';
+import ToastrPlugin from '@liberu-ui/toastr';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 Vue.component('fa', FontAwesomeIcon);
@@ -67,7 +67,7 @@ window.axios = axios;
 
 Then in any given page import the component:
 ```js
-import { VueTable } from '@enso-ui/tables/bulma';
+import { VueTable } from '@liberu-ui/tables/bulma';
 ```
 
 And then use it within your page:
@@ -85,12 +85,12 @@ little as possible configuration.
 
 Import the Enso version of the component:
 ```js
-import { EnsoTable } from '@enso-ui/tables/bulma';
+import { EnsoTable } from '@liberu-ui/tables/bulma';
 ```
 
 Use the component in your page:
 ```js
-<enso-table class="box is-paddingless raises-on-hover"
+<liberu-table class="box is-paddingless raises-on-hover"
     id="permissions"/>
 ```
 
@@ -100,7 +100,7 @@ the path's suffix will be `initTable`.
 
 Of course, you can still manually specify and thus overwrite this determined path:
 ```js
-<enso-table class="box is-paddingless raises-on-hover"
+<liberu-table class="box is-paddingless raises-on-hover"
     path="/api/system/permissions/initTable"
     id="permissions"/>
 ```
@@ -149,7 +149,7 @@ your own custom version.
     If using within Enso, you may forgo specifying a format, 
     and can set the `dateFormat` attribute as `null`, in which case, the back-end
     component will use the global Enso format, from the configuration file 
-    (`config('enso.config.dateTimeFormat')`).
+    (`config('liberu.config.dateTimeFormat')`).
     
     Note that even if null, you're still required to specify the `dateFormat` attribute
     for date intervals.
@@ -217,7 +217,7 @@ requiring minimal configuration from the dev.
 
 Example:
 ```vue
-<enso-table class="box is-paddingless raises-on-hover is-rounded"
+<liberu-table class="box is-paddingless raises-on-hover is-rounded"
     :path="route('system.permissions.initTable')"
     id="permissions"/>
 ```
@@ -264,7 +264,7 @@ By default, there are five search modes available:
 - `'doesntContain'` (represented with __~~abc~~__).
     - Note: Usually, when this search mode is applied on tables, only a single set of data 
     is targeted (ex: exclude rows if a specific and targeted data cell contains the search text).   
-    When used on enso table all data sets (row's data cells) are targeted. Thus search will
+    When used on liberu table all data sets (row's data cells) are targeted. Thus search will
     behave as follows: in the given example, rows will be excluded only if __all__ data cells
     contain the string "__abc__" . 
     - Note: Empty row data cells will be ignored by `'doesntContain'` search mode. 
@@ -742,4 +742,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

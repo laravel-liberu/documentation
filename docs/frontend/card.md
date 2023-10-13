@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Card
 
-![NPM License](https://img.shields.io/npm/l/@enso-ui/card.svg)
-![npm download](https://img.shields.io/npm/dm/@enso-ui/card.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/card.svg)
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/card.svg)
-![npm version](https://img.shields.io/npm/v/@enso-ui/card.svg)
+![NPM License](https://img.shields.io/npm/l/@liberu-ui/card.svg)
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/card.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/card.svg)
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/card.svg)
+![npm version](https://img.shields.io/npm/v/@liberu-ui/card.svg)
 
 Bulma styled Card component
 
@@ -21,7 +21,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 Install the package:
 
 ```
-yarn add @enso-ui/card
+yarn add @liberu-ui/card
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -31,7 +31,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 ### Exports
 
-`@enso-ui/card/bulma`:
+`@liberu-ui/card/bulma`:
 - `Card`,
 - `CardHeader`,
 - `CardContent`,
@@ -49,7 +49,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 Import the desired component(s):
 
 ```js
-import { Card, CardHeader, ... } from '@enso-ui/card/bulma';
+import { Card, CardHeader, ... } from '@liberu-ui/card/bulma';
 ```
 
 ### Card
@@ -79,7 +79,7 @@ You may use transitions for the cards.
 import {
     Card, CardHeader, CardControl, CardCollapse, CardContent,
     CardFooter, CardFooterItem,
-} from '@enso-ui/card/bulma';
+} from '@liberu-ui/card/bulma';
 
 <card collapsible>
     <card-header>
@@ -329,4 +329,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

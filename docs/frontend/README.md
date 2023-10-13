@@ -1,7 +1,7 @@
 ### Front-End Components
 
 Collection of Front End components available on NPM, 
-under the `@enso-ui` [organization](https://www.npmjs.com/search?q=%40enso-ui).
+under the `@liberu-ui` [organization](https://www.npmjs.com/search?q=%40liberu-ui).
 
 Select a component on the left to view more.
 

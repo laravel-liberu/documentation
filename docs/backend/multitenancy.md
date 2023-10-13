@@ -4,17 +4,17 @@ sidebarDepth: 3
 
 # Multitenancy
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dc3819bf2c654b3d8dcaaed8898b214f)](https://www.codacy.com/app/laravel-enso/ActionLogger?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/ActionLogger&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dc3819bf2c654b3d8dcaaed8898b214f)](https://www.codacy.com/app/laravel-liberu/ActionLogger?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/ActionLogger&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://styleci.io/repos/85554059/shield?branch=master)](https://styleci.io/repos/85554059)
-[![License](https://poser.pugx.org/laravel-enso/multitenancy/license)](https://packagist.org/packages/laravel-enso/multitenancy)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/multitenancy/downloads)](https://packagist.org/packages/laravel-enso/multitenancy)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/multitenancy/version)](https://packagist.org/packages/laravel-enso/multitenancy)
+[![License](https://poser.pugx.org/laravel-liberu/multitenancy/license)](https://packagist.org/packages/laravel-liberu/multitenancy)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/multitenancy/downloads)](https://packagist.org/packages/laravel-liberu/multitenancy)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/multitenancy/version)](https://packagist.org/packages/laravel-liberu/multitenancy)
 
 Multitenancy dependency for [Laravel Enso](https://liberu.co.uk).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -70,7 +70,7 @@ The class is used in the `Multitenancy` middleware .
 
 ### Commands
 
-#### php artisan enso:tenant:create-database {tenantId}
+#### php artisan liberu:tenant:create-database {tenantId}
 
 The command creates the database/schema for the given tenant ID.
 
@@ -80,7 +80,7 @@ If the given argument is `all` instead of an ID, it will create databases for AL
 The class uses the `CreateDatabaseJob` job to perform the actual database creation
 :::
 
-#### php artisan enso:tenant:drop-database {tenantId}
+#### php artisan liberu:tenant:drop-database {tenantId}
 
 The command drops the database/schema for the given tenant ID.
 
@@ -90,7 +90,7 @@ If the given argument is `all` instead of an ID, it will drop the databases for 
 The class uses the `DropDatabaseJob` job to perform the actual database drop.
 :::
 
-#### php artisan enso:tenant:drop-tables {tenantId}
+#### php artisan liberu:tenant:drop-tables {tenantId}
 
 The command drops the tenant's tables for the given tenant ID.
 
@@ -103,7 +103,7 @@ but preserve the schema.
 The class uses the `DropTablesJob` job to perform the actual tables drop.
 :::
 
-#### php artisan enso:tenant:migrate
+#### php artisan liberu:tenant:migrate
 
 The command will perform the migrations for each tenant.
 

@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Loader
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/loader.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/loader.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/loader.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/loader.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/loader.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/loader.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/loader.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/loader.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/loader.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/loader.svg) 
 
 Simple loader
 
@@ -20,21 +20,21 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/loader
+yarn add @liberu-ui/loader
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 ### Exports
 
-`@enso-ui/loader/bulma`:
+`@liberu-ui/loader/bulma`:
 - `Loader`
 
 ## Usage
 
 Import the desired component(s):
 ```js
-import Loader from '@enso-ui/loader/bulma';
+import Loader from '@liberu-ui/loader/bulma';
 ```
 
 ### Loader.vue
@@ -68,4 +68,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

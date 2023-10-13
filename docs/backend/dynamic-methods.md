@@ -4,19 +4,19 @@ sidebarDepth: 3
 
 # Dynamic Methods
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6e342eff10f24db5b89be5fe203e424d)](https://www.codacy.com/app/laravel-enso/dynamic-methods?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/dynamic-methods&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6e342eff10f24db5b89be5fe203e424d)](https://www.codacy.com/app/laravel-liberu/dynamic-methods?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/dynamic-methods&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85492361/shield?branch=master)](https://github.styleci.io/repos/85492361)
-[![License](https://poser.pugx.org/laravel-enso/dynamic-methods/license)](https://packagist.org/packages/laravel-enso/datatable)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/dynamic-methods/downloads)](https://packagist.org/packages/laravel-enso/dynamic-methods)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/dynamic-methods/version)](https://packagist.org/packages/laravel-enso/dynamic-methods)
+[![License](https://poser.pugx.org/laravel-liberu/dynamic-methods/license)](https://packagist.org/packages/laravel-liberu/datatable)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/dynamic-methods/downloads)](https://packagist.org/packages/laravel-liberu/dynamic-methods)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/dynamic-methods/version)](https://packagist.org/packages/laravel-liberu/dynamic-methods)
 
-Dynamic method dependency for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Dynamic method dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
-This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/dynamic-methods/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/dynamic-methods/screenshots/bulma_001.png)
+[![Watch the demo](https://laravel-liberu.github.io/dynamic-methods/screenshots/bulma_001_thumb.png)](https://laravel-liberu.github.io/dynamic-methods/screenshots/bulma_001.png)
 
 <sup>click on the photo to view a a larger screenshot</sup>
 
@@ -26,7 +26,7 @@ Comes pre-installed in Enso.
 
 To install outside of Enso:
 
-1. install the package `composer require laravel-enso/dynamic-methods` 
+1. install the package `composer require laravel-liberu/dynamic-methods` 
 
 
 ## Features

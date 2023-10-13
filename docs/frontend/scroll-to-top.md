@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Scroll to top
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/scroll-to-top.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/scroll-to-top.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/scroll-to-top.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/scroll-to-top.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/scroll-to-top.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/scroll-to-top.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/scroll-to-top.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/scroll-to-top.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/scroll-to-top.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/scroll-to-top.svg) 
 
 Scroll to top functionality
 
@@ -20,24 +20,24 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/scroll-to-top
+yarn add @liberu-ui/scroll-to-top
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 ### Exports
 
-`@enso-ui/scroll-to-top/bulma`:
+`@liberu-ui/scroll-to-top/bulma`:
 - `ScrollToTop`
-`@enso-ui/scroll-to-top/renderless`:
+`@liberu-ui/scroll-to-top/renderless`:
 - `CoreScrollToTop`
 
 ## Usage
 
 Import the desired component(s):
 ```js
-import ScrollToTop from '@enso-ui/scroll-to-top/bulma';
-import CoreScrollToTop from '@enso-ui/scroll-to-top/renderless';
+import ScrollToTop from '@liberu-ui/scroll-to-top/bulma';
+import CoreScrollToTop from '@liberu-ui/scroll-to-top/renderless';
 ```
 
 ### ScrollToTop
@@ -66,4 +66,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

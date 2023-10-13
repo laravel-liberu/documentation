@@ -4,21 +4,21 @@ sidebarDepth: 3
 
 # Select
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c6799b0705d34fdab5cd100e7cfe6312)](https://www.codacy.com/app/laravel-enso/select?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/select&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c6799b0705d34fdab5cd100e7cfe6312)](https://www.codacy.com/app/laravel-liberu/select?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/select&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85489940/shield?branch=master)](https://github.styleci.io/repos/85489940)
-[![License](https://poser.pugx.org/laravel-enso/select/license)](https://packagist.org/packages/laravel-enso/select)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/select/downloads)](https://packagist.org/packages/laravel-enso/select)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/select/version)](https://packagist.org/packages/laravel-enso/select)
+[![License](https://poser.pugx.org/laravel-liberu/select/license)](https://packagist.org/packages/laravel-liberu/select)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/select/downloads)](https://packagist.org/packages/laravel-liberu/select)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/select/version)](https://packagist.org/packages/laravel-liberu/select)
 
 Single and multi-select server-side option list builder
 
-This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [select](https://github.com/enso-ui/select) package.
+The front end assets that utilize this api are present in the [select](https://github.com/liberu-ui/select) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/select/screenshots/bulma_031.png)](https://laravel-enso.github.io/select/videos/bulma_demo_01.mp4)
+[![Watch the demo](https://laravel-liberu.github.io/select/screenshots/bulma_031.png)](https://laravel-liberu.github.io/select/videos/bulma_demo_01.mp4)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
@@ -28,8 +28,8 @@ Comes pre-installed in Enso.
 
 To install outside of Enso:
 
-1. install the package: `composer require laravel-enso/select`
-2. install the front end api implementation: `yarn add @enso-ui/select`
+1. install the package: `composer require laravel-liberu/select`
+2. install the front end api implementation: `yarn add @liberu-ui/select`
 
 ## Features
 

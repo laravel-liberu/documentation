@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Tree View
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/tree-view.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/tree-view.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/tree-view.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/tree-view.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/tree-view.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/tree-view.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/tree-view.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/tree-view.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/tree-view.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/tree-view.svg) 
 
 A Tree View component, allowing the user to select an item from the tree.
 
@@ -20,19 +20,19 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/tree-view
+yarn add @liberu-ui/tree-view
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
-import TreeView from '@enso-ui/tree-view/bulma';
+import TreeView from '@liberu-ui/tree-view/bulma';
 ```
 
 ### Exports
 
-`@enso-ui/tree-view/bulma`:
+`@liberu-ui/tree-view/bulma`:
 - `TreeView`,
 
 Note that this package has a couple of external dependencies. 
@@ -41,7 +41,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 ## Usage
 Import the desired component(s):
 ```js
-import TreeView from '@enso-ui/tree-view/bulma';
+import TreeView from '@liberu-ui/tree-view/bulma';
 ```
 
 ### TreeView
@@ -77,4 +77,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

@@ -4,15 +4,15 @@ sidebarDepth: 3
 
 # Calendar
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/calendar.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/calendar.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/calendar.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/calendar.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/calendar.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/calendar.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/calendar.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/calendar.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/calendar.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/calendar.svg) 
 
-[![Screenshot](https://laravel-enso.github.io/calendar/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/calendar/screenshots/bulma_001.png)
+[![Screenshot](https://laravel-liberu.github.io/calendar/screenshots/bulma_001_thumb.png)](https://laravel-liberu.github.io/calendar/screenshots/bulma_001.png)
 
-[![Screenshot](https://laravel-enso.github.io/calendar/screenshots/bulma_002_thumb.png)](https://laravel-enso.github.io/calendar/screenshots/bulma_002.png)
+[![Screenshot](https://laravel-liberu.github.io/calendar/screenshots/bulma_002_thumb.png)](https://laravel-liberu.github.io/calendar/screenshots/bulma_002.png)
 
 <sup>click on the photo to view a large size screenshot</sup>
 
@@ -28,7 +28,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/calendar
+yarn add @liberu-ui/calendar
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -58,4 +58,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

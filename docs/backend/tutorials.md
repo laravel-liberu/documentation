@@ -5,23 +5,23 @@ sidebarDepth: 3
 # Tutorial Manager
 
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/282735fb74e647c4b630056271b66d77)](https://www.codacy.com/app/laravel-enso/tutorials?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/tutorials&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/282735fb74e647c4b630056271b66d77)](https://www.codacy.com/app/laravel-liberu/tutorials?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/tutorials&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85628545/shield?branch=master)](https://github.styleci.io/repos/85628545)
-[![License](https://poser.pugx.org/laravel-enso/tutorials/license)](https://packagist.org/packages/laravel-enso/tutorials)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/tutorials/downloads)](https://packagist.org/packages/laravel-enso/tutorials)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/tutorials/version)](https://packagist.org/packages/laravel-enso/tutorials)
+[![License](https://poser.pugx.org/laravel-liberu/tutorials/license)](https://packagist.org/packages/laravel-liberu/tutorials)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/tutorials/downloads)](https://packagist.org/packages/laravel-liberu/tutorials)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/tutorials/version)](https://packagist.org/packages/laravel-liberu/tutorials)
 
-Tutorial management dependency for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Tutorial management dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Screenshot](https://laravel-enso.github.io/tutorials/screenshots/bulma_023_thumb.png)](https://laravel-enso.github.io/tutorials/screenshots/bulma_023.png)
+[![Screenshot](https://laravel-liberu.github.io/tutorials/screenshots/bulma_023_thumb.png)](https://laravel-liberu.github.io/tutorials/screenshots/bulma_023.png)
 
-[![Watch the demo](https://laravel-enso.github.io/tutorials/screenshots/bulma_026_thumb.png)](https://laravel-enso.github.io/tutorials/videos/bulma_demo_01.webm)
+[![Watch the demo](https://laravel-liberu.github.io/tutorials/screenshots/bulma_026_thumb.png)](https://laravel-liberu.github.io/tutorials/videos/bulma_demo_01.webm)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
@@ -46,7 +46,7 @@ Comes pre-installed in Enso.
 
 ## Publishes
 - `php artisan vendor:publish --tag=tutorials-factory` - the factory for the `Tutorial` model
-- `php artisan vendor:publish --tag=enso-factories` - a common alias for when wanting to update the factories,
+- `php artisan vendor:publish --tag=liberu-factories` - a common alias for when wanting to update the factories,
 once a newer version is released, usually used with the `--force` flag
 
 ## Contributions

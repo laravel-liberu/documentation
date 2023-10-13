@@ -114,7 +114,7 @@ you'll be able to use `git status` to see a list of changes.
 
 To get started, open a terminal window in the root of your project and type:
 ```shell
-php artisan enso:cli
+php artisan liberu:cli
 ```
 
 You'll be greeted with a list of options:
@@ -510,7 +510,7 @@ with the vendor and package name.
 ```shell
 Package configuration:
 name => 
-vendor => laravel-enso
+vendor => laravel-liberu
 config => ✗
 providers => ✗
 
@@ -521,7 +521,7 @@ providers => ✗
  > foo
 
  vendor:
- > laravel-enso
+ > laravel-liberu
 
  config (yes/no) [no]:
  > y
@@ -977,7 +977,7 @@ if the tests are failing, please let us know as that might speed up the troubles
 ## Themes
 
 If you want to use a different theme instead of, or thoroughly customize the themes supplied with Enso, 
-you should use as example the default themes, available on the `client/node_modules/@enso-ui/themes` path.
+you should use as example the default themes, available on the `client/node_modules/@liberu-ui/themes` path.
 
 You may create a patch using `patch-package` for the `themes` package and customize them to your heart's desire.
 

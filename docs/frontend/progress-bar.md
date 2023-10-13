@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Progress Bar
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/progress-bar.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/progress-bar.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/progress-bar.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/progress-bar.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/progress-bar.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/progress-bar.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/progress-bar.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/progress-bar.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/progress-bar.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/progress-bar.svg) 
 
 Progress Bar
 
@@ -20,21 +20,21 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/progress-bar
+yarn add @liberu-ui/progress-bar
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 ### Exports
 
-`@enso-ui/progress-bar`:
+`@liberu-ui/progress-bar`:
 - `ProgressBar`
 
 ## Usage
 
 Import the desired component(s):
 ```js
-import ProgressBar from '@enso-ui/progress-bar';
+import ProgressBar from '@liberu-ui/progress-bar';
 ```
 
 ### ProgressBar
@@ -75,4 +75,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

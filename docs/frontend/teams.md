@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Teams
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/teams.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/teams.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/teams.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/teams.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/teams.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/teams.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/teams.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/teams.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/teams.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/teams.svg) 
 
 ## Usage
 
@@ -24,7 +24,7 @@ Check the full documentation at  [docs.liberu.co.uk](https://docs.liberu.co.uk).
 
 Install the package:
 ```
-yarn add @enso-ui/teams
+yarn add @liberu-ui/teams
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -37,4 +37,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

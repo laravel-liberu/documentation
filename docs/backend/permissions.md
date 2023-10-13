@@ -4,21 +4,21 @@ sidebarDepth: 3
 
 # Permissions
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f321064c5cc74a3b914aab81854266b4)](https://www.codacy.com/app/laravel-enso/permissions?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/permissions&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f321064c5cc74a3b914aab81854266b4)](https://www.codacy.com/app/laravel-liberu/permissions?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/permissions&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/94779938/shield?branch=master)](https://github.styleci.io/repos/94779938)
-[![License](https://poser.pugx.org/laravel-enso/permissions/license)](https://packagist.org/packages/laravel-enso/permissions)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/permissions/downloads)](https://packagist.org/packages/laravel-enso/permissions)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/permissions/version)](https://packagist.org/packages/laravel-enso/permissions)
+[![License](https://poser.pugx.org/laravel-liberu/permissions/license)](https://packagist.org/packages/laravel-liberu/permissions)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/permissions/downloads)](https://packagist.org/packages/laravel-liberu/permissions)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/permissions/version)](https://packagist.org/packages/laravel-liberu/permissions)
 
-Permissions dependency for [Laravel Enso](https://github.com/laravel-enso/Enso)
+Permissions dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso)
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Screenshot](https://laravel-enso.github.io/permissionsmanager/screenshots/bulma_029_thumb.png)](https://laravel-enso.github.io/permissionsmanager/screenshots/bulma_029.png)
+[![Screenshot](https://laravel-liberu.github.io/permissionsmanager/screenshots/bulma_029_thumb.png)](https://laravel-liberu.github.io/permissionsmanager/screenshots/bulma_029.png)
 
 ## Installation
 
@@ -54,7 +54,7 @@ administrators can easily configure roles
 
 once a newer version is released, usually used with the `--force` flag
 - `php artisan vendor:publish --tag=permissions-factory` - the factory for the `Permission` model
-- `php artisan vendor:publish --tag=enso-factories` - a common alias for when wanting to update the factories,
+- `php artisan vendor:publish --tag=liberu-factories` - a common alias for when wanting to update the factories,
 once a newer version is released, usually used with the `--force` flag
 
 ## Contributions

@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Accessories
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/accessories.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/accessories.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/accessories.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/accessories.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/accessories.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/accessories.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/accessories.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/accessories.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/accessories.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/accessories.svg) 
 
 Accessories
 
@@ -20,7 +20,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/accessories
+yarn add @liberu-ui/accessories
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
@@ -29,7 +29,7 @@ Import the desired component(s):
 ```js
 import {
     Accessories, Addresses, Comments, Discussions, Documents,
-} from '@enso-ui/accessories/bulma';
+} from '@liberu-ui/accessories/bulma';
 ```
 
 Note that this package has a couple of external dependencies. 
@@ -37,7 +37,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 ### Exports
 
-`@enso-ui/accessories/bulma`:
+`@liberu-ui/accessories/bulma`:
 - `Accessories`,
 - `AddressesCard`,
 - `Addresses`,
@@ -57,8 +57,8 @@ The bulma styled container for the various components that acts in a similar fas
 
 #### Example:
 ```vue
-import { Accessories, Addresses, Comments } from '@enso-ui/accessories/bulma';
-import { Tab } from `@enso-ui/tabs/bulma`;
+import { Accessories, Addresses, Comments } from '@liberu-ui/accessories/bulma';
+import { Tab } from `@liberu-ui/tabs/bulma`;
 
 <accessories>
     <template slot-scope="{ count }">
@@ -102,7 +102,7 @@ The components can be used within the `Accesories` or independently.
 
 Bulma styled address manager components
 
-Should be used with their [backend sibling](https://github.com/laravel-enso/addresses)
+Should be used with their [backend sibling](https://github.com/laravel-liberu/addresses)
 
 #### Addresses.vue
 
@@ -126,7 +126,7 @@ Also, when declaring custom fields in the address form template, respective slot
 `AddressForm` component, so you may also add further form customizations.
 
 As an example of such customization, you may take a look at the 
-[RoAddresses](https://github.com/laravel-enso/RoAddresses) package and the `RoAddress.vue` component.
+[RoAddresses](https://github.com/laravel-liberu/RoAddresses) package and the `RoAddress.vue` component.
 
 #### AddressesCard.vue
 
@@ -151,7 +151,7 @@ As an example of such customization, you may take a look at the
 
 Romanian Addresses customization for Addresses
 
-Should be used with their [backend sibling](https://github.com/laravel-enso/ro-addresses)
+Should be used with their [backend sibling](https://github.com/laravel-liberu/ro-addresses)
 
 #### RoAddresses.vue
 
@@ -169,7 +169,7 @@ Takes the same properties as Addresses, see above.
 
 Bulma styled comments manager components.
 
-Should be used with their [backend sibling](https://github.com/laravel-enso/CommentsManager)
+Should be used with their [backend sibling](https://github.com/laravel-liberu/CommentsManager)
 
 #### Comments.vue
 
@@ -206,7 +206,7 @@ Should be used with their [backend sibling](https://github.com/laravel-enso/Comm
 
 Bulma discussion manager components.
 
-Should be used with their [backend sibling](https://github.com/laravel-enso/Discussions)
+Should be used with their [backend sibling](https://github.com/laravel-liberu/Discussions)
 
 #### Discussions.vue
 
@@ -221,7 +221,7 @@ Should be used with their [backend sibling](https://github.com/laravel-enso/Disc
 
 Bulma styled document manager components.
 
-Should be used with their [backend sibling](https://github.com/laravel-enso/DocumentssManager)
+Should be used with their [backend sibling](https://github.com/laravel-liberu/DocumentssManager)
 
 #### Documents.vue
 
@@ -286,7 +286,7 @@ and does not have any properties or controls.
 
 ## Depends on
 
-Discussions are currently built with [vue-quill-editor](https://github.com/surmon-china/vue-quill-editor) & [quill](https://quilljs.com/) but in the near future we will migrate it on our own [wysiywg](https://github.com/enso-ui/wysiwyg)
+Discussions are currently built with [vue-quill-editor](https://github.com/surmon-china/vue-quill-editor) & [quill](https://quilljs.com/) but in the near future we will migrate it on our own [wysiywg](https://github.com/liberu-ui/wysiwyg)
 
 ## Contributions
 
@@ -296,4 +296,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

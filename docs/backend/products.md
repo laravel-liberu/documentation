@@ -4,29 +4,29 @@ sidebarDepth: 3
 
 # Products
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6e342eff10f24db5b89be5fe203e424d)](https://www.codacy.com/app/laravel-enso/products?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/products&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6e342eff10f24db5b89be5fe203e424d)](https://www.codacy.com/app/laravel-liberu/products?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/products&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85492361/shield?branch=master)](https://github.styleci.io/repos/85492361)
-[![License](https://poser.pugx.org/laravel-enso/products/license)](https://packagist.org/packages/laravel-enso/datatable)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/products/downloads)](https://packagist.org/packages/laravel-enso/products)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/products/version)](https://packagist.org/packages/laravel-enso/products)
+[![License](https://poser.pugx.org/laravel-liberu/products/license)](https://packagist.org/packages/laravel-liberu/datatable)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/products/downloads)](https://packagist.org/packages/laravel-liberu/products)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/products/version)](https://packagist.org/packages/laravel-liberu/products)
 
-Products package for [Laravel Enso](https://github.com/laravel-enso/Enso).
+Products package for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
-This package cannot work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package cannot work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
-* install the package using composer: `composer require laravel-enso/products`
-* install the front-end ui package using yarn: `yarn add @enso-ui/products`
+* install the package using composer: `composer require laravel-liberu/products`
+* install the front-end ui package using yarn: `yarn add @liberu-ui/products`
 * adds the following alias in `client/vue.config.js`
 ```
 configureWebpack: {
     resolve: {
         alias: {
             //other aliases
-            '@products': `${__dirname}/node_modules/@enso-ui/products/src/bulma`,
+            '@products': `${__dirname}/node_modules/@liberu-ui/products/src/bulma`,
         },
     },
 ```
@@ -69,7 +69,7 @@ suppliers and default supplier relationships;
 & `$company->manufacturedProducts` relationships.
 - the package's enums are registered automatically to the application's state
 via the `EnumServiceProvider`
-- categories support is available via the `laravel-enso/categories` package, and a category can be set per product, 
+- categories support is available via the `laravel-liberu/categories` package, and a category can be set per product, 
 from the product form; note that a product can only belong to a child category
 - picture support is available out of the box, where product pictures can be uploaded through the product form;
 the pictures are visible in the index page table

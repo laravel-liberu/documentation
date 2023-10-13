@@ -4,11 +4,11 @@ sidebarDepth: 3
 
 # Uploader
 
-![npm license](https://img.shields.io/npm/l/@enso-ui/uploader.svg) 
-![npm download](https://img.shields.io/npm/dm/@enso-ui/uploader.svg) 
-![GitHub top language](https://img.shields.io/github/languages/top/enso-ui/uploader.svg) 
-![GitHub issues](https://img.shields.io/github/issues/enso-ui/uploader.svg) 
-![npm version](https://img.shields.io/npm/v/@enso-ui/uploader.svg) 
+![npm license](https://img.shields.io/npm/l/@liberu-ui/uploader.svg) 
+![npm download](https://img.shields.io/npm/dm/@liberu-ui/uploader.svg) 
+![GitHub top language](https://img.shields.io/github/languages/top/liberu-ui/uploader.svg) 
+![GitHub issues](https://img.shields.io/github/issues/liberu-ui/uploader.svg) 
+![npm version](https://img.shields.io/npm/v/@liberu-ui/uploader.svg) 
 
 Integrated file uploader
 
@@ -23,14 +23,14 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 Install the package:
 ```
-yarn add @enso-ui/uploader
+yarn add @liberu-ui/uploader
 ```
 
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
-import { Uploader, EnsoUploader } from '@enso-ui/uploader/bulma';
+import { Uploader, EnsoUploader } from '@liberu-ui/uploader/bulma';
 ```
 
 Note that this package has a couple of external dependencies. 
@@ -38,11 +38,11 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 ### Exports
 
-`@enso-ui/typeahead/bulma`:
+`@liberu-ui/typeahead/bulma`:
 - `Uploader`,
 - `EnsoUploader`,
 
-`@enso-ui/typeahead/renderless`:
+`@liberu-ui/typeahead/renderless`:
 - `CoreUploader`,
 
 
@@ -78,8 +78,8 @@ designed to be used within the **Enso ecosystem**, requiring less configuration 
 
 Example:
 ```vue
-<enso-uploader url="post/on/my/route">
-</enso-uploader>
+<liberu-uploader url="post/on/my/route">
+</liberu-uploader>
 ```
 
 'Passed-through' properties:
@@ -136,4 +136,4 @@ Thank you to all the people who already contributed to Enso!
 
 ## License
 
-[ISC](https://opensource.org/licenses/ISC)
+[ISC](https://opliberuurce.org/licenses/ISC)

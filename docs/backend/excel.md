@@ -4,21 +4,21 @@ sidebarDepth: 3
 
 # Excel
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/28c7bcb0b5d2451783990e0a151f0a44)](https://www.codacy.com/app/laravel-enso/excel?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/excel&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/28c7bcb0b5d2451783990e0a151f0a44)](https://www.codacy.com/app/laravel-liberu/excel?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/excel&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85624363/shield?branch=master)](https://github.styleci.io/repos/85624363)
-[![License](https://poser.pugx.org/laravel-enso/excel/license)](https://packagist.org/packages/laravel-enso/excel)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/excel/downloads)](https://packagist.org/packages/laravel-enso/excel)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/excel/version)](https://packagist.org/packages/laravel-enso/excel)
+[![License](https://poser.pugx.org/laravel-liberu/excel/license)](https://packagist.org/packages/laravel-liberu/excel)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/excel/downloads)](https://packagist.org/packages/laravel-liberu/excel)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/excel/version)](https://packagist.org/packages/laravel-liberu/excel)
 
-Excel utility package for [Laravel Enso](https://github.com/laravel-enso/Enso)
+Excel utility package for [Laravel Enso](https://github.com/laravel-liberu/Enso)
 
-This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
-install using composer: `composer require laravel-enso/excel`
+install using composer: `composer require laravel-liberu/excel`
 
 ## Features
 

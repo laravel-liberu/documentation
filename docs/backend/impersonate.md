@@ -4,21 +4,21 @@ sidebarDepth: 3
 
 # Impersonate
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fdc8f68f71064cd0b811462ef097879d)](https://www.codacy.com/app/laravel-enso/impersonate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/impersonate&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fdc8f68f71064cd0b811462ef097879d)](https://www.codacy.com/app/laravel-liberu/impersonate?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/impersonate&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/94622194/shield?branch=master)](https://github.styleci.io/repos/94622194)
-[![License](https://poser.pugx.org/laravel-enso/impersonate/license)](https://packagist.org/packages/laravel-enso/impersonate)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/impersonate/downloads)](https://packagist.org/packages/laravel-enso/impersonate)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/impersonate/version)](https://packagist.org/packages/laravel-enso/impersonate)
+[![License](https://poser.pugx.org/laravel-liberu/impersonate/license)](https://packagist.org/packages/laravel-liberu/impersonate)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/impersonate/downloads)](https://packagist.org/packages/laravel-liberu/impersonate)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/impersonate/version)](https://packagist.org/packages/laravel-liberu/impersonate)
 
-User impersonation dependency for [Laravel Enso](https://github.com/laravel-enso/Enso).
+User impersonation dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/impersonate/screenshots/bulma_014_thumb.png)](https://laravel-enso.github.io/impersonate/videos/bulma_how_to_impersonate.webm)
+[![Watch the demo](https://laravel-liberu.github.io/impersonate/screenshots/bulma_014_thumb.png)](https://laravel-liberu.github.io/impersonate/videos/bulma_how_to_impersonate.webm)
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
 ## Installation
@@ -30,7 +30,7 @@ Comes pre-installed in Enso.
 - allows a user to impersonate another user, by using a middleware
 - permits testing and debugging from the perspective of another user, without needing his credentials
 - comes with its own controller and routes that permit starting and stopping the impersonation process
-- uses the [Permission Manager](https://github.com/laravel-enso/PermissionManager) package in order to be able to verify permissions
+- uses the [Permission Manager](https://github.com/laravel-liberu/PermissionManager) package in order to be able to verify permissions
 - the access for the impersonation process is determined by the (admin) user's access to the impersonation routes.
 
 ## Contributions

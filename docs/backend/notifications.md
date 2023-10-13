@@ -4,21 +4,21 @@ sidebarDepth: 3
 
 # Notifications
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/950c5954bb654bb588061a3f793f4697)](https://www.codacy.com/app/laravel-enso/Notifications?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/Notifications&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/950c5954bb654bb588061a3f793f4697)](https://www.codacy.com/app/laravel-liberu/Notifications?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/Notifications&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/85684795/shield?branch=master)](https://github.styleci.io/repos/85684795)
-[![License](https://poser.pugx.org/laravel-enso/notifications/license)](https://packagist.org/packages/laravel-enso/notifications)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/notifications/downloads)](https://packagist.org/packages/laravel-enso/notifications)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/notifications/version)](https://packagist.org/packages/laravel-enso/notifications)
+[![License](https://poser.pugx.org/laravel-liberu/notifications/license)](https://packagist.org/packages/laravel-liberu/notifications)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/notifications/downloads)](https://packagist.org/packages/laravel-liberu/notifications)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/notifications/version)](https://packagist.org/packages/laravel-liberu/notifications)
 
-Notifications functionality dependency for [Laravel Enso](https://github.com/laravel-enso/Enso)
+Notifications functionality dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso)
 
-This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
+This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
 
-The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
+The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
-[![Watch the demo](https://laravel-enso.github.io/notifications/screenshots/bulma_033_thumb.png)](https://laravel-enso.github.io/notifications/videos/bulma_demo_01.webm)
+[![Watch the demo](https://laravel-liberu.github.io/notifications/screenshots/bulma_033_thumb.png)](https://laravel-liberu.github.io/notifications/videos/bulma_demo_01.webm)
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
