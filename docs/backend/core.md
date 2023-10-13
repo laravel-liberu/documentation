@@ -71,7 +71,7 @@ and a great many other features
 [Activity Log](https://github.com/laravel-liberu/activity-log), 
 [Avatars](https://github.com/laravel-liberu/avatars) <sup>1</sup>, 
 [Charts](https://github.com/laravel-liberu/charts), 
-[Companies](https://github.com/liberu.co.ukpanies),
+[Companies](https://github.com/laravel-liberu/companies),
 [Data Export](https://github.com/laravel-liberu/data-export),
 [Data Import](https://github.com/laravel-liberu/data-import), 
 [Files](https://github.com/laravel-liberu/files), 
@@ -181,7 +181,7 @@ the options.
 The `LaravelLiberu\Companies\app\Models\Company` model comes with an `owner()` method that is
 meant to be used to return a Company instance representing the application owner.
 
-Since it makes sense that the `Company` model from the [Companies](https://github.com/liberu.co.ukpanies) package 
+Since it makes sense that the `Company` model from the [Companies](https://github.com/laravel-liberu/companies) package 
 may be extended either in other packages or locally, the method's resulted class is resolved from the container.
 
 Thus, if required, you can bind your desired/local implementation to the `LaravelLiberu\Companies\app\Models\Company` 

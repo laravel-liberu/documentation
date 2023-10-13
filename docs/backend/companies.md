@@ -6,9 +6,9 @@ sidebarDepth: 3
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a05a5276a5c4f6db3cb05db2086bbab)](https://www.codacy.com/app/laravel-liberu/Companies?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-liberu/Companies&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/151941399/shield?branch=master)](https://github.styleci.io/repos/151941399)
-[![License](https://poser.pugx.org/liberu.co.ukpanies/license)](https://packagist.org/packages/liberu.co.ukpanies)
-[![Total Downloads](https://poser.pugx.org/liberu.co.ukpanies/downloads)](https://packagist.org/packages/liberu.co.ukpanies)
-[![Latest Stable Version](https://poser.pugx.org/liberu.co.ukpanies/version)](https://packagist.org/packages/liberu.co.ukpanies)
+[![License](https://poser.pugx.org/laravel-liberu/companies/license)](https://packagist.org/packages/laravel-liberu/companies)
+[![Total Downloads](https://poser.pugx.org/laravel-liberu/companies/downloads)](https://packagist.org/packages/laravel-liberu/companies)
+[![Latest Stable Version](https://poser.pugx.org/laravel-liberu/companies/version)](https://packagist.org/packages/laravel-liberu/companies)
 
 Company management dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
 
