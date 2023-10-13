@@ -14,7 +14,7 @@ DataTable Vue Components with a Bulma implementation over a renderless core
 
 Can be used outside of the Enso ecosystem.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 Should be used with its backend [sibling](https://github.com/laravel-enso/VueDatatable)
 
@@ -28,7 +28,7 @@ yarn add @enso-ui/tables @enso-ui/toastr
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 Note that this package has a couple of external dependencies. 
-Read [here](https://docs.laravel-enso.com/frontend/#other-dependencies) for more info.
+Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more info.
 
 
 ### Exports
@@ -351,12 +351,12 @@ params: {
 
 The parameters object will be made available in your table builder specific methods. 
 Please be sure to read the advanced usage 
-[section](https://docs.laravel-enso.com/backend/tables.html#advanced-usage) 
+[section](https://docs.liberu.co.uk/backend/tables.html#advanced-usage) 
 of the documentation for more information. 
 
 ### Table Init Sample Response
 
-Below is the response from the back-end when the table is initialized.  The sample is taken from the [https://www.laravel-enso.com/system/menus/](https://www.laravel-enso.com/system/menus/) index page.
+Below is the response from the back-end when the table is initialized.  The sample is taken from the [https://www.liberu.co.uk/system/menus/](https://www.liberu.co.uk/system/menus/) index page.
 
 ```json
 {

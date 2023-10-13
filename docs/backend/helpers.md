@@ -14,7 +14,7 @@ Helper classes dependency for [Laravel Enso](https://github.com/laravel-enso/Ens
 
 This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
@@ -51,7 +51,7 @@ with support for a customizable, default precision
     * `set($key, $value)`,
     * `filled($key)`,
     
-#### Decimals - ` LaravelEnso\Helpers\app\Classes\Decimals`
+#### Decimals - ` LaravelLiberu\Helpers\app\Classes\Decimals`
 
 All the class' methods are static. 
 
@@ -83,7 +83,7 @@ returns the boolean result of a less than comparison
 returns the boolean result of a less than comparison
 
 
-#### JsonParser - ` LaravelEnso\Helpers\app\Classes\JsonParser`
+#### JsonParser - ` LaravelLiberu\Helpers\app\Classes\JsonParser`
 
 The constructor takes a file name.  This must be a text file with valid json content. 
 Note: When trying to read it, a `JsonParseException` exception will be thrown if the file contents is not valid. 
@@ -93,7 +93,7 @@ Methods:
 - `array()`, returns an array representation of the file
 - `json`, returns an json representation of the file 
 
-#### Obj - ` LaravelEnso\Helpers\app\Classes\Obj`
+#### Obj - ` LaravelLiberu\Helpers\app\Classes\Obj`
 
 The constructor optionally takes an associate array or an object (even a Laravel model). 
 This parameter is used to set up the object. For arrays, it uses the array keys as properties 

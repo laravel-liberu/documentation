@@ -14,7 +14,7 @@ PDF utility package for [Laravel Enso](https://github.com/laravel-enso/Enso)
 
 This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/pdf/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/pdf/screenshots/bulma_001.png)
 

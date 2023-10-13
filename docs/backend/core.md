@@ -16,7 +16,7 @@ This package works exclusively within the [Enso](https://github.com/laravel-enso
 
 The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
@@ -71,7 +71,7 @@ and a great many other features
 [Activity Log](https://github.com/laravel-enso/activity-log), 
 [Avatars](https://github.com/laravel-enso/avatars) <sup>1</sup>, 
 [Charts](https://github.com/laravel-enso/charts), 
-[Companies](https://github.com/laravel-enso/companies),
+[Companies](https://github.com/liberu.co.ukpanies),
 [Data Export](https://github.com/laravel-enso/data-export),
 [Data Import](https://github.com/laravel-enso/data-import), 
 [Files](https://github.com/laravel-enso/files), 
@@ -102,7 +102,7 @@ and a great many other features
 ## Optional packages
 
 [Addresses](https://github.com/laravel-enso/addresses), 
-[Comments ](https://github.com/laravel-enso/comments),
+[Comments ](https://github.com/liberu.co.ukments),
 [Discussions](https://github.com/laravel-enso/discussions), 
 [Documents ](https://github.com/laravel-enso/documents) <sup>1</sup>, 
 
@@ -178,13 +178,13 @@ the options.
     
 #### Application owner / Client ID
 
-The `LaravelEnso\Companies\app\Models\Company` model comes with an `owner()` method that is
+The `LaravelLiberu\Companies\app\Models\Company` model comes with an `owner()` method that is
 meant to be used to return a Company instance representing the application owner.
 
-Since it makes sense that the `Company` model from the [Companies](https://github.com/laravel-enso/companies) package 
+Since it makes sense that the `Company` model from the [Companies](https://github.com/liberu.co.ukpanies) package 
 may be extended either in other packages or locally, the method's resulted class is resolved from the container.
 
-Thus, if required, you can bind your desired/local implementation to the `LaravelEnso\Companies\app\Models\Company` 
+Thus, if required, you can bind your desired/local implementation to the `LaravelLiberu\Companies\app\Models\Company` 
 class in the service provider. You may set the application owner's company id within the main Enso configuration file
     
 #### Themes configuration

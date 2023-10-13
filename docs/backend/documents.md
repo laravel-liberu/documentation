@@ -16,7 +16,7 @@ This package works exclusively within the [Enso](https://github.com/laravel-enso
 
 There is a front end implementation for this this api in the [accessories](https://github.com/enso-ui/accessories) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/documents/screenshots/bulma_019_thumb.png)](https://laravel-enso.github.io/documents/videos/bulma_demo_01.webm)
 
@@ -51,7 +51,7 @@ Then you'll have access to the `$model->documents` relationship
 This trait will set the relationship between users and the documents that they create
 
 3. import the `Documents` vue component and use it in your pages/components, see the 
-front end implementation [docs](https://docs.laravel-enso.com/frontend/accessories.html#documents) 
+front end implementation [docs](https://docs.liberu.co.uk/frontend/accessories.html#documents) 
 for the available options
 
 **IMPORTANT NOTE:** 

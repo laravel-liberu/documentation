@@ -14,7 +14,7 @@ Enum dependency for [Laravel Enso](https://github.com/laravel-enso/Enso).
 
 This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/enums/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/enums/screenshots/bulma_001.png)
 
@@ -40,7 +40,7 @@ even from within packages
 
 ## Usage
 
-#### Enum - `LaravelEnso\Enums\app\Services\Enum`
+#### Enum - `LaravelLiberu\Enums\app\Services\Enum`
 
 Is an abstract class that provides enumeration like capabilities, that is meant to be extended 
 and may then be used in 3 modes:

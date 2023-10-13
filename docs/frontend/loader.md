@@ -14,7 +14,7 @@ Simple loader
 
 Can be used outside of the Enso ecosystem.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ### Installation
 

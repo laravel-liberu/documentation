@@ -10,13 +10,13 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-enso/io/downloads)](https://packagist.org/packages/laravel-enso/io)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/io/version)](https://packagist.org/packages/laravel-enso/io)
 
-IO process monitoring dependency for [Laravel-Enso](https://laravel-enso.com).
+IO process monitoring dependency for [Laravel-Enso](https://liberu.co.uk).
 
 This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
 
 The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 

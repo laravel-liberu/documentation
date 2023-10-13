@@ -14,7 +14,7 @@ Dynamic method dependency for [Laravel Enso](https://github.com/laravel-enso/Ens
 
 This package can work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/dynamic-methods/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/dynamic-methods/screenshots/bulma_001.png)
 
@@ -39,7 +39,7 @@ that the dynamically added methods can be used as/for accessors and relationship
 
 ## Usage
 
-#### Methods - `LaravelEnso\DynamicMethods\app\Traits\Methods`
+#### Methods - `LaravelLiberu\DynamicMethods\app\Traits\Methods`
 
 This is the core trait that permits adding a method to an object via its main method `addDynamicMethod`.
 The method takes a method name and a closure.
@@ -57,12 +57,12 @@ $p = new Product();
 $p->foo(); //'bar'
 ```
 
-#### Mutators - `LaravelEnso\DynamicMethods\app\Traits\Mutators`
+#### Mutators - `LaravelLiberu\DynamicMethods\app\Traits\Mutators`
 
 The trait uses `Methods` and overwrites Laravel Model's `hasGetMutator($key)` and `hasSetMutator($key)` methods
 so that when dynamically adding mutator methods on models, the newly added methods are used if necessary.
 
-#### Relations - `LaravelEnso\DynamicMethods\app\Traits\Relations`
+#### Relations - `LaravelLiberu\DynamicMethods\app\Traits\Relations`
 
 The trait uses `Methods` and overwrites Laravel Model's `getRelationValue($key)` method
 so that when dynamically adding relationship methods on models, the newly added methods are used if necessary.
@@ -74,7 +74,7 @@ Product::addDynamicMethod('manufacturer', function () {
 });
 ``` 
 
-#### StaticMethods - `LaravelEnso\DynamicMethods\app\Traits\StaticMethods`
+#### StaticMethods - `LaravelLiberu\DynamicMethods\app\Traits\StaticMethods`
 
 Similar to `Methods`, the trait permits adding a static method to an object via its main method `addDynamicStaticMethod`.
 The method takes a method name and a closure.

@@ -14,7 +14,7 @@ Resource generation CLI & Structure Manager dependency for [Laravel Enso](https:
 
 This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/cli/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/cli/videos/bulma_demo01.mp4)
 

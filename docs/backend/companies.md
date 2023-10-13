@@ -6,9 +6,9 @@ sidebarDepth: 3
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1a05a5276a5c4f6db3cb05db2086bbab)](https://www.codacy.com/app/laravel-enso/Companies?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=laravel-enso/Companies&amp;utm_campaign=Badge_Grade)
 [![StyleCI](https://github.styleci.io/repos/151941399/shield?branch=master)](https://github.styleci.io/repos/151941399)
-[![License](https://poser.pugx.org/laravel-enso/companies/license)](https://packagist.org/packages/laravel-enso/companies)
-[![Total Downloads](https://poser.pugx.org/laravel-enso/companies/downloads)](https://packagist.org/packages/laravel-enso/companies)
-[![Latest Stable Version](https://poser.pugx.org/laravel-enso/companies/version)](https://packagist.org/packages/laravel-enso/companies)
+[![License](https://poser.pugx.org/liberu.co.ukpanies/license)](https://packagist.org/packages/liberu.co.ukpanies)
+[![Total Downloads](https://poser.pugx.org/liberu.co.ukpanies/downloads)](https://packagist.org/packages/liberu.co.ukpanies)
+[![Latest Stable Version](https://poser.pugx.org/liberu.co.ukpanies/version)](https://packagist.org/packages/liberu.co.ukpanies)
 
 Company management dependency for [Laravel Enso](https://github.com/laravel-enso/Enso).
 
@@ -16,7 +16,7 @@ This package works exclusively within the [Enso](https://github.com/laravel-enso
 
 The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Screenshot](https://laravel-enso.github.io/companies/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/companies/screenshots/bulma_001.png)
 
@@ -69,9 +69,9 @@ To achieve this, you'd need to:
 - bind your local implementation to the package's `ValidateCompanyRequest` in your local `AppServiceProvider` 
 
     ```php
-        use LaravelEnso\Companies\app\Http\Requests\ValidateCompanyStore;
+        use LaravelLiberu\Companies\app\Http\Requests\ValidateCompanyStore;
         use App\Http\Requests\ValidateCompanyStoreRequest as LocalCompanyStore;
-        use LaravelEnso\Companies\app\Http\Requests\ValidateCompanyUpdate;
+        use LaravelLiberu\Companies\app\Http\Requests\ValidateCompanyUpdate;
         use App\Http\Requests\ValidateCompanyUpdateRequest as LocalCompanyUpdate;
         
         public function boot()

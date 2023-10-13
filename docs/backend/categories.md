@@ -14,7 +14,7 @@ Categories package for [Laravel Enso](https://github.com/laravel-enso/Enso).
 
 This package cannot work independently of the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
@@ -69,7 +69,7 @@ routes, controllers, resources, index table, etc
 The package is meant to be installed on an Enso project and customized as required 
 (or used as it is if that is enough). 
 
-Note that this package is a dependency of the [products](https://docs.laravel-enso.com/backend/products.html) Enso package.
+Note that this package is a dependency of the [products](https://docs.liberu.co.uk/backend/products.html) Enso package.
 
 ## Publishes
 

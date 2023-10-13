@@ -746,7 +746,7 @@ using an Enso Enum for storing car makes.
 ```php
 namespace App\Enums;
 
-use LaravelEnso\Helpers\app\Classes\Enum;
+use LaravelLiberu\Helpers\app\Classes\Enum;
 
 class CarMakes extends Enum
 {
@@ -756,7 +756,7 @@ class CarMakes extends Enum
 
 ``` 
 
-You may read more about enums in their [documentation](https://docs.laravel-enso.com/backend/helpers.html#classes)
+You may read more about enums in their [documentation](https://docs.liberu.co.uk/backend/helpers.html#classes)
 but in short they are a construct which integrates with tables, forms, selects that allows for a
 better representation of type values (and more).  
 
@@ -900,8 +900,8 @@ container use the local implementation instead.
 ```php
 use App\Http\Requests\People\ValidatePersonStore;
 use App\Http\Requests\People\ValidatePersonUpdate;
-use LaravelEnso\People\app\Http\Requests\ValidatePersonStore as EnsoPersonStoreValidator;
-use LaravelEnso\People\app\Http\Requests\ValidatePersonUpdate as EnsoPersonUpdateValidator;
+use LaravelLiberu\People\app\Http\Requests\ValidatePersonStore as EnsoPersonStoreValidator;
+use LaravelLiberu\People\app\Http\Requests\ValidatePersonUpdate as EnsoPersonUpdateValidator;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -925,7 +925,7 @@ Local Model
 ```php
 namespace App\Models;
 
-use LaravelEnso\Permissions\app\Models\Permission as EnsoPermission;
+use LaravelLiberu\Permissions\app\Models\Permission as EnsoPermission;
 
 class Permission extends EnsoPermission
 {
@@ -937,7 +937,7 @@ class Permission extends EnsoPermission
 ```
 Local AppServiceProvider
 ```php
-use LaravelEnso\Permissions\app\Models\Permission as EnsoPermission;
+use LaravelLiberu\Permissions\app\Models\Permission as EnsoPermission;
 use App\Models\Permission;
 
 class AppServiceProvider extends ServiceProvider

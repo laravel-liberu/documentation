@@ -37,7 +37,7 @@ for the back-end API (which you've configured at step 4)
 
 7. Run `yarn && yarn build`
 
-8. Launch the site and log into the project with user: `admin@laravel-enso.com`, password: `password`
+8. Launch the site and log into the project with user: `admin@liberu.co.uk`, password: `password`
 
 9. For live reload / hot module replacement functionality run `client/yarn serve`
 
@@ -69,7 +69,7 @@ lines in `docker-compose.yml`.
 - Run `docker-compose up` to start the containers. 
 To daemonize the process run `docker-compose up --build -d`.
 - Enter into the enso container to begin the enso installation with `docker exec -it enso bash`
-- Install laravel enso following the [guide](https://docs.laravel-enso.com/guide/getting-started.html).
+- Install laravel enso following the [guide](https://docs.liberu.co.uk/guide/getting-started.html).
 
 ### Known issues
 
@@ -122,7 +122,7 @@ with features like:
 - Application interface [tutorials](https://github.com/laravel-enso/tutorials) based on the awesome [Intro.js](http://introjs.com)
 - [Localisation support](https://github.com/laravel-enso/localisation)
 - [Charts component](https://github.com/laravel-enso/charts) with server side data builder, based on [Chart.js](http://www.chartjs.org)
-- [Comments component](https://github.com/laravel-enso/comments) with support for tagging users
+- [Comments component](https://github.com/liberu.co.ukments) with support for tagging users
 - [Documents component](https://github.com/laravel-enso/documents) with upload, download and inline view
 - Ability to [track](https://github.com/laravel-enso/track-who) who created, updated and deleted models, using traits
 - [File uploader](https://github.com/laravel-enso/files) and file management library

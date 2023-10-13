@@ -16,7 +16,7 @@ Can be used outside of the Enso ecosystem.
 
 Should be used with its backend [sibling](https://github.com/laravel-enso/Charts)
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
@@ -28,7 +28,7 @@ yarn add @enso-ui/charts
 (within Enso, remember to `cd` into the `client` folder before installing front-end assets)
 
 Note that this package has a couple of external dependencies. 
-Read [here](https://docs.laravel-enso.com/frontend/#other-dependencies) for more info.
+Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more info.
 
 ### Exports
 

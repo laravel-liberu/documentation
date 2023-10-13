@@ -17,7 +17,7 @@ This package works exclusively within the [Enso](https://github.com/laravel-enso
 
 The front end assets that utilize this api are present in the [accessories](https://github.com/enso-ui/accessories) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/discussions/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/discussions/videos/bulma_discussions.mp4)
 

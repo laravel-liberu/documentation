@@ -16,7 +16,7 @@ This package works exclusively within the [Enso](https://github.com/laravel-enso
 
 The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Screenshot](https://laravel-enso.github.io/people/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/people/screenshots/bulma_001.png)
 
@@ -93,7 +93,7 @@ some of the migration commands may not be available
 - create a new template for the person table, and declare it in the config (`tableTemplate`)
 - create a new person request validation, as required, which should extends the Enso person validation
     ```php
-    use LaravelEnso\Companies\app\Http\Requests\ValidatePersonStore as EnsoPersonStore;
+    use LaravelLiberu\Companies\app\Http\Requests\ValidatePersonStore as EnsoPersonStore;
     
     class ValidatePersonStore extends EnsoPersonStore
     ...
@@ -102,9 +102,9 @@ some of the migration commands may not be available
 - bind your local implementations to the package's request validations and model in your local `AppServiceProvider` 
 
     ```php
-    use LaravelEnso\People\app\Http\Requests\ValidatePersonStore;
+    use LaravelLiberu\People\app\Http\Requests\ValidatePersonStore;
     use App\Http\Requests\ValidatePersonStoreRequest as LocalPersonStore;
-    use LaravelEnso\People\app\Http\Requests\ValidatePersonUpdate;
+    use LaravelLiberu\People\app\Http\Requests\ValidatePersonUpdate;
     use App\Http\Requests\ValidatePersonUpdateRequest as LocalPersonUpdate;
     
     public function boot()

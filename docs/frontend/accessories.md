@@ -14,7 +14,7 @@ Accessories
 
 This package contains a suite of reusable components that can be used exclusively within the Enso ecosystem.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
@@ -33,7 +33,7 @@ import {
 ```
 
 Note that this package has a couple of external dependencies. 
-Read [here](https://docs.laravel-enso.com/frontend/#other-dependencies) for more info.
+Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more info.
 
 ### Exports
 
@@ -65,14 +65,14 @@ import { Tab } from `@enso-ui/tabs/bulma`;
         <tab keep-alive
             id="Addresses">
             <addresses :id="myCompanyId"
-                type="LaravelEnso\Companies\app\Models\Company"
+                type="LaravelLiberu\Companies\app\Models\Company"
                 @update="$set(count, 'Addresses', $refs.addresses.count)"
                 ref="addresses"/>
         </tab>
         <tab keep-alive
             id="Comments">
             <comments :id="myCompanyId"
-                type="LaravelEnso\Companies\app\Models\Company"
+                type="LaravelLiberu\Companies\app\Models\Company"
                 @update="$set(count, 'Comments', $refs.comments.count)"
                 ref="comments"/>
         </tab>
@@ -110,7 +110,7 @@ Should be used with their [backend sibling](https://github.com/laravel-enso/addr
 
 ```vue
 <addresses :id="myCompanyId"
-   type="LaravelEnso\Companies\app\Models\Company"/>
+   type="LaravelLiberu\Companies\app\Models\Company"/>
 ```
 
 ##### Extra Properties:
@@ -138,7 +138,7 @@ As an example of such customization, you may take a look at the
 <addresses-card collapsed
    title="Company Addresses"
    :id="myCompanyId"
-   type="LaravelEnso\Companies\app\Models\Company"/>
+   type="LaravelLiberu\Companies\app\Models\Company"/>
 ```
 
 ##### Extra Properties:
@@ -177,7 +177,7 @@ Should be used with their [backend sibling](https://github.com/laravel-enso/Comm
 
 ```vue
 <comments :id="myCompanyId"
-   type="LaravelEnso\Companies\app\Models\Company"/>
+   type="LaravelLiberu\Companies\app\Models\Company"/>
 ```
 
 ##### Extra Properties:
@@ -194,7 +194,7 @@ Should be used with their [backend sibling](https://github.com/laravel-enso/Comm
 <comments-card collapsed
    title="Posted Comments"
    :id="myCompanyId"
-   type="LaravelEnso\Companies\app\Models\Company"/>
+   type="LaravelLiberu\Companies\app\Models\Company"/>
 ```
 
 ##### Extra Properties:
@@ -214,7 +214,7 @@ Should be used with their [backend sibling](https://github.com/laravel-enso/Disc
 
 ```vue
 <discussions :id="myCompanyId"
-   type="LaravelEnso\Companies\app\Models\Company"/>
+   type="LaravelLiberu\Companies\app\Models\Company"/>
 ```
 
 ### Documents
@@ -229,7 +229,7 @@ Should be used with their [backend sibling](https://github.com/laravel-enso/Docu
 
 ```vue
 <documents :id="myCompanyId"
-   type="LaravelEnso\Companies\app\Models\Company"/>
+   type="LaravelLiberu\Companies\app\Models\Company"/>
 ```
 
 ##### Extra Properties:
@@ -246,7 +246,7 @@ Should be used with their [backend sibling](https://github.com/laravel-enso/Docu
 <documents-card collapsed
    title="Uploaded Documents"
    :id="myCompanyId"
-   type="LaravelEnso\Companies\app\Models\Company"/>
+   type="LaravelLiberu\Companies\app\Models\Company"/>
 ```
 
 ##### Extra Properties:

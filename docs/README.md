@@ -50,7 +50,7 @@ yarn serve
 ```
 
 ::: tip Login
-user: admin@laravel-enso.com / password: password
+user: admin@liberu.co.uk / password: password
 :::
 
 *fully working in less than 5 minutes!*

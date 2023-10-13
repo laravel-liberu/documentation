@@ -16,7 +16,7 @@ This package can work independently of the [Enso](https://github.com/laravel-ens
 
 The front end implementation that utilizes this api is present in the [forms](https://github.com/enso-ui/forms) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/forms/screenshots/bulma_109_thumb.png)](https://laravel-enso.github.io/forms/videos/bulma_demo_01.mp4)
 
@@ -275,7 +275,7 @@ In the above examples, we're using injection to create an instance of our Form b
 (UserGroupForm), equivalent to instantiating it using `new` inside the methods. 
 
 4. inside your page/component import and use the `VueForm` component. 
-Take a look at the [forms](https://docs.laravel-enso.com/frontend/forms.html) UI package documentation 
+Take a look at the [forms](https://docs.liberu.co.uk/frontend/forms.html) UI package documentation 
 for more information.
 
 ### Advanced usage
@@ -509,7 +509,7 @@ linking the form component/data to other components in the page, etc).
 
 Notes:
 - you may also set extra parameters and their values programmatically, 
-    using the `append('attribute', $value)` function on your (`LaravelEnso\forms\app\Classes\Form`) 
+    using the `append('attribute', $value)` function on your (`LaravelLiberu\forms\app\Classes\Form`) 
     form object instance 
 - also, this `params` object is different to the optional `params` property of the 
     `vue-form` / `enso-form` VueJS component. Keep in mind that *this* `params` 

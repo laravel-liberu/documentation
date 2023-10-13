@@ -10,13 +10,13 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-enso/activity-log/downloads)](https://packagist.org/packages/laravel-enso/activity-log)
 [![Latest Stable Version](https://poser.pugx.org/laravel-enso/activity-log/version)](https://packagist.org/packages/laravel-enso/activity-log)
 
-Activity logger dependency for [Laravel Enso](https://laravel-enso.com).
+Activity logger dependency for [Laravel Enso](https://liberu.co.uk).
 
 This package works exclusively within the [Enso](https://github.com/laravel-enso/Enso) ecosystem.
 
 The front end assets that utilize this api are present in the [activity-log](https://github.com/enso-ui/activity-log) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/activity-log/screenshots/bulma_051_thumb.png)](https://laravel-enso.github.io/activity-log/videos/bulma_activity_log.mp4)
 
@@ -90,7 +90,7 @@ Steps:
 - create a `LoggableEvents` local Enum that extends the ActionLogger Events enum.
     
     ```php
-    use LaravelEnso\ActivityLog\app\Enums\Events;
+    use LaravelLiberu\ActivityLog\app\Enums\Events;
     
     class LoggableEvents extends Events
     {
@@ -110,7 +110,7 @@ Steps:
     that will observe the  user class and create an event
 
 ```php
-use LaravelEnso\ActivityLog\app\Enums\Observers;
+use LaravelLiberu\ActivityLog\app\Enums\Observers;
 
 class LoggableObservers extends Observers
 {
@@ -127,7 +127,7 @@ class LoggableObservers extends Observers
     we want to create a new event
     
     ```php
-    use LaravelEnso\ActivityLog\Services\Factory;
+    use LaravelLiberu\ActivityLog\Services\Factory;
   
     class ActivateUser
     {
@@ -143,8 +143,8 @@ class LoggableObservers extends Observers
 - create the `UserActivated` event, which must implement the `Loggable` contract
 
     ```php
-    use LaravelEnso\ActivityLog\Contracts\Loggable;
-    use LaravelEnso\ActivityLog\Traits\IsLoggable;
+    use LaravelLiberu\ActivityLog\Contracts\Loggable;
+    use LaravelLiberu\ActivityLog\Traits\IsLoggable;
   
     class UserActivated implements Loggable
     {

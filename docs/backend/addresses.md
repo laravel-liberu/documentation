@@ -16,7 +16,7 @@ This package works exclusively within the [Enso](https://github.com/laravel-enso
 
 There is a front end implementation for this this api in the [accessories](https://github.com/enso-ui/accessories) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Screenshot](https://laravel-enso.github.io/addresses/screenshots/bulma_041_thumb.png)](https://laravel-enso.github.io/addresses/screenshots/bulma_041.png)
 
@@ -42,7 +42,7 @@ Comes pre-installed in Enso.
 1. you may publish the configuration and customize the options as needed
 2. use the package's `Addresable` trait for the models you want to make addressable
 3. insert the `Addreses` vue component where required in your pages/components, see the 
-front end implementation [docs](https://docs.laravel-enso.com/frontend/accessories.html#addresses) for the available options
+front end implementation [docs](https://docs.liberu.co.uk/frontend/accessories.html#addresses) for the available options
 
 ### Configuration
 

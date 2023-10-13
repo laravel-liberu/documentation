@@ -19,7 +19,7 @@ This package can work independently of the
 The front end assets that utilize this API are present in the 
 [tables](https://github.com/enso-ui/tables) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/tables/screenshots/bulma_001_thumb.png)](https://laravel-enso.github.io/tables/videos/bulma_demo_01.mp4)
 
@@ -40,7 +40,7 @@ To install outside of Enso:
 2. if needed, publish and customize the config: `php artisan vendor:publish --tag=tables-config`
 
 3. install front end for the API implementation for the package - [tables](https://github.com/enso-ui/tables). 
-Be sure to check out the front end's docs [here](https://docs.laravel-enso.com/frontend/tables.html).
+Be sure to check out the front end's docs [here](https://docs.liberu.co.uk/frontend/tables.html).
 
 ## Features
 
@@ -113,8 +113,8 @@ Example: [permissions.json](https://github.com/laravel-enso/permissions/blob/mas
 2. Create the init table controller which specifies which table builder class is to be used.
 
     ```php
-    use LaravelEnso\Tables\app\Traits\Init;
-    use LaravelEnso\Permissions\app\Tables\Builders\PermissionTable;
+    use LaravelLiberu\Tables\app\Traits\Init;
+    use LaravelLiberu\Permissions\app\Tables\Builders\PermissionTable;
    
     class InitTable extends Controller
     {
@@ -125,13 +125,13 @@ Example: [permissions.json](https://github.com/laravel-enso/permissions/blob/mas
 
     Example: [TableController.php](https://github.com/laravel-enso/permissions/blob/master/src/app/Http/Controllers/InitTable.php)
     
-    Note the use of the `Init` trait that should be imported from the `LaravelEnso\Tables` package.
+    Note the use of the `Init` trait that should be imported from the `LaravelLiberu\Tables` package.
 
 3. Create the table data controller which is used to fetch the data for the front-end:
 
     ```php
-    use LaravelEnso\Tables\app\Traits\Data;
-    use LaravelEnso\Permissions\app\Tables\Builders\PermissionTable;
+    use LaravelLiberu\Tables\app\Traits\Data;
+    use LaravelLiberu\Permissions\app\Tables\Builders\PermissionTable;
    
     class TableData extends Controller
     {
@@ -145,14 +145,14 @@ Example: [permissions.json](https://github.com/laravel-enso/permissions/blob/mas
     
     The `$tableClass` value used here is the same as the one from the previous step.
     
-    Note the use of the `Data` trait that should be imported from the `LaravelEnso\Tables` package.
+    Note the use of the `Data` trait that should be imported from the `LaravelLiberu\Tables` package.
 
 4. OPTIONAL: If you plan to have the data from the table exportable from the interface, you may create 
 a third controller used in this case:
 
     ```php
-    use LaravelEnso\Tables\app\Traits\Excel;
-    use LaravelEnso\Permissions\app\Tables\Builders\PermissionTable;
+    use LaravelLiberu\Tables\app\Traits\Excel;
+    use LaravelLiberu\Permissions\app\Tables\Builders\PermissionTable;
    
     class ExportExcel extends Controller
     {
@@ -169,7 +169,7 @@ thus requiring the `query()` and the `templatePath()` methods.
     for better readability as well as making it easier to extend the class, if required. 
 
     ```php
-    use LaravelEnso\Tables\app\Contracts\Table;
+    use LaravelLiberu\Tables\app\Contracts\Table;
    
     class PermissionTable implements Table
     {
@@ -856,7 +856,7 @@ If you need custom logic based on the request, you may declare a constructor for
 with the following signature, where you'll have access to the various data you may need:
 ```php
 ...
-use LaravelEnso\Tables\app\Services\Data\Request;
+use LaravelLiberu\Tables\app\Services\Data\Request;
 ...
 public function __construct(Request $request)
 {
@@ -868,7 +868,7 @@ public function __construct(Request $request)
 }
 ```
 
-The type of the above parameters is `LaravelEnso\Helpers\app\Classes\Obj`;
+The type of the above parameters is `LaravelLiberu\Helpers\app\Classes\Obj`;
 
 ### Actions
 
@@ -922,7 +922,7 @@ Route::patch('myAction', 'MyActionController')->name('myAction');
 3. Add a new `Action` implementation class, where you actually process the results.
         
 ```php
-use LaravelEnso\Tables\app\Services\Action;
+use LaravelLiberu\Tables\app\Services\Action;
 
 class MyAction extends Action
 {
@@ -935,7 +935,7 @@ class MyAction extends Action
 }
 ```
     
-This needs to extend the abstract `LaravelEnso\Tables\app\Services\Action` class, 
+This needs to extend the abstract `LaravelLiberu\Tables\app\Services\Action` class, 
 and implement the `process` method.  The process method will be called for **each available row of data**.
 
 Depending on your requirements, you may do the processing here or even generate jobs that will 
@@ -1144,7 +1144,7 @@ You may see the vue data table in action, with the code for the UserGroups page,
 - [table template](https://github.com/laravel-enso/Core/blob/master/src/app/Tables/Templates/userGroups.json)
 - [data controller](https://github.com/laravel-enso/Core/blob/master/src/app/Http/Controllers/Administration/UserGroup/TableData.php)
 - [front-end vue page](https://github.com/enso-ui/ui/blob/master/src/bulma/pages/administration/userGroups/Index.vue)
-- [live result](https://www.laravel-enso.com/administration/userGroups/) (if you're not already logged in, use `admin@laravel-enso.com` and `password`)
+- [live result](https://www.liberu.co.uk/administration/userGroups/) (if you're not already logged in, use `admin@liberu.co.uk` and `password`)
 
 Feel free to look around at the various packages in the [laravel-enso](https://github.com/laravel-enso) repository, 
 to find more examples.

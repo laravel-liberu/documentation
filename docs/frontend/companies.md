@@ -15,7 +15,7 @@ The component cannot be used outside of the Enso ecosystem.
 
 ### Demo
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 

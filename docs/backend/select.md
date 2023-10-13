@@ -16,7 +16,7 @@ This package can work independently of the [Enso](https://github.com/laravel-ens
 
 The front end assets that utilize this api are present in the [select](https://github.com/enso-ui/select) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/select/screenshots/bulma_031.png)](https://laravel-enso.github.io/select/videos/bulma_demo_01.mp4)
 
@@ -63,7 +63,7 @@ To install outside of Enso:
 	See the options bellow for details. 
 	
 5. In your page/component add the VueSelect component, and pass it the required parameters. Be sure to read the 
-front end's api docs [here](https://docs.laravel-enso.com/frontend/select.html).
+front end's api docs [here](https://docs.liberu.co.uk/frontend/select.html).
 
 ### OptionBuilder trait options
 

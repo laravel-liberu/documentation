@@ -17,7 +17,7 @@ This package works exclusively within the [Enso](https://github.com/laravel-enso
 
 The front end assets that utilize this api are present in the [ui](https://github.com/enso-ui/ui) package.
 
-For live examples and demos, you may visit [laravel-enso.com](https://www.laravel-enso.com)
+For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 [![Watch the demo](https://laravel-enso.github.io/dataimport/screenshots/bulma_006_thumb.png)](https://laravel-enso.github.io/dataimport/videos/bulma_demo_01.mp4)
 
@@ -93,7 +93,7 @@ meaning it will report an error if there are missing sheets but also if there ar
 #### Params Configuration object structure:
 
 The configuration object attributes are similar in type and structure to the parameters 
-used within the JSON [Form Builder](https://docs.laravel-enso.com/backend/forms.html#usage) template to configure a form field.
+used within the JSON [Form Builder](https://docs.liberu.co.uk/backend/forms.html#usage) template to configure a form field.
 
 - `name`, `string`, the name of the parameter as it is passed to the importer class, within the `$params` object
 - `validations`, string, the Laravel style validations to be applied to the respective parameter 
@@ -127,26 +127,26 @@ the rows with errors are skipped and valid rows are imported.
 The importer class given in the JSON template is responsible for doing the actual importing,
  once the file has been validated.
 
-Your importer class needs to implement the `LaravelEnso\DataImport\app\Contracts\Importable` interface 
+Your importer class needs to implement the `LaravelLiberu\DataImport\app\Contracts\Importable` interface 
 and implement the `run()` method.
 
 The `run` method receives a row object, which you can use to implement your import logic. 
 
 If you need pre/post import logic for your import, you can then also implement the following interfaces:
-- `LaravelEnso\DataImport\app\Contracts\AfterHook` - requires that you implement the `after(Obj $params)` method 
-- `LaravelEnso\DataImport\app\Contracts\BeforeHook`- requires that you implement the `before(Obj $params)` method
+- `LaravelLiberu\DataImport\app\Contracts\AfterHook` - requires that you implement the `after(Obj $params)` method 
+- `LaravelLiberu\DataImport\app\Contracts\BeforeHook`- requires that you implement the `before(Obj $params)` method
 
 Inside the two methods you can add your extra logic. 
 
 If you must have the user that is requesting the import available during the import,
-you may also add the `LaravelEnso\DataImport\app\Contracts\Authenticates` marker interface on your 
+you may also add the `LaravelLiberu\DataImport\app\Contracts\Authenticates` marker interface on your 
 importer class.
 
 ### The custom validator class
 There might be cases where it's not enough to use the Laravel Request Validation methods. 
 For more complex scenarios you can create a custom validator class and declare it your template.
  
-The validator class must extend the `LaravelEnso\DataImport\app\Services\Validators\Validator` 
+The validator class must extend the `LaravelLiberu\DataImport\app\Services\Validators\Validator` 
 abstract class and implement the `run()` method.
 
 Here you'll have access to the parent class' `addError(string $error)` method. 
