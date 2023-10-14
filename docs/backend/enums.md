@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/enums/downloads)](https://packagist.org/packages/laravel-liberu/enums)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/enums/version)](https://packagist.org/packages/laravel-liberu/enums)
 
-Enum dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+Enum dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -22,9 +22,9 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
-To install outside of Enso:
+To install outside of Liberu:
 
 1. install the package `composer require laravel-liberu/enums` 
 
@@ -35,7 +35,7 @@ To install outside of Enso:
 enumeration like capabilities
 - provides an `EnumServiceProvider` class that can be extended with a local implementation
 - various utility methods are available for the Enum class
-- automatic registration of enums within Enso, giving you the option to have the desired enums to the application state,
+- automatic registration of enums within Liberu, giving you the option to have the desired enums to the application state,
 even from within packages
 
 ## Usage
@@ -59,7 +59,7 @@ Methods:
  - `array`, returns a translated array representation of the enumeration; 
  - `object`, returns a translated object representation of the enumeration; 
  - `collection`, returns a translated Laravel collection representation of the enumeration; 
- - `select`, returns a translated Enso VueSelect representation of the enumeration - array of objects, 
+ - `select`, returns a translated Liberu VueSelect representation of the enumeration - array of objects, 
  each object with the `id` and `name` attribute;
  
  If used in mode a), it will give back the list of constants and their values.

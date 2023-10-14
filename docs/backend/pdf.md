@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/pdf/downloads)](https://packagist.org/packages/laravel-liberu/pdf)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/pdf/version)](https://packagist.org/packages/laravel-liberu/pdf)
 
-PDF utility package for [Laravel Enso](https://github.com/laravel-liberu/Enso)
+PDF utility package for [Laravel Liberu](https://github.com/laravel-liberu/Liberu)
 
-This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 

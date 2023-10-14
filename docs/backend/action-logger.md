@@ -11,7 +11,7 @@ sidebarDepth: 3
 
 User actions logger dependency for [Laravel](https://laravel.com).
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
@@ -19,7 +19,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 

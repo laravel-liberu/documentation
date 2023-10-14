@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 Simple Modal Component
 
-The component can be used outside of the Enso ecosystem.
+The component can be used outside of the Liberu ecosystem.
 
 ## Installation
 
@@ -21,7 +21,7 @@ Install the package:
 yarn add @liberu-ui/modal
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 ### Exports
 
@@ -118,7 +118,7 @@ Issues not conforming to the guidelines may be closed immediately.
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

@@ -12,15 +12,15 @@ sidebarDepth: 3
 
 Model caching for Laravel
 
-This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
-To install outside of Enso: `composer require laravel-liberu/rememberable`
+To install outside of Liberu: `composer require laravel-liberu/rememberable`
 
 ## Features
 

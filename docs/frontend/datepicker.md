@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 Vue Datepicker renderless component based on Flatpickr with a bulma template.
 
-Can be used outside of the Enso ecosystem.
+Can be used outside of the Liberu ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -23,7 +23,7 @@ Install the package:
 yarn add @liberu-ui/datepicker
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
@@ -34,7 +34,7 @@ import { Datepicker } from '@liberu-ui/datepicker/bulma';
 
 `@liberu-ui/datepicker/bulma`:
 - `Datepicker`,
-- `EnsoDatepicker`,
+- `LiberuDatepicker`,
 
 `@liberu-ui/datepicker/renderless`:
 - `CoreDatepicker`,
@@ -100,8 +100,8 @@ All the props from the renderless component can be used here, and, in addition:
 - `isDanger` - `boolean`, optional, default `false`
 - `isWarning` - `boolean`, optional, default `false`
 
-### EnsoDatepicker
-Designed to be used within the Enso ecosystem, it uses several defaults & conventions 
+### LiberuDatepicker
+Designed to be used within the Liberu ecosystem, it uses several defaults & conventions 
 requiring less configuration from the dev. 
 
 #### Example:
@@ -131,7 +131,7 @@ Built around [Flatpickr](https://github.com/flatpickr/flatpickr).
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

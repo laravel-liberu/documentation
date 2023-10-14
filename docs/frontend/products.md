@@ -14,7 +14,7 @@ Products package front-end
 
 ## Usage
 
-The component can be used outside of the Enso ecosystem.
+The component can be used outside of the Liberu ecosystem.
 
 ### Demo
 
@@ -27,13 +27,13 @@ Install the package:
 yarn add @liberu-ui/products
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 ## Contributions
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

@@ -10,15 +10,15 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/emails/downloads)](https://packagist.org/packages/laravel-liberu/emails)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/emails/version)](https://packagist.org/packages/laravel-liberu/emails)
 
-The package is an extension for the Laravel Enso environment, designed for sending emails/notifications.
+The package is an extension for the Laravel Liberu environment, designed for sending emails/notifications.
 
-This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
-The package does not installed by default in Enso.
+The package does not installed by default in Liberu.
 
 To install:
 

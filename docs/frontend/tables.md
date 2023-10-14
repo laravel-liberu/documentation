@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 DataTable Vue Components with a Bulma implementation over a renderless core
 
-Can be used outside of the Enso ecosystem.
+Can be used outside of the Liberu ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -25,7 +25,7 @@ Install the package:
 yarn add @liberu-ui/tables @liberu-ui/toastr
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 Note that this package has a couple of external dependencies. 
 Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more info.
@@ -34,7 +34,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 ### Exports
 
 `@liberu-ui/tables/bulma`:
-- `EnsoTable`, 
+- `LiberuTable`, 
 - `VueTable`, 
 
 `@liberu-ui/tables/renderless`:
@@ -42,7 +42,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 ## Usage
 
-### Outside of Enso
+### Outside of Liberu
 
 Import the following in a main js file:
 ```js
@@ -77,15 +77,15 @@ And then use it within your page:
     id="example"/>
 ```
 
-### Within Enso
+### Within Liberu
 
-Enso comes with a series of defaults and conventions, and there are Enso specific
+Liberu comes with a series of defaults and conventions, and there are Liberu specific
 versions of some components that make use of these conventions so you add as 
 little as possible configuration.
 
-Import the Enso version of the component:
+Import the Liberu version of the component:
 ```js
-import { EnsoTable } from '@liberu-ui/tables/bulma';
+import { LiberuTable } from '@liberu-ui/tables/bulma';
 ```
 
 Use the component in your page:
@@ -146,9 +146,9 @@ your own custom version.
     },
     ```
     ::: tip
-    If using within Enso, you may forgo specifying a format, 
+    If using within Liberu, you may forgo specifying a format, 
     and can set the `dateFormat` attribute as `null`, in which case, the back-end
-    component will use the global Enso format, from the configuration file 
+    component will use the global Liberu format, from the configuration file 
     (`config('liberu.config.dateTimeFormat')`).
     
     Note that even if null, you're still required to specify the `dateFormat` attribute
@@ -210,9 +210,9 @@ columns. The name of the slot is the column's name. The slot exposes the `row` &
 - if using preview option in you table template, a preview slot will also be available.
     The name of the slot is `'preview'`
 
-### EnsoTable
+### LiberuTable
 
-Is designed to be used within the Enso ecosystem, 
+Is designed to be used within the Liberu ecosystem, 
 requiring minimal configuration from the dev. 
 
 Example:
@@ -738,7 +738,7 @@ Issues not conforming to the guidelines may be closed immediately.
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

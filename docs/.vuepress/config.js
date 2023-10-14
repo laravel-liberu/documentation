@@ -1,6 +1,6 @@
 module.exports = {
     base: '/',
-    title: 'Laravel Enso',
+    title: 'Laravel Liberu',
     description: 'Full featured Single Page Application boilerplate',
     plugins: {
         '@vuepress/google-analytics': {

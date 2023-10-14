@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/data-export/downloads)](https://packagist.org/packages/laravel-liberu/data-export)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/data-export/version)](https://packagist.org/packages/laravel-liberu/data-export)
 
-Data Export structure dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+Data Export structure dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -20,7 +20,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 - creates the structures and statuses necessary during the processes of exporting data

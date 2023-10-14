@@ -11,7 +11,7 @@ sidebarDepth: 3
 ![npm version](https://img.shields.io/npm/v/@liberu-ui/route-mapper.svg) 
 
 ## Usage
-The component cannot be used outside the Enso ecosystem.
+The component cannot be used outside the Liberu ecosystem.
 
 ### Demo
 
@@ -24,16 +24,16 @@ Install the package:
 yarn add @liberu-ui/route-mapper
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
-NOTE that as of version `1.0.8` this package need to be transpiled, so for an Enso project,
+NOTE that as of version `1.0.8` this package need to be transpiled, so for an Liberu project,
 you need to include it the `transpileDependencies` array within `vue.config.js`.
 
 ## Contributions
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

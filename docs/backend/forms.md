@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/forms/downloads)](https://packagist.org/packages/laravel-liberu/forms)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/forms/version)](https://packagist.org/packages/laravel-liberu/forms)
 
-JSON-based Form builder for [Laravel Enso](https://github.com/laravel-liberu/Enso)
+JSON-based Form builder for [Laravel Liberu](https://github.com/laravel-liberu/Liberu)
 
-This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end implementation that utilizes this api is present in the [forms](https://github.com/liberu-ui/forms) package.
 
@@ -24,9 +24,9 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso. 
+Comes pre-installed in Liberu. 
 
-To install outside of Enso:
+To install outside of Liberu:
 
 1. install the package `composer require laravel-liberu/forms` 
 
@@ -46,7 +46,7 @@ To install outside of Enso:
 - when needed, allows the customization of form components in order to cover all scenarios
 - comes with a `template.json` file that can be used as an example when starting out
 - integrates with the [Laravel Request Validation](https://laravel.com/docs/5.7/validation#available-validation-rules) for seamless usage and reusability
-- uses the Enso toast notifications for stylish feedback on the various actions
+- uses the Liberu toast notifications for stylish feedback on the various actions
 - customizable placeholder for all elements
 
 ## Under the Hood
@@ -58,9 +58,9 @@ To install outside of Enso:
     the `Form` class has fluent helper functions for setting/overriding most attributes
 - a `VueForm` component needs to be included in the view/page/parent component, 
     taking as parameter the URI path used to obtain the form-builder's resulting object 
-- an `EnsoForm` component should be included in the view/page/parent component, 
+- an `LiberuForm` component should be included in the view/page/parent component, 
     taking the URI path needed to make the ajax request and fetch the form configuration. 
-    Acts like a wrapper for the `VueForm` within the Enso ecosystem
+    Acts like a wrapper for the `VueForm` within the Liberu ecosystem
 
 ## Usage
 
@@ -68,7 +68,7 @@ When using the form builder functionality, you will be needing several items:
 - the JSON template that configures the form's layout, inputs, actions, etc.
 - a basic Form builder class (which can also contain complex logic for complex scenarios)
 - usually, an endpoint that reads the configuration and returns a properly formatted form configuration
-- importing the `VueForm` / `EnsoForm` VueJS components from the [forms](https://github.com/liberu-ui/forms)
+- importing the `VueForm` / `LiberuForm` VueJS components from the [forms](https://github.com/liberu-ui/forms)
     package inside your page/component that renders the form based on the configuration
 - one or more endpoints for your form's actions, such as storing, updating, deleting.
 
@@ -396,7 +396,7 @@ The following options are available:
 - `altFormat`, string, sets the default date format for `datepicker` fields. 
     Note that for these fields an instance of `Carbon` is expected
 - `selectPlaceholder`, string, the placeholder used for select fields, 
-- `authorize`, boolean, default `true`, flag that enables the integration with the Laravel-Enso 
+- `authorize`, boolean, default `true`, flag that enables the integration with the Laravel-Liberu 
     authorization, meaning that certain user actions are not available if the user does not have access on 
     the corresponding routes
 - `dividerTitlePlacement`, string, default `'center'`, values may be 'left', 'center', 'right'. 
@@ -1131,7 +1131,7 @@ by calling the options method on the form builder object:
 $form->options('type_id', MyTypes::all())
 ```
 
-Note: For more examples, you may look into the [Enso](https://github.com/laravel-liberu) packages for various use cases.
+Note: For more examples, you may look into the [Liberu](https://github.com/laravel-liberu) packages for various use cases.
 
 ## Publishes
 

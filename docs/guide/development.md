@@ -8,7 +8,7 @@ This is a work in progress section, please feel free to both contribute and
 make suggestions about new topics.
 
 Topics:
-* Enso conventions
+* Liberu conventions
 * Building CRUD files
 * Overwriting functionality
 * Creating new themes
@@ -18,16 +18,16 @@ No matter the topic, please also go through the related packages' documentation
 for a more in-depth understanding of the available functionality.
 :::
 
-## Enso conventions
+## Liberu conventions
 
 ### Named routes
 
-Enso exclusively uses named routes so it is important to set names for the routes you may add since 
+Liberu exclusively uses named routes so it is important to set names for the routes you may add since 
 the named routes are tied in with the permission system.
 
 ### Routes and permissions
 
-Enso is a SPA, and generally, SPAs handle routing for their web pages 
+Liberu is a SPA, and generally, SPAs handle routing for their web pages 
 and use a API for fetching and persisting data.
 
 Therefore, we use two types of routes:
@@ -75,7 +75,7 @@ You may read more [here](https://laraveldaily.com/taylor-otwell-thin-controllers
 
 No matter how complex the application ends up, you'll still need CRUD pages.
 
-Because of the modularity of Enso, when creating such pages, there are several packages 
+Because of the modularity of Liberu, when creating such pages, there are several packages 
 involved, each with their own templates, controllers and routes.
 
 In order to simplify and streamline the process of adding CRUD pages, 
@@ -83,7 +83,7 @@ we've created the **CLI package and command**.
 
 You can use the cli command to create:
 - models
-- the common Enso permissions
+- the common Liberu permissions
 - menus
 - the required files, such as:
     - database migrations
@@ -119,7 +119,7 @@ php artisan liberu:cli
 
 You'll be greeted with a list of options:
 ```shell
-Create a new Laravel Enso Structure
+Create a new Laravel Liberu Structure
 
 Current configuration status:
 Model ✗
@@ -339,7 +339,7 @@ Package ✗
 
 ::: tip Front end helper
 On the front end, a `route` helper is available that can be used to build the proper URL out of 
-the route name. You may search the Enso pages for examples. 
+the route name. You may search the Liberu pages for examples. 
 :::
 
 #### Configuring the menu
@@ -741,7 +741,7 @@ don't forget to update the controllers so that they use the new validation class
 ##### Using an Enum for make (optional)
 
 In the `cars` migration we defined the `make` column as a tiny integer so we could demonstrate
-using an Enso Enum for storing car makes.
+using an Liberu Enum for storing car makes.
 
 ```php
 namespace App\Enums;
@@ -900,16 +900,16 @@ container use the local implementation instead.
 ```php
 use App\Http\Requests\People\ValidatePersonStore;
 use App\Http\Requests\People\ValidatePersonUpdate;
-use LaravelLiberu\People\app\Http\Requests\ValidatePersonStore as EnsoPersonStoreValidator;
-use LaravelLiberu\People\app\Http\Requests\ValidatePersonUpdate as EnsoPersonUpdateValidator;
+use LaravelLiberu\People\app\Http\Requests\ValidatePersonStore as LiberuPersonStoreValidator;
+use LaravelLiberu\People\app\Http\Requests\ValidatePersonUpdate as LiberuPersonUpdateValidator;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
 
     public $bindings = [
-        EnsoPersonStoreValidator::class   => ValidatePersonStore::class,
-        EnsoPersonUpdateValidator::class  => ValidatePersonUpdate::class,
+        LiberuPersonStoreValidator::class   => ValidatePersonStore::class,
+        LiberuPersonUpdateValidator::class  => ValidatePersonUpdate::class,
     ];
 
     public function boot() {...}
@@ -925,9 +925,9 @@ Local Model
 ```php
 namespace App\Models;
 
-use LaravelLiberu\Permissions\app\Models\Permission as EnsoPermission;
+use LaravelLiberu\Permissions\app\Models\Permission as LiberuPermission;
 
-class Permission extends EnsoPermission
+class Permission extends LiberuPermission
 {
        public function localRelation()
        {
@@ -937,14 +937,14 @@ class Permission extends EnsoPermission
 ```
 Local AppServiceProvider
 ```php
-use LaravelLiberu\Permissions\app\Models\Permission as EnsoPermission;
+use LaravelLiberu\Permissions\app\Models\Permission as LiberuPermission;
 use App\Models\Permission;
 
 class AppServiceProvider extends ServiceProvider
 {
 
     public $bindings = [
-          EnsoPermission::class => Permission::class
+          LiberuPermission::class => Permission::class
     ];
     
    ...
@@ -957,15 +957,15 @@ the other option is to overwrite the required routes, and point to your local im
 
 ### Changing front end pages
 
-When you need to customize any of the front end pages supplied with Enso, you generally have two options:
+When you need to customize any of the front end pages supplied with Liberu, you generally have two options:
 * use [patch-package](https://www.npmjs.com/package/patch-package) to make a patch to the package that contains the page(s) to be modified
 * create your local version of the page(s) and overwrite the front end routes so that they point to your page(s) 
 
 ::: tip Breaking the build
-Once you start messing with the core Enso functionality it is possible that the changes you're making could
-break parts of the various Enso core functionality. 
+Once you start messing with the core Liberu functionality it is possible that the changes you're making could
+break parts of the various Liberu core functionality. 
 
-In order to be aware of this, you may run the Enso tests locally, by typing into the terminal:
+In order to be aware of this, you may run the Liberu tests locally, by typing into the terminal:
 ```shell
 phpunit
 ``` 
@@ -976,7 +976,7 @@ if the tests are failing, please let us know as that might speed up the troubles
 
 ## Themes
 
-If you want to use a different theme instead of, or thoroughly customize the themes supplied with Enso, 
+If you want to use a different theme instead of, or thoroughly customize the themes supplied with Liberu, 
 you should use as example the default themes, available on the `client/node_modules/@liberu-ui/themes` path.
 
 You may create a patch using `patch-package` for the `themes` package and customize them to your heart's desire.
@@ -991,7 +991,7 @@ from `vue.config.js` so that the images are copied on build.
 
 ## Linting & Aliases
 
-You may have noticed that there are two `.eslintrc.js` files that come with Enso, by default:
+You may have noticed that there are two `.eslintrc.js` files that come with Liberu, by default:
 - in the project root
 - in the `client` folder
 

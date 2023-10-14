@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/categories/downloads)](https://packagist.org/packages/laravel-liberu/categories)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/categories/version)](https://packagist.org/packages/laravel-liberu/categories)
 
-Categories package for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+Categories package for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package cannot work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package cannot work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -66,10 +66,10 @@ routes, controllers, resources, index table, etc
 
 ## Usage
 
-The package is meant to be installed on an Enso project and customized as required 
+The package is meant to be installed on an Liberu project and customized as required 
 (or used as it is if that is enough). 
 
-Note that this package is a dependency of the [products](https://docs.liberu.co.uk/backend/products.html) Enso package.
+Note that this package is a dependency of the [products](https://docs.liberu.co.uk/backend/products.html) Liberu package.
 
 ## Publishes
 

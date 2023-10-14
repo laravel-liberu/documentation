@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 Renderless VueJS filter components with Bulma implementations
 
-Can be used outside of the Enso ecosystem.
+Can be used outside of the Liberu ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -23,7 +23,7 @@ Install the package:
 yarn add @liberu-ui/filters
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
@@ -38,16 +38,16 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 `@liberu-ui/filters/bulma`:
 - `IntervalFilter`, 
-- `EnsoIntervalFilter`, 
+- `LiberuIntervalFilter`, 
 - `DateFilter`, 
-- `EnsoDateFilter`,
+- `LiberuDateFilter`,
 - `DateIntervalFilter`, 
-- `EnsoDateIntervalFilter`, 
+- `LiberuDateIntervalFilter`, 
 - `BooleanFilter`,
 - `VueFilter`, 
-- `EnsoFilter`, 
+- `LiberuFilter`, 
 - `SelectFilter`, 
-- `EnsoSelectFilter`,
+- `LiberuSelectFilter`,
 
 `@liberu-ui/filters/renderless`:
 - `CoreIntervalFilter`,
@@ -181,10 +181,10 @@ All the props from the renderless component can be provided here
 - `interval` - `object`, optional, default `{min: null, max: null}`, the min-max interval
 - `locale` - `string`, optional, default `en` - the locale used for the picker
 
-### bulma/EnsoDateFilter.vue
+### bulma/LiberuDateFilter.vue
 
 This Bulma styled date filtering component, built on top of the generic version of the component is 
-designed to be used within the **Enso ecosystem**, requiring less configuration from the dev.
+designed to be used within the **Liberu ecosystem**, requiring less configuration from the dev.
 
 #### Props
 
@@ -239,10 +239,10 @@ The `value`/ v-model - `interval` for a given date are, correspondences are:
 - `"custom"` - min: your-choice, max: your-other-choice 
 - `"all"` - min: null, max: null
 
-### bulma/EnsoDateIntervalFilter
+### bulma/LiberuDateIntervalFilter
 
 This Bulma styled date interval filtering component, built on top of the liberu date filter version of the component is 
-designed to be used within the **Enso ecosystem**, requiring less configuration from the dev.
+designed to be used within the **Liberu ecosystem**, requiring less configuration from the dev.
 
 #### Props
 
@@ -287,10 +287,10 @@ The `value`/ v-model - `interval` for a given date are, correspondences are:
 - `"custom"` - min: your-choice, max: your-other-choice 
 - `"all"` - min: null, max: null
 
-### bulma/EnsoFilter
+### bulma/LiberuFilter
 
 This Bulma styled filtering component, built on top of the generic version of the component is 
-designed to be used within the **Enso ecosystem**, requiring less configuration from the dev.
+designed to be used within the **Liberu ecosystem**, requiring less configuration from the dev.
 
 #### Example:
 ```vue
@@ -319,10 +319,10 @@ All the props from `VueFilter` can be provided here.
 
 Note that each option must have a `{label: 'my-label', value: 'my-value'}` structure. 
 
-### bulma/EnsoIntervalFilter
+### bulma/LiberuIntervalFilter
 
 This Bulma styled date interval filtering component, built on top of the generic version of the component is 
-designed to be used within the **Enso ecosystem**, requiring less configuration from the dev.
+designed to be used within the **Liberu ecosystem**, requiring less configuration from the dev.
 
 #### Example:
 ```vue
@@ -342,9 +342,9 @@ All the props from `IntervalFilter` can be provided here.
 - `name` - `string`, optional, default `null`, the title for the filter
 - `value` - `object`, optional, default `{min: null,max: null}`, the selected value
 
-### bulma/EnsoSelectFilter
+### bulma/LiberuSelectFilter
 
-Designed to be used within the Enso ecosystem, requiring less configuration from the dev.
+Designed to be used within the Liberu ecosystem, requiring less configuration from the dev.
 
 #### Example:
 ```vue
@@ -391,7 +391,7 @@ All the props from the renderless component can be provided here.
 ### bulma/SelectFilter.vue
 
 This Bulma styled filtering component, built on top of the renderless version of the component is 
-designed to be used within the **Enso ecosystem**, requiring less configuration from the dev.
+designed to be used within the **Liberu ecosystem**, requiring less configuration from the dev.
 
 #### Example:
 ```vue
@@ -578,7 +578,7 @@ For date manipulation [date-fns](https://date-fns.org/) was used
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

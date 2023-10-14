@@ -10,7 +10,7 @@ sidebarDepth: 3
 ![GitHub issues](https://img.shields.io/github/issues/liberu-ui/loader.svg) 
 ![npm version](https://img.shields.io/npm/v/@liberu-ui/loader.svg) 
 
-Login page is part of the Enso core.
+Login page is part of the Liberu core.
 
 ## Customizations
 
@@ -58,7 +58,7 @@ Issues not conforming to the guidelines may be closed immediately.
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

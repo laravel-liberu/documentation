@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/measurement-units/downloads)](https://packagist.org/packages/laravel-liberu/measurement-units)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/measurement-units/version)](https://packagist.org/packages/laravel-liberu/measurement-units)
 
-Measurement units dependency for [Laravel Enso](https://github.com/laravel-liberu/liberu)
+Measurement units dependency for [Laravel Liberu](https://github.com/laravel-liberu/liberu)
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/liberu) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [measurement-units](https://github.com/liberu-ui/measurement-units) package.
 
@@ -44,7 +44,7 @@ routes, controllers, resources, index table, etc
 
 ## Usage
 
-The package is meant to be installed on an Enso project and customized as required 
+The package is meant to be installed on an Liberu project and customized as required 
 (or used as it is if that is enough). 
    
 ## Publishes

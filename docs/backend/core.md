@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/core/downloads)](https://packagist.org/packages/laravel-liberu/core)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/core/version)](https://packagist.org/packages/laravel-liberu/core)
 
-Main requirement & dependency aggregator for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+Main requirement & dependency aggregator for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
@@ -20,7 +20,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 - core users, roles, permissions structure
@@ -144,14 +144,14 @@ login again.
 #### Configuration
 
 The package comes with several configuration files, the most important ones presented below. Note that 
-if using Enso, these files are published in the local project configuration folder and, if necessary,
+if using Liberu, these files are published in the local project configuration folder and, if necessary,
 should be customized locally.
 
 #### General configuration
 
 Various configuration options are available in the `config` file 
 on the `liberu.config` configuration 'path', with the following keys:
-- `version`, string, current Enso version. Should be kept up to date when performing Enso updates 
+- `version`, string, current Liberu version. Should be kept up to date when performing Liberu updates 
     on new releases
 - `ownerCompanyId`, integer, default `1`, the id of the Application owner/client's Company
 - `showQuote`, boolean, default `true`, show the quote page after login
@@ -185,15 +185,15 @@ Since it makes sense that the `Company` model from the [Companies](https://githu
 may be extended either in other packages or locally, the method's resulted class is resolved from the container.
 
 Thus, if required, you can bind your desired/local implementation to the `LaravelLiberu\Companies\app\Models\Company` 
-class in the service provider. You may set the application owner's company id within the main Enso configuration file
+class in the service provider. You may set the application owner's company id within the main Liberu configuration file
     
 #### Themes configuration
         
-The themes `liberu.themes` configuration files contains mappings for the themes used within Enso.
+The themes `liberu.themes` configuration files contains mappings for the themes used within Liberu.
 
 #### Password configuration
 
-Since the 2.15.2 release, Enso supports additional, password related, configuration options.
+Since the 2.15.2 release, Liberu supports additional, password related, configuration options.
 The default values are available on the `config.liberu.auth.password` configuration 'path' 
 (the `config/liberu/auth.php` file) and local values can be set in your `.env` file. 
 

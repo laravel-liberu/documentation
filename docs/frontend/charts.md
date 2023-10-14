@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 Vue Charts Package
 
-Can be used outside of the Enso ecosystem.
+Can be used outside of the Liberu ecosystem.
 
 Should be used with its backend [sibling](https://github.com/laravel-liberu/Charts)
 
@@ -25,7 +25,7 @@ Install the package:
 yarn add @liberu-ui/charts
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 Note that this package has a couple of external dependencies. 
 Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more info.
@@ -35,7 +35,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 `@liberu-ui/charts/bulma`:
 - `Chart`,
 - `ChartCard`,
-- `EnsoChartCard`,
+- `LiberuChartCard`,
 `@liberu-ui/charts`:
 - `Chart`,
 - `colors`,
@@ -43,7 +43,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 ## Usage
 Import the desired component(s):
 ```js
-import { EnsoChartCard as ChartCard } from '@liberu-ui/charts/bulma';
+import { LiberuChartCard as ChartCard } from '@liberu-ui/charts/bulma';
 ```
 
 ```js
@@ -71,9 +71,9 @@ Bulma Chart Card implementation on top of the Card component.
 - `fetch()` - fetches data from the backend
 - `resize()` - resizes the charts
 
-### EnsoChartCard
+### LiberuChartCard
 
-The above component designed to be used within the Enso ecosystem, requiring less configuration from the dev. 
+The above component designed to be used within the Liberu ecosystem, requiring less configuration from the dev. 
 
 #### Example:
 ```vue
@@ -136,7 +136,7 @@ For PNG download uses [file-saver](https://github.com/eligrey/FileSaver.js#readm
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

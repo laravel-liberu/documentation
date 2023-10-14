@@ -3,7 +3,7 @@
 ## Requirements
 
 * See the [Laravel server requirements](https://laravel.com/docs/6.x/installation#server-requirements).
-* Laravel Enso uses the `json` data type.
+* Laravel Liberu uses the `json` data type.
     * If using MySQL, [a minimum version of 5.7.8 is required](https://dev.mysql.com/doc/refman/5.7/en/json.html).
     * If using MariaDB, [a minimum version of 10.2.7 is required](https://mariadb.com/kb/en/library/json-data-type).
 
@@ -52,7 +52,7 @@ for the back-end API (which you've configured at step 4)
 Enjoy!
 
 ## Docker
-Laravel Enso comes with a simple docker environment to help with development. 
+Laravel Liberu comes with a simple docker environment to help with development. 
 By default, it has two containers, the liberu container and the liberu-mysql container. 
 There is also an optional phpmyadmin container that can be used by removing the commented
 lines in `docker-compose.yml`.
@@ -144,5 +144,5 @@ with features like:
 ## Important
 
 ::: tip Recommended
-If you are using this project please consult the [Changelog](https://github.com/laravel-liberu/Enso/blob/master/CHANGELOG.md) on every update.
+If you are using this project please consult the [Changelog](https://github.com/laravel-liberu/Liberu/blob/master/CHANGELOG.md) on every update.
 :::

@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/io/downloads)](https://packagist.org/packages/laravel-liberu/io)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/io/version)](https://packagist.org/packages/laravel-liberu/io)
 
-IO process monitoring dependency for [Laravel-Enso](https://liberu.co.uk).
+IO process monitoring dependency for [Laravel-Liberu](https://liberu.co.uk).
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
@@ -20,7 +20,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 
@@ -39,7 +39,7 @@ When wishing to broadcast IO events you need to:
 
 Whenever the model will be created, or updated, an event will be dispatched.
 
-The Enso front end assets are designed to display the progress information available
+The Liberu front end assets are designed to display the progress information available
 in the dispatched events. 
 
 ## Contributions

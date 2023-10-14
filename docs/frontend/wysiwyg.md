@@ -14,7 +14,7 @@ What-you-see-is-what-you-get text editor
 
 ## Usage
 
-The components can be used outside of the Enso ecosystem.
+The components can be used outside of the Liberu ecosystem.
 
 ### Demo
 
@@ -27,7 +27,7 @@ Install the package:
 yarn add @liberu-ui/wysiwyg
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
@@ -85,7 +85,7 @@ Issues not conforming to the guidelines may be closed immediately.
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

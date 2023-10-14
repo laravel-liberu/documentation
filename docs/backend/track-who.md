@@ -12,15 +12,15 @@ sidebarDepth: 3
 
 Create, update and delete authoring tracking dependency for Laravel.
 
-This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
-Comes pre-installed in Enso. 
+Comes pre-installed in Liberu. 
 
-To install outside of Enso: `composer require laravel-liberu/trackwho`
+To install outside of Liberu: `composer require laravel-liberu/trackwho`
 
 ## Features
 
@@ -28,7 +28,7 @@ To install outside of Enso: `composer require laravel-liberu/trackwho`
 - requires the presence of the proper model attributes / table columns
 - once the structure is set up, by using the proper trait, the information is added automatically
 - the trait works only when the user is authenticated, in order to avoid issues during tests or when using the cli/tinker
-- provides a `TrackWho` resource that can be used within Enso
+- provides a `TrackWho` resource that can be used within Liberu
 
 ## Usage
 

@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 Minimalist confirmation dialog
 
-Can be used outside of the Enso ecosystem.
+Can be used outside of the Liberu ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -23,7 +23,7 @@ Install the package:
 yarn add @liberu-ui/confirmation
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 Note that this package has a couple of external dependencies. 
 Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more info.
@@ -98,7 +98,7 @@ Built with `popover` from [v-tooltip](https://github.com/Akryum/v-tooltip)
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

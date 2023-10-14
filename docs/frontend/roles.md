@@ -11,7 +11,7 @@ sidebarDepth: 3
 ![npm version](https://img.shields.io/npm/v/@liberu-ui/roles.svg) 
 
 ## Usage
-The component cannot be used outside of the Enso ecosystem.
+The component cannot be used outside of the Liberu ecosystem.
 
 ### Demo
 
@@ -24,13 +24,13 @@ Install the package:
 yarn add @liberu-ui/roles
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 ## Contributions
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

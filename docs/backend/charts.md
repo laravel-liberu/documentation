@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 Server-side data builder for charts.
 
-This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end implementation that utilizes this api is present in the [liberu-ui/charts](https://github.com/liberu-ui/charts) package.
 
@@ -24,9 +24,9 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso. 
+Comes pre-installed in Liberu. 
 
-To install outside of Enso:
+To install outside of Liberu:
 
 1. `composer require laravel-liberu/charts`
 

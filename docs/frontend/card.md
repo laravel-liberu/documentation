@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 Bulma styled Card component
 
-Can be used outside of the Enso ecosystem.
+Can be used outside of the Liberu ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -24,7 +24,7 @@ Install the package:
 yarn add @liberu-ui/card
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 Note that this package has a couple of external dependencies. 
 Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more info.
@@ -325,7 +325,7 @@ Issues not conforming to the guidelines may be closed immediately.
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/dynamic-methods/downloads)](https://packagist.org/packages/laravel-liberu/dynamic-methods)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/dynamic-methods/version)](https://packagist.org/packages/laravel-liberu/dynamic-methods)
 
-Dynamic method dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+Dynamic method dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -22,9 +22,9 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
-To install outside of Enso:
+To install outside of Liberu:
 
 1. install the package `composer require laravel-liberu/dynamic-methods` 
 

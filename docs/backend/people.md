@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/people/downloads)](https://packagist.org/packages/laravel-liberu/people)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/people/version)](https://packagist.org/packages/laravel-liberu/people)
 
-Person management dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+Person management dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
@@ -26,7 +26,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 
@@ -46,7 +46,7 @@ Comes pre-installed in Enso.
 
 ### Backstory
 
-In previous Enso versions, there was no common ground between application users and 
+In previous Liberu versions, there was no common ground between application users and 
 other categories of actors which also represented people, for example contacts and (some types of) clients.
 This sometimes lead to duplicated data as well as brittle and non reusable types and relationships.
 
@@ -91,14 +91,14 @@ To achieve this, you'd need to:
 some of the migration commands may not be available
 - create a new template for the person form, and declare it in the config (`formTemplate`)
 - create a new template for the person table, and declare it in the config (`tableTemplate`)
-- create a new person request validation, as required, which should extends the Enso person validation
+- create a new person request validation, as required, which should extends the Liberu person validation
     ```php
-    use LaravelLiberu\Companies\app\Http\Requests\ValidatePersonStore as EnsoPersonStore;
+    use LaravelLiberu\Companies\app\Http\Requests\ValidatePersonStore as LiberuPersonStore;
     
-    class ValidatePersonStore extends EnsoPersonStore
+    class ValidatePersonStore extends LiberuPersonStore
     ...
     ```
-- create a new `Person`, as required, which should extend the Enso Person model, and set the `$fillable` property
+- create a new `Person`, as required, which should extend the Liberu Person model, and set the `$fillable` property
 - bind your local implementations to the package's request validations and model in your local `AppServiceProvider` 
 
     ```php
@@ -115,7 +115,7 @@ some of the migration commands may not be available
         $this->app->bind(ValidatePersonUpdate::class, function () {
             return new LocalPersonUpdate();
         });
-        $this->app->bind(EnsoPerson::class, function () {
+        $this->app->bind(LiberuPerson::class, function () {
           return new Person();
         });
     }

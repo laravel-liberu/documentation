@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 Single and multi-select server-side option list builder
 
-This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [select](https://github.com/liberu-ui/select) package.
 
@@ -24,9 +24,9 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
-To install outside of Enso:
+To install outside of Liberu:
 
 1. install the package: `composer require laravel-liberu/select`
 2. install the front end api implementation: `yarn add @liberu-ui/select`

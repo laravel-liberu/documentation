@@ -21,14 +21,14 @@ Install the package:
 yarn add @liberu-ui/bulma
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 ## Usage
 
 Import the desired component(s):
 ```js
 import {
-    Tab, EnsoTabs as Tabs, EnsoDateFilter as DateFilter, Uploader, Chart,
+    Tab, LiberuTabs as Tabs, LiberuDateFilter as DateFilter, Uploader, Chart,
 } from '@liberu-ui/bulma';
 ```
 
@@ -56,15 +56,15 @@ import {
 - `CardRemove`
 - `Chart`
 - `ChartCard`
-- `EnsoChartCard`
+- `LiberuChartCard`
 - `Confirmation`
 - `Datepicker`
-- `EnsoDatepicker`
+- `LiberuDatepicker`
 - `Divider`
 - `Dropdown`
 - `DropdownIndicator`
 - `VueForm`
-- `EnsoForm`
+- `LiberuForm`
 - `FormField`
 - `Action`
 - `DateField`
@@ -82,30 +82,30 @@ import {
 - `ProgressCircle`
 - `ScrollToTop`
 - `VueSelect`
-- `EnsoSelect`
+- `LiberuSelect`
 - `VueTable`
-- `EnsoTable`
+- `LiberuTable`
 - `Tab`
 - `Tabs`
-- `EnsoTabs`
+- `LiberuTabs`
 - `Toastr`
 - `ToastrPlugin`
 - `Typeahead`
-- `EnsoTypeahead`
-- `EnsoUploader`
+- `LiberuTypeahead`
+- `LiberuUploader`
 - `Uploader`
 - `VueSwitch`
 - `IntervalFilter`
 - `DateFilter`
 - `DateIntervalFilter`
-- `EnsoIntervalFilter`
-- `EnsoDateFilter`
-- `EnsoDateIntervalFilter`
+- `LiberuIntervalFilter`
+- `LiberuDateFilter`
+- `LiberuDateIntervalFilter`
 - `BooleanFilter`
 - `VueFilter`
-- `EnsoFilter`
+- `LiberuFilter`
 - `SelectFilter`
-- `EnsoSelectFilter`
+- `LiberuSelectFilter`
 - `FilterState`
 
 ## Depends on
@@ -137,7 +137,7 @@ import {
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

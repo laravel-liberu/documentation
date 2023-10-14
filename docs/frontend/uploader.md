@@ -13,7 +13,7 @@ sidebarDepth: 3
 Integrated file uploader
 
 ## Usage
-Unless where specified otherwise, the components can be used outside of the Enso ecosystem.
+Unless where specified otherwise, the components can be used outside of the Liberu ecosystem.
 
 ### Demo
 
@@ -26,11 +26,11 @@ Install the package:
 yarn add @liberu-ui/uploader
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
-import { Uploader, EnsoUploader } from '@liberu-ui/uploader/bulma';
+import { Uploader, LiberuUploader } from '@liberu-ui/uploader/bulma';
 ```
 
 Note that this package has a couple of external dependencies. 
@@ -40,7 +40,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 `@liberu-ui/typeahead/bulma`:
 - `Uploader`,
-- `EnsoUploader`,
+- `LiberuUploader`,
 
 `@liberu-ui/typeahead/renderless`:
 - `CoreUploader`,
@@ -71,10 +71,10 @@ Properties:
 - `params` - `Object`, optional, default `null`, extra parameters that can be sent with the request
 - `url` - `string`, required, the URL used for the query/search to the back end
 
-### bulma/EnsoUploader.vue
+### bulma/LiberuUploader.vue
 
 This bulma styled date filtering component, built on top of the generic version of the component is 
-designed to be used within the **Enso ecosystem**, requiring less configuration from the dev.
+designed to be used within the **Liberu ecosystem**, requiring less configuration from the dev.
 
 Example:
 ```vue
@@ -132,7 +132,7 @@ Issues not conforming to the guidelines may be closed immediately.
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

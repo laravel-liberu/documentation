@@ -10,9 +10,9 @@ sidebarDepth: 3
 ![GitHub issues](https://img.shields.io/github/issues/liberu-ui/mixins.svg)
 ![npm version](https://img.shields.io/npm/v/@liberu-ui/mixins.svg)
 
-Enso Mixins Package
+Liberu Mixins Package
 
-The mixins are used exclusively inside of the Enso ecosystem.
+The mixins are used exclusively inside of the Liberu ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -34,7 +34,7 @@ The mixins are available for injection:
 
 ```vue
 export default {
-    name: 'EnsoSelect',
+    name: 'LiberuSelect',
 
     inject: ['errorHandler', 'i18n'],
 
@@ -48,7 +48,7 @@ You may then use them as needed.
 are welcome. Pull requests are great, 
 but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

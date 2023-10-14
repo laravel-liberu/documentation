@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/companies/downloads)](https://packagist.org/packages/laravel-liberu/companies)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/companies/version)](https://packagist.org/packages/laravel-liberu/companies)
 
-Company management dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+Company management dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
@@ -26,11 +26,11 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 
-- provides a common functionality for managing companies within the Enso ecosystem
+- provides a common functionality for managing companies within the Liberu ecosystem
 - integrates with the [People](https://github.com/laravel-liberu/People) package so you can associate people to companies
 - can be reused and integrated with other modules which might deal with companies (e.g. suppliers ) 
 or even other entities, such as people (e.g. clients)
@@ -82,7 +82,7 @@ To achieve this, you'd need to:
             $this->app->bind(ValidateCompanyUpdate::class, function () {
                 return new LocalCompanyUpdate();
             });
-            $this->app->bind(EnsoCompany::class, function () {
+            $this->app->bind(LiberuCompany::class, function () {
               return new Company();
             });
         }

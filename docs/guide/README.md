@@ -1,7 +1,7 @@
 # Introduction
 [![StyleCI](https://styleci.io/repos/95136264/shield?branch=master)](https://styleci.io/repos/95136264)
 [![Github Issues](https://img.shields.io/github/issues/laravel-liberu/liberu)](https://github.com/laravel-liberu/liberu/issues)
-[![Build Status](https://travis-ci.org/laravel-liberu/Enso.svg?branch=master)](https://travis-ci.org/laravel-liberu/Enso)
+[![Build Status](https://travis-ci.org/laravel-liberu/Liberu.svg?branch=master)](https://travis-ci.org/laravel-liberu/Liberu)
 ![GitHub language count](https://img.shields.io/github/languages/count/laravel-liberu/liberu)
 ![GitHub](https://img.shields.io/github/license/laravel-liberu/liberu)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/laravel-liberu/liberu)
@@ -14,4 +14,4 @@
 
 <sup>click on the photo to view a short demo in compatible browsers</sup>
 
-For the v1.x / adminlte version, take a look at the **[adminlte](https://github.com/laravel-liberu/Enso/tree/adminlte)** branch.
+For the v1.x / adminlte version, take a look at the **[adminlte](https://github.com/laravel-liberu/Liberu/tree/adminlte)** branch.

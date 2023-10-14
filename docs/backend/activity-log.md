@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/activity-log/downloads)](https://packagist.org/packages/laravel-liberu/activity-log)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/activity-log/version)](https://packagist.org/packages/laravel-liberu/activity-log)
 
-Activity logger dependency for [Laravel Enso](https://liberu.co.uk).
+Activity logger dependency for [Laravel Liberu](https://liberu.co.uk).
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [activity-log](https://github.com/liberu-ui/activity-log) package.
 
@@ -24,7 +24,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 

@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 Vue Select Component
 
-Can be used outside of the Enso ecosystem.
+Can be used outside of the Liberu ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -25,7 +25,7 @@ Install the package:
 yarn add @liberu-ui/select
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 Note that this package has a couple of external dependencies. 
 Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more info.
@@ -33,7 +33,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 ### Exports
 
 `@liberu-ui/select/bulma`:
-- `EnsoSelect`
+- `LiberuSelect`
 - `VueSelect`
 - `Tag`
 `@liberu-ui/select`:
@@ -43,7 +43,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 Import the desired component(s):
 ```js
-import { VueSelect, Tag, EnsoSelect } from '@liberu-ui/select/bulma';
+import { VueSelect, Tag, LiberuSelect } from '@liberu-ui/select/bulma';
 import CoreSelect from '@liberu-ui/select/renderless';
 ```
 
@@ -64,9 +64,9 @@ to always have an option selected
 - `multiple` - `boolean`, optional - if true, the select works in multi-select mode
 - `objects` - `boolean`, optional - if true, the bound v-model will hold the entire object 
 - `options` - `array`, optional - if given, will constitute the list of options 
-- `params` - `object`, optional - params that are sent with the back-end request in server-side mode and when paired with the Laravel-Enso/VueSelect back-end, are used automatically for filtering the entire object 
+- `params` - `object`, optional - params that are sent with the back-end request in server-side mode and when paired with the Laravel-Liberu/VueSelect back-end, are used automatically for filtering the entire object 
 - `pivotParams` - `object` - params that are sent with the back-end request in server-side mode and 
-when paired with the Laravel-Enso/VueSelect back-end, are used automatically for filtering in pivot type scenarios
+when paired with the Laravel-Liberu/VueSelect back-end, are used automatically for filtering in pivot type scenarios
 - `readonly` - `boolean`, optional - if true, the select is read only
 - `source` - `string`, optional - the URI for the server-side mode 
 - `taggable` - `boolean`, optional - if true, tagging is enabled
@@ -131,9 +131,9 @@ The following CoreSelect options are cascaded and available:
 - `clear()`, clears the selection
 - `fetch()`, reloads the option list for a server-side select
 
-### EnsoSelect
+### LiberuSelect
 
-Designed to be used within the **Enso ecosystem**, requiring less configuration from the dev. 
+Designed to be used within the **Liberu ecosystem**, requiring less configuration from the dev. 
 
 
 #### Example:
@@ -169,7 +169,7 @@ Issues not conforming to the guidelines may be closed immediately.
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

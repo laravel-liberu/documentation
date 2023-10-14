@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 Accessories
 
-This package contains a suite of reusable components that can be used exclusively within the Enso ecosystem.
+This package contains a suite of reusable components that can be used exclusively within the Liberu ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -23,7 +23,7 @@ Install the package:
 yarn add @liberu-ui/accessories
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
@@ -292,7 +292,7 @@ Discussions are currently built with [vue-quill-editor](https://github.com/surmo
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

@@ -10,7 +10,7 @@ features:
     details: The beauty of Bulma combined with the flexibility of Vue powered by a Laravel Back End
   - title: Modular, Extensible
     details: Made up of tens of packages and modules. Easily to extend and customize
-footer: MIT Licensed | Copyright © 2018-present Laravel Enso
+footer: MIT Licensed | Copyright © 2018-present Laravel Liberu
 ---
 
 ### Try it up

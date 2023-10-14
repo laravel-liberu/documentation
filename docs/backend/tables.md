@@ -14,7 +14,7 @@ Data Table package with server-side processing, unlimited exporting and VueJS co
 Quickly build any complex table based on a JSON template.
 
 This package can work independently of the 
-[Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+[Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end assets that utilize this API are present in the 
 [tables](https://github.com/liberu-ui/tables) package.
@@ -31,9 +31,9 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso. 
+Comes pre-installed in Liberu. 
 
-To install outside of Enso:
+To install outside of Liberu:
 
 1. install the package `composer require laravel-liberu/tables` 
 
@@ -68,7 +68,7 @@ with email notification and optional push notifications.
 - resetting of the filters, ordering, etc
 - smart management of huge data-sets, with configurable limit
 - possibility to define actions that apply to the entire, filtered, dataset
-- Enso Enum computation
+- Liberu Enum computation
 - Laravel accessors for the main query model
 - the table configuration template for is designed to be as light and straightforward 
 as possible without losing out on features
@@ -76,7 +76,7 @@ as possible without losing out on features
 - thorough validation of the JSON template with developer friendly messages, 
 in order to avoid misconfiguration issues
 - Eloquent query friendly with the possibility to easily display nested models attribute values
-- can be used independently of the Enso ecosystem
+- can be used independently of the Liberu ecosystem
 - front-end - back-end communication is as optimized as possible, while caching 
 is utilized where it makes sense
 - dynamic filters system:
@@ -201,10 +201,10 @@ Example: [PermissionTable](https://github.com/laravel-liberu/permissions/blob/ma
     Example: [api.php](https://github.com/laravel-liberu/permissions/blob/master/src/routes/api.php)
    
 5. Import and place place the `VueTable` VueJS component in your page/component and pass it the necessary properties. 
-Within the Enso ecosystem, you may use instead the `EnsoTable` component which requires fewer parameters as it uses 
-Enso specific defaults. 
+Within the Liberu ecosystem, you may use instead the `LiberuTable` component which requires fewer parameters as it uses 
+Liberu specific defaults. 
 
-EnsoTable example: [index.vue](https://github.com/liberu-ui/permissions/blob/master/src/bulma/pages/permissions/Index.vue)
+LiberuTable example: [index.vue](https://github.com/liberu-ui/permissions/blob/master/src/bulma/pages/permissions/Index.vue)
 
 VueTable example: [index.blade.php](https://github.com/laravel-liberu/Examples/blob/master/src/resources/views/table/index.blade.php)
 
@@ -739,7 +739,7 @@ Each configuration object may have the following attributes:
     - `nullLast`, optional, makes the sorting on this column sort all null values last
     - `translatable`, optional, marks this column's values as translatable
     The `i18n` parameter translation function should be given to the VueJS table component 
-    in order for this to work - within the Enso ecosystem, this is done automatically
+    in order for this to work - within the Liberu ecosystem, this is done automatically
     - `boolean`, optional, marks this column as boolean, which means it will be rendered as such
     - `slot`, optional, renders a scoped slot named after the specified column, 
         exposing as props `column` (object), `row` (array) and `loading` (boolean)
@@ -825,7 +825,7 @@ In order to achieve this, Laravel queues, jobs and mails are used, so it is mand
     * `MAIL_PASSWORD=`
     * `MAIL_ENCRYPTION=`
 
-Enso provides this in its current state, with the mention that you, as user, don't have to remain 
+Liberu provides this in its current state, with the mention that you, as user, don't have to remain 
 on the exporting page until is done. Once the export is ready you receive both push/toastr 
 and email notifications.
 

@@ -16,7 +16,7 @@ In conclusion, even though at a point during the development we had the back-end
 in the end we designed it stateful since session is stored in the DB or in files, depending on your chosen setup.   
  
 ## Session management
-Since Enso is built on top of a Laravel back-end, we are using the provided session management
+Since Liberu is built on top of a Laravel back-end, we are using the provided session management
 
 ## Security
 Laravel is using HttpOnly cookies and an additional CSRF token. This provides protection against both XSS and CSRF attacks

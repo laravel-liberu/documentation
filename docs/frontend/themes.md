@@ -10,9 +10,9 @@ sidebarDepth: 3
 ![GitHub issues](https://img.shields.io/github/issues/liberu-ui/themes.svg)
 ![npm version](https://img.shields.io/npm/v/@liberu-ui/themes.svg)
 
-Enso UI Themes
+Liberu UI Themes
 
-This package is meant to be used only in the Enso ecosystem.
+This package is meant to be used only in the Liberu ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -23,9 +23,9 @@ Install the package:
 yarn add @liberu-ui/themes
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
-The package has the two default Enso themes, one light and one dark.
+The package has the two default Liberu themes, one light and one dark.
 
 ## Removing themes
 
@@ -41,7 +41,7 @@ Since our themes are built on top of Bulma, its variables are customized in the 
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

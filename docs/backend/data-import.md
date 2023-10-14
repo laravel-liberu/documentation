@@ -11,9 +11,9 @@ sidebarDepth: 3
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/data-import/version)](https://packagist.org/packages/laravel-liberu/data-import)
 
 Incredibly powerful, efficient, unlimited number of rows, 
-queues based Excel importer dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+queues based Excel importer dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
@@ -27,7 +27,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 

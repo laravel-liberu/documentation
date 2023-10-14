@@ -14,7 +14,7 @@ Simply Tabs
 
 ## Usage
 
-Unless where specified otherwise, the components can be used outside of the Enso ecosystem.
+Unless where specified otherwise, the components can be used outside of the Liberu ecosystem.
 
 ### Demo
 
@@ -27,7 +27,7 @@ Install the package:
 yarn add @liberu-ui/tabs
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 Import the desired component(s):
 ```js
@@ -39,7 +39,7 @@ import { Tabs, Tab } from '@liberu-ui/tabs/bulma';
 `@liberu-ui/tabs/bulma`:
 - `Tab`
 - `Tabs`
-- `EnsoTabs`
+- `LiberuTabs`
 
 `@liberu-ui/tabs/renderless`:
 - `CoreTabs`
@@ -93,10 +93,10 @@ Slots:
 - `label`, slot for the tab labels
 - `default`, slot for the actual tabs/contents
 
-### bulma/EnsoTabs.vue
+### bulma/LiberuTabs.vue
 
 This bulma styled tabs component built on top of its renderless version is 
-designed to be used within the **Enso ecosystem**, requiring less configuration from the dev. 
+designed to be used within the **Liberu ecosystem**, requiring less configuration from the dev. 
 
 Properties:
 - `size` - `string`, optional, default `normal`, the size of the tabs, valid options are: 'normal', 'small', 'medium', 'large'
@@ -105,7 +105,7 @@ Slots:
 - `label`, slot for the tab labels
 - `default`, slot for the actual tabs/contents
 
-### renderless/EnsoTabs.vue
+### renderless/LiberuTabs.vue
 
 The renderless version tabs component. It can be built upon to implement custom component designs.
 
@@ -178,7 +178,7 @@ Issues not conforming to the guidelines may be closed immediately.
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

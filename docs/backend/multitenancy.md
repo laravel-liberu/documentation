@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/multitenancy/downloads)](https://packagist.org/packages/laravel-liberu/multitenancy)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/multitenancy/version)](https://packagist.org/packages/laravel-liberu/multitenancy)
 
-Multitenancy dependency for [Laravel Enso](https://liberu.co.uk).
+Multitenancy dependency for [Laravel Liberu](https://liberu.co.uk).
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
@@ -20,7 +20,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 - contains a series of console commands to help with various operations
@@ -35,7 +35,7 @@ which sets the active (acting) tenant
 - the name for a tenant's database/schema is going to be the tenant database prefix you set in the .env 
 (the `DB_TENANT_DATABASE` key) concatenated with the tenant's (company) ID.
 
-    If you've setup the `.env` as per the Enso example, the prefix will be `tenant` otherwise, the default as 
+    If you've setup the `.env` as per the Liberu example, the prefix will be `tenant` otherwise, the default as 
     per the config, is going to be `forge`. 
 
 - the migrations for the tenant should be placed in the `/database/migrations/tenant` sub-folder. 

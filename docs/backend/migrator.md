@@ -10,15 +10,15 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/migrator/downloads)](https://packagist.org/packages/laravel-liberu/migrator)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/migrator/version)](https://packagist.org/packages/laravel-liberu/migrator)
 
-Structure Migrator dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso)
+Structure Migrator dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu)
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 

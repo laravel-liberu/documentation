@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/localisation/downloads)](https://packagist.org/packages/laravel-liberu/localisation)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/localisation/version)](https://packagist.org/packages/laravel-liberu/localisation)
 
-Localisation management dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+Localisation management dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [ui](https://github.com/liberu-ui/ui) package.
 
@@ -25,7 +25,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 
@@ -56,12 +56,12 @@ import the required flag icon SVG and declare the corresponding class. The prope
 - the main language is considered to be english
 - the keys are, by convention, in english and in a human readable format e.g. 'Date of Birth', and if a key is not found, the value of the key is used instead
 - the keys and the values for the project specific keys are kept in `resources/lang/app/*code*.json`  where code is the language code, e.g. 'de' for german, with the exception for the English language, since keys are already in English
-- the keys and the values for the core/Enso specific keys are kept in `resources/lang/liberu/*code*.json` 
+- the keys and the values for the core/Liberu specific keys are kept in `resources/lang/liberu/*code*.json` 
 - due to Laravel's implementation, there are 4 translation categories which cannot be implemented using the new mechanism: `auth`, `pagination`, `passwords`, `validation`. For this reason, we keep the respective language files in their proper language sub-folders
 - the moment a new language is added from the interface
     - the new language is saved in the database
     - the four php translation files are copied to a newly created language folder
-    - a new JSON language file is generated, containing the keys for the existing core/Enso translations, at `resources/lang/liberu/`. The keys are collected using as reference the first existing JSON file
+    - a new JSON language file is generated, containing the keys for the existing core/Liberu translations, at `resources/lang/liberu/`. The keys are collected using as reference the first existing JSON file
     - a new JSON language file is generated, which is empty, and which will hold project specific keys
 - when deleting a language
     - the language is removed from the database
@@ -90,7 +90,7 @@ Due to the modular structure of the project, a few steps are necessary:
 
 1. From the UI, navigate to `/system/localisation/create`, add a new language. Under the hood, this creates a few files:
     - a new language file in `src/resources/lang/app/xx.json`, for the project specific translations, 
-    - a new language file in `vendor/laravel-liberu/localisation/src/resources/lang/liberu/xx.json`, for the core Enso translations, 
+    - a new language file in `vendor/laravel-liberu/localisation/src/resources/lang/liberu/xx.json`, for the core Liberu translations, 
     - a new folder in `src/resources/lang/xx` which contains
     the required Laravel translation files (`auth.php`, `pagination.php`, `passwords.php` and `validation.php`)
 

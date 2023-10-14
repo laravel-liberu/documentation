@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 Vue Form Package
 
-Can be used outside of the Enso ecosystem.
+Can be used outside of the Liberu ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -25,7 +25,7 @@ Install the package:
 yarn add @liberu-ui/forms
 ```
 
-(within Enso, remember to `cd` into the `client` folder before installing front-end assets)
+(within Liberu, remember to `cd` into the `client` folder before installing front-end assets)
 
 Note that this package has a couple of external dependencies. 
 Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more info.
@@ -34,7 +34,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 `@liberu-ui/forms/bulma`:
 - `VueForm`,
-- `EnsoForm`,
+- `LiberuForm`,
 - `FormField`,
 - `Action`,
 - `DateField`,
@@ -52,7 +52,7 @@ Read [here](https://docs.liberu.co.uk/frontend/#other-dependencies) for more inf
 
 Import the desired forms(s):
 ```js
-import { EnsoForm, VueForm } from '@liberu-ui/forms/bulma';
+import { LiberuForm, VueForm } from '@liberu-ui/forms/bulma';
 import CoreForm from '@liberu-ui/forms/renderless';
 ```
 
@@ -142,9 +142,9 @@ that has to be bound to the custom field, besides your custom logic.
 ```
 - you may also use the `actions-left` and `actions-right` slots to place controls in the 
 form's actions area 
-### EnsoForm.vue
+### LiberuForm.vue
 
-Designed to be used within the Enso ecosystem, requiring less configuration from the dev.
+Designed to be used within the Liberu ecosystem, requiring less configuration from the dev.
 
 #### Methods
 The following methods are cascaded from the renderless CoreForm component, 
@@ -194,11 +194,11 @@ through the VueForm component and available here:
 </template>
 
 <script>
-    import { EnsoForm, FormField } from '@liberu-ui/forms/bulma';
+    import { LiberuForm, FormField } from '@liberu-ui/forms/bulma';
     
     export default {
         name: 'Create',
-        components: { EnsoForm, FormField },
+        components: { LiberuForm, FormField },
         data: () => ({
     		ready: false,
         }),
@@ -238,11 +238,11 @@ Some forms require display-dependencies between one or more field and others. Ex
 </template>
 
 <script>
-    import { EnsoForm, FormField } from '@liberu-ui/forms/bulma';
+    import { LiberuForm, FormField } from '@liberu-ui/forms/bulma';
     
     export default {
         name: 'Create',
-        components: { EnsoForm, FormField },
+        components: { LiberuForm, FormField },
         data: () => ({
     		ready: false,
         }),
@@ -357,7 +357,7 @@ Issues not conforming to the guidelines may be closed immediately.
 
 are welcome. Pull requests are great, but issues are good too.
 
-Thank you to all the people who already contributed to Enso!
+Thank you to all the people who already contributed to Liberu!
 
 ## License
 

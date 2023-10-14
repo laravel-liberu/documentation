@@ -10,17 +10,17 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/helpers/downloads)](https://packagist.org/packages/laravel-liberu/helpers)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/helpers/version)](https://packagist.org/packages/laravel-liberu/helpers)
 
-Helper classes dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+Helper classes dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
-To install outside of Enso: `composer require laravel-liberu/helpers` 
+To install outside of Liberu: `composer require laravel-liberu/helpers` 
 
 ## Usage
 
@@ -109,14 +109,14 @@ For the list of available Collection methods, you may check out the official Lar
 
 ### Exceptions
 
-- A generic exception: `EnsoException` is available also with a Facade. 
-This exception is extended by all the other Enso specific exceptions and it is not reported 
+- A generic exception: `LiberuException` is available also with a Facade. 
+This exception is extended by all the other Liberu specific exceptions and it is not reported 
 by the Laravel's Exception Handler.
 
-- A `FileMissingException`, a child of `EnsoException`
-- A `JsonParseException`, a child of `EnsoException`
+- A `FileMissingException`, a child of `LiberuException`
+- A `JsonParseException`, a child of `LiberuException`
 
-These exceptions are used throughout various Enso packages.
+These exceptions are used throughout various Liberu packages.
 
 ### Traits
 

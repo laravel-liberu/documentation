@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/products/downloads)](https://packagist.org/packages/laravel-liberu/products)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/products/version)](https://packagist.org/packages/laravel-liberu/products)
 
-Products package for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+Products package for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package cannot work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package cannot work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -63,7 +63,7 @@ routes, controllers, resources, index table, etc
 - provides CRUD functionality for the `Product` model
 - defines the relationship with a manufacturer and multiple suppliers
 and can manage the default supplier
-- the Enso `Company` model is used for the manufacturer, 
+- the Liberu `Company` model is used for the manufacturer, 
 suppliers and default supplier relationships; 
 `dynamic methods` are added on the `Company` for the `$company->products` (supplied products) 
 & `$company->manufacturedProducts` relationships.
@@ -77,7 +77,7 @@ the pictures are visible in the index page table
 
 ## Usage
 
-The package should be installed on an Enso project and customized as required 
+The package should be installed on an Liberu project and customized as required 
 (or used as it is if that is enough). 
 
 ## Publishes

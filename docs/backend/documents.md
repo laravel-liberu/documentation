@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/documents/downloads)](https://packagist.org/packages/laravel-liberu/documents)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/documents/version)](https://packagist.org/packages/laravel-liberu/documents)
 
-Documents Manager for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+Documents Manager for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 There is a front end implementation for this this api in the [accessories](https://github.com/liberu-ui/accessories) package.
 
@@ -24,7 +24,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 

@@ -11,9 +11,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/discussions/downloads)](https://packagist.org/packages/laravel-liberu/discussions)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/discussions/version)](https://packagist.org/packages/laravel-liberu/discussions)
 
-Discussions for [Laravel Enso](https://github.com/laravel-liberu/Enso).
+Discussions for [Laravel Liberu](https://github.com/laravel-liberu/Liberu).
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 The front end assets that utilize this api are present in the [accessories](https://github.com/liberu-ui/accessories) package.
 
@@ -25,7 +25,7 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 
@@ -34,7 +34,7 @@ Comes pre-installed in Enso.
 - the tagged users receive notifications (WIP)
 - users can show their appreciation for topics that they like with 'claps'
 - powerful what-you-see-is-what-you-get text editor, based on the excellent [Quill](https://quilljs.com/) library
-- within Enso, the Discussions module is integrated with the Activity Log
+- within Liberu, the Discussions module is integrated with the Activity Log
 - can be attached to any other model, via a polymorphic relationship
 - a `Discussible` trait is available, in order to make it easy to add discussions to a model 
 - changes to the discussions and posts are enforced through policies, where changes can be made by the original poster or an administrator

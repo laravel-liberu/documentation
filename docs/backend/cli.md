@@ -10,9 +10,9 @@ sidebarDepth: 3
 [![Total Downloads](https://poser.pugx.org/laravel-liberu/cli/downloads)](https://packagist.org/packages/laravel-liberu/cli)
 [![Latest Stable Version](https://poser.pugx.org/laravel-liberu/cli/version)](https://packagist.org/packages/laravel-liberu/cli)
 
-Resource generation CLI & Structure Manager dependency for [Laravel Enso](https://github.com/laravel-liberu/Enso)
+Resource generation CLI & Structure Manager dependency for [Laravel Liberu](https://github.com/laravel-liberu/Liberu)
 
-This package works exclusively within the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package works exclusively within the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
@@ -22,11 +22,11 @@ For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.
 
 ## Installation
 
-Comes pre-installed in Enso.
+Comes pre-installed in Liberu.
 
 ## Features
 
-- comes with an easy to use CLI for the creation of Enso resources
+- comes with an easy to use CLI for the creation of Liberu resources
 - can be used to easily insert (default) data, during the install of a package, or later when new routes and permissions are required and can create menus, assign default permissions, etc.
 - when adding menus and permissions, automatic access for the administrator role is added
 - for adding menus and permissions the package relies on laravel-liberu/migrator
@@ -94,7 +94,7 @@ As per the Laravel convention, models should be upper-camel-cased
 #### [1] Permission Group
 - type in the name for the permission group
 
-Note that per Enso convention, the name must coincide with the common part of the resource permission. 
+Note that per Liberu convention, the name must coincide with the common part of the resource permission. 
 For example, `administration.users` is used for the Users' permission group. 
 
 #### [2] Permissions

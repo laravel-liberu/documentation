@@ -12,13 +12,13 @@ sidebarDepth: 3
 
 Prevents update conflicts using the optimistic lock pattern in Laravel.
 
-This package can work independently of the [Enso](https://github.com/laravel-liberu/Enso) ecosystem.
+This package can work independently of the [Liberu](https://github.com/laravel-liberu/Liberu) ecosystem.
 
 For live examples and demos, you may visit [liberu.co.uk](https://www.liberu.co.uk)
 
 ## Installation
 
-The package does not installed by default in Enso.
+The package does not installed by default in Liberu.
 
 To install:
 
